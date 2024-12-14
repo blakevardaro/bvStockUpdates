@@ -1,0 +1,6114 @@
+[
+    {
+        "symbol": "WMT",
+        "period": "8-day",
+        "current_price": 94.25499725341797,
+        "average": 94.64187431335449,
+        "difference": 0.38687705993652344,
+        "percentage_change": 0.4087800064647842
+    },
+    {
+        "symbol": "UNH",
+        "period": "200-day",
+        "current_price": 520.489990234375,
+        "average": 538.3088003540039,
+        "difference": 17.818810119628893,
+        "percentage_change": 3.3101465381786155
+    },
+    {
+        "symbol": "UNH",
+        "period": "50-day",
+        "current_price": 520.489990234375,
+        "average": 581.501201171875,
+        "difference": 61.01121093749998,
+        "percentage_change": 10.492018041329347
+    },
+    {
+        "symbol": "UNH",
+        "period": "8-day",
+        "current_price": 520.489990234375,
+        "average": 554.3712463378906,
+        "difference": 33.881256103515625,
+        "percentage_change": 6.111654658738364
+    },
+    {
+        "symbol": "CVS",
+        "period": "200-day",
+        "current_price": 49.368499755859375,
+        "average": 61.54239246368408,
+        "difference": 12.173892707824706,
+        "percentage_change": 19.781312068763775
+    },
+    {
+        "symbol": "CVS",
+        "period": "50-day",
+        "current_price": 49.368499755859375,
+        "average": 58.26036972045898,
+        "difference": 8.891869964599607,
+        "percentage_change": 15.262295806332821
+    },
+    {
+        "symbol": "CVS",
+        "period": "8-day",
+        "current_price": 49.368499755859375,
+        "average": 54.01606273651123,
+        "difference": 4.6475629806518555,
+        "percentage_change": 8.604038771434585
+    },
+    {
+        "symbol": "XOM",
+        "period": "200-day",
+        "current_price": 110.83000183105469,
+        "average": 116.26724987030029,
+        "difference": 5.437248039245603,
+        "percentage_change": 4.676508686075417
+    },
+    {
+        "symbol": "XOM",
+        "period": "50-day",
+        "current_price": 110.83000183105469,
+        "average": 118.98159973144531,
+        "difference": 8.151597900390627,
+        "percentage_change": 6.851141620880615
+    },
+    {
+        "symbol": "XOM",
+        "period": "8-day",
+        "current_price": 110.83000183105469,
+        "average": 112.8462495803833,
+        "difference": 2.0162477493286133,
+        "percentage_change": 1.7867210977998766
+    },
+    {
+        "symbol": "MCK",
+        "period": "8-day",
+        "current_price": 576.219970703125,
+        "average": 591.3875045776367,
+        "difference": 15.167533874511719,
+        "percentage_change": 2.564736954553043
+    },
+    {
+        "symbol": "COR",
+        "period": "200-day",
+        "current_price": 232.19000244140625,
+        "average": 233.942850189209,
+        "difference": 1.7528477478027469,
+        "percentage_change": 0.7492632266320913
+    },
+    {
+        "symbol": "COR",
+        "period": "50-day",
+        "current_price": 232.19000244140625,
+        "average": 237.7615997314453,
+        "difference": 5.571597290039051,
+        "percentage_change": 2.343354560337851
+    },
+    {
+        "symbol": "COR",
+        "period": "8-day",
+        "current_price": 232.19000244140625,
+        "average": 238.72249794006348,
+        "difference": 6.532495498657227,
+        "percentage_change": 2.736438984606031
+    },
+    {
+        "symbol": "COST",
+        "period": "8-day",
+        "current_price": 989.3499755859375,
+        "average": 989.9349975585938,
+        "difference": 0.58502197265625,
+        "percentage_change": 0.05909700880351215
+    },
+    {
+        "symbol": "JPM",
+        "period": "8-day",
+        "current_price": 239.9499969482422,
+        "average": 243.48999786376953,
+        "difference": 3.5400009155273438,
+        "percentage_change": 1.4538588634379728
+    },
+    {
+        "symbol": "CAH",
+        "period": "8-day",
+        "current_price": 118.05999755859375,
+        "average": 120.7224988937378,
+        "difference": 2.662501335144043,
+        "percentage_change": 2.2054723515022885
+    },
+    {
+        "symbol": "CVX",
+        "period": "200-day",
+        "current_price": 153.8800048828125,
+        "average": 154.2487006378174,
+        "difference": 0.36869575500489304,
+        "percentage_change": 0.23902681415165147
+    },
+    {
+        "symbol": "CVX",
+        "period": "50-day",
+        "current_price": 153.8800048828125,
+        "average": 155.12140045166015,
+        "difference": 1.2413955688476506,
+        "percentage_change": 0.800273569754485
+    },
+    {
+        "symbol": "CVX",
+        "period": "8-day",
+        "current_price": 153.8800048828125,
+        "average": 156.47125434875488,
+        "difference": 2.591249465942383,
+        "percentage_change": 1.6560546387433002
+    },
+    {
+        "symbol": "CI",
+        "period": "200-day",
+        "current_price": 281.9750061035156,
+        "average": 340.3950253295898,
+        "difference": 58.4200192260742,
+        "percentage_change": 17.16241862509848
+    },
+    {
+        "symbol": "CI",
+        "period": "50-day",
+        "current_price": 281.9750061035156,
+        "average": 326.5163000488281,
+        "difference": 44.541293945312475,
+        "percentage_change": 13.641369186975247
+    },
+    {
+        "symbol": "CI",
+        "period": "8-day",
+        "current_price": 281.9750061035156,
+        "average": 307.5031204223633,
+        "difference": 25.528114318847656,
+        "percentage_change": 8.301741551039921
+    },
+    {
+        "symbol": "F",
+        "period": "200-day",
+        "current_price": 10.390000343322754,
+        "average": 11.676999950408936,
+        "difference": 1.286999607086182,
+        "percentage_change": 11.021663205891429
+    },
+    {
+        "symbol": "F",
+        "period": "50-day",
+        "current_price": 10.390000343322754,
+        "average": 10.83560001373291,
+        "difference": 0.44559967041015547,
+        "percentage_change": 4.112367287878916
+    },
+    {
+        "symbol": "F",
+        "period": "8-day",
+        "current_price": 10.390000343322754,
+        "average": 10.505000114440918,
+        "difference": 0.11499977111816406,
+        "percentage_change": 1.0947146108078307
+    },
+    {
+        "symbol": "BAC",
+        "period": "8-day",
+        "current_price": 45.66999816894531,
+        "average": 46.201250076293945,
+        "difference": 0.5312519073486328,
+        "percentage_change": 1.1498647903928045
+    },
+    {
+        "symbol": "GM",
+        "period": "50-day",
+        "current_price": 52.529998779296875,
+        "average": 52.8039998626709,
+        "difference": 0.2740010833740243,
+        "percentage_change": 0.5189021363658586
+    },
+    {
+        "symbol": "GM",
+        "period": "8-day",
+        "current_price": 52.529998779296875,
+        "average": 52.80999994277954,
+        "difference": 0.280001163482666,
+        "percentage_change": 0.5302048168643281
+    },
+    {
+        "symbol": "ELV",
+        "period": "200-day",
+        "current_price": 381.489990234375,
+        "average": 502.003049621582,
+        "difference": 120.51305938720702,
+        "percentage_change": 24.006439697538035
+    },
+    {
+        "symbol": "ELV",
+        "period": "50-day",
+        "current_price": 381.489990234375,
+        "average": 424.04620178222655,
+        "difference": 42.55621154785155,
+        "percentage_change": 10.03574878609731
+    },
+    {
+        "symbol": "ELV",
+        "period": "8-day",
+        "current_price": 381.489990234375,
+        "average": 388.2737503051758,
+        "difference": 6.783760070800781,
+        "percentage_change": 1.74715907667435
+    },
+    {
+        "symbol": "C",
+        "period": "8-day",
+        "current_price": 71.01000213623047,
+        "average": 71.83000087738037,
+        "difference": 0.8199987411499023,
+        "percentage_change": 1.1415825297701256
+    },
+    {
+        "symbol": "CNC",
+        "period": "200-day",
+        "current_price": 59.400001525878906,
+        "average": 70.78460029602051,
+        "difference": 11.384598770141608,
+        "percentage_change": 16.083440073873874
+    },
+    {
+        "symbol": "CNC",
+        "period": "50-day",
+        "current_price": 59.400001525878906,
+        "average": 62.26440032958985,
+        "difference": 2.864398803710941,
+        "percentage_change": 4.600379652816949
+    },
+    {
+        "symbol": "HD",
+        "period": "8-day",
+        "current_price": 416.8349914550781,
+        "average": 423.7793769836426,
+        "difference": 6.944385528564453,
+        "percentage_change": 1.6386794416455284
+    },
+    {
+        "symbol": "MPC",
+        "period": "200-day",
+        "current_price": 145.5749969482422,
+        "average": 172.9249252319336,
+        "difference": 27.349928283691412,
+        "percentage_change": 15.816070613885552
+    },
+    {
+        "symbol": "MPC",
+        "period": "50-day",
+        "current_price": 145.5749969482422,
+        "average": 155.43230041503907,
+        "difference": 9.857303466796878,
+        "percentage_change": 6.341862946424694
+    },
+    {
+        "symbol": "MPC",
+        "period": "8-day",
+        "current_price": 145.5749969482422,
+        "average": 149.91312408447266,
+        "difference": 4.338127136230469,
+        "percentage_change": 2.893760744913856
+    },
+    {
+        "symbol": "PSX",
+        "period": "200-day",
+        "current_price": 122.70999908447266,
+        "average": 139.72395011901855,
+        "difference": 17.013951034545897,
+        "percentage_change": 12.176832261078511
+    },
+    {
+        "symbol": "PSX",
+        "period": "50-day",
+        "current_price": 122.70999908447266,
+        "average": 129.95460006713867,
+        "difference": 7.2446009826660145,
+        "percentage_change": 5.574716846439621
+    },
+    {
+        "symbol": "PSX",
+        "period": "8-day",
+        "current_price": 122.70999908447266,
+        "average": 127.10500049591064,
+        "difference": 4.395001411437988,
+        "percentage_change": 3.457772231061349
+    },
+    {
+        "symbol": "FNMA",
+        "period": "8-day",
+        "current_price": 2.549999952316284,
+        "average": 2.6412499845027924,
+        "difference": 0.09125003218650818,
+        "percentage_change": 3.4548048356613896
+    },
+    {
+        "symbol": "WBA",
+        "period": "200-day",
+        "current_price": 10.390000343322754,
+        "average": 13.175749998092652,
+        "difference": 2.785749654769898,
+        "percentage_change": 21.14300631974019
+    },
+    {
+        "symbol": "VLO",
+        "period": "200-day",
+        "current_price": 129.125,
+        "average": 149.34547458648683,
+        "difference": 20.22047458648683,
+        "percentage_change": 13.53939558093341
+    },
+    {
+        "symbol": "VLO",
+        "period": "50-day",
+        "current_price": 129.125,
+        "average": 136.33809982299806,
+        "difference": 7.2130998229980605,
+        "percentage_change": 5.2905972962528605
+    },
+    {
+        "symbol": "VLO",
+        "period": "8-day",
+        "current_price": 129.125,
+        "average": 132.20062637329102,
+        "difference": 3.0756263732910156,
+        "percentage_change": 2.3264839643092614
+    },
+    {
+        "symbol": "META",
+        "period": "8-day",
+        "current_price": 620.3499755859375,
+        "average": 620.3987503051758,
+        "difference": 0.04877471923828125,
+        "percentage_change": 0.007861833895424327
+    },
+    {
+        "symbol": "VZ",
+        "period": "50-day",
+        "current_price": 42.279998779296875,
+        "average": 42.481400146484376,
+        "difference": 0.20140136718750057,
+        "percentage_change": 0.4740930536494285
+    },
+    {
+        "symbol": "VZ",
+        "period": "8-day",
+        "current_price": 42.279998779296875,
+        "average": 42.30625009536743,
+        "difference": 0.02625131607055664,
+        "percentage_change": 0.062050680481915796
+    },
+    {
+        "symbol": "CMCSA",
+        "period": "200-day",
+        "current_price": 39.91999816894531,
+        "average": 40.424699993133544,
+        "difference": 0.5047018241882313,
+        "percentage_change": 1.248498626517844
+    },
+    {
+        "symbol": "CMCSA",
+        "period": "50-day",
+        "current_price": 39.91999816894531,
+        "average": 42.28140007019043,
+        "difference": 2.3614019012451166,
+        "percentage_change": 5.584966196306189
+    },
+    {
+        "symbol": "CMCSA",
+        "period": "8-day",
+        "current_price": 39.91999816894531,
+        "average": 40.86749982833862,
+        "difference": 0.9475016593933105,
+        "percentage_change": 2.3184722906300412
+    },
+    {
+        "symbol": "WFC",
+        "period": "8-day",
+        "current_price": 70.47000122070312,
+        "average": 72.32375144958496,
+        "difference": 1.853750228881836,
+        "percentage_change": 2.563127868407155
+    },
+    {
+        "symbol": "GS",
+        "period": "8-day",
+        "current_price": 585.3800048828125,
+        "average": 592.9862518310547,
+        "difference": 7.6062469482421875,
+        "percentage_change": 1.2827020735734112
+    },
+    {
+        "symbol": "FMCC",
+        "period": "8-day",
+        "current_price": 2.509999990463257,
+        "average": 2.6024999916553497,
+        "difference": 0.0925000011920929,
+        "percentage_change": 3.5542747930330334
+    },
+    {
+        "symbol": "TGT",
+        "period": "200-day",
+        "current_price": 134.5,
+        "average": 152.57745021820068,
+        "difference": 18.07745021820068,
+        "percentage_change": 11.848048445132724
+    },
+    {
+        "symbol": "TGT",
+        "period": "50-day",
+        "current_price": 134.5,
+        "average": 145.1418000793457,
+        "difference": 10.6418000793457,
+        "percentage_change": 7.332002271935495
+    },
+    {
+        "symbol": "HUM",
+        "period": "200-day",
+        "current_price": 273.9800109863281,
+        "average": 326.97040061950685,
+        "difference": 52.99038963317872,
+        "percentage_change": 16.206479098040212
+    },
+    {
+        "symbol": "HUM",
+        "period": "8-day",
+        "current_price": 273.9800109863281,
+        "average": 281.2362518310547,
+        "difference": 7.2562408447265625,
+        "percentage_change": 2.5801228673341727
+    },
+    {
+        "symbol": "MS",
+        "period": "8-day",
+        "current_price": 127.37999725341797,
+        "average": 128.56500244140625,
+        "difference": 1.1850051879882812,
+        "percentage_change": 0.9217167701049512
+    },
+    {
+        "symbol": "JNJ",
+        "period": "200-day",
+        "current_price": 146.58999633789062,
+        "average": 155.30145034790038,
+        "difference": 8.71145401000976,
+        "percentage_change": 5.6093835508262755
+    },
+    {
+        "symbol": "JNJ",
+        "period": "50-day",
+        "current_price": 146.58999633789062,
+        "average": 156.82320037841797,
+        "difference": 10.23320404052734,
+        "percentage_change": 6.525312591398712
+    },
+    {
+        "symbol": "JNJ",
+        "period": "8-day",
+        "current_price": 146.58999633789062,
+        "average": 148.45000076293945,
+        "difference": 1.8600044250488281,
+        "percentage_change": 1.2529500946376406
+    },
+    {
+        "symbol": "ADM",
+        "period": "200-day",
+        "current_price": 52.404998779296875,
+        "average": 59.19447504043579,
+        "difference": 6.7894762611389154,
+        "percentage_change": 11.469780340987937
+    },
+    {
+        "symbol": "ADM",
+        "period": "50-day",
+        "current_price": 52.404998779296875,
+        "average": 54.59969993591309,
+        "difference": 2.194701156616212,
+        "percentage_change": 4.019621278491023
+    },
+    {
+        "symbol": "PEP",
+        "period": "200-day",
+        "current_price": 157.97000122070312,
+        "average": 170.1434496307373,
+        "difference": 12.173448410034183,
+        "percentage_change": 7.1548146205183
+    },
+    {
+        "symbol": "PEP",
+        "period": "50-day",
+        "current_price": 157.97000122070312,
+        "average": 165.84879943847656,
+        "difference": 7.878798217773436,
+        "percentage_change": 4.7505910470555825
+    },
+    {
+        "symbol": "PEP",
+        "period": "8-day",
+        "current_price": 157.97000122070312,
+        "average": 158.92624855041504,
+        "difference": 0.9562473297119141,
+        "percentage_change": 0.6016925073321482
+    },
+    {
+        "symbol": "UPS",
+        "period": "200-day",
+        "current_price": 128.75999450683594,
+        "average": 137.55880004882812,
+        "difference": 8.79880554199218,
+        "percentage_change": 6.396395969482825
+    },
+    {
+        "symbol": "UPS",
+        "period": "50-day",
+        "current_price": 128.75999450683594,
+        "average": 132.84259979248046,
+        "difference": 4.082605285644519,
+        "percentage_change": 3.0732651212955364
+    },
+    {
+        "symbol": "DIS",
+        "period": "8-day",
+        "current_price": 113.31999969482422,
+        "average": 115.29875087738037,
+        "difference": 1.9787511825561523,
+        "percentage_change": 1.7161948134724756
+    },
+    {
+        "symbol": "DELL",
+        "period": "200-day",
+        "current_price": 118.44879913330078,
+        "average": 124.6356441116333,
+        "difference": 6.186844978332516,
+        "percentage_change": 4.96394512374895
+    },
+    {
+        "symbol": "DELL",
+        "period": "50-day",
+        "current_price": 118.44879913330078,
+        "average": 128.13637573242187,
+        "difference": 9.687576599121087,
+        "percentage_change": 7.560364138401236
+    },
+    {
+        "symbol": "DELL",
+        "period": "8-day",
+        "current_price": 118.44879913330078,
+        "average": 121.43610000610352,
+        "difference": 2.9873008728027344,
+        "percentage_change": 2.4599776118078474
+    },
+    {
+        "symbol": "LOW",
+        "period": "50-day",
+        "current_price": 262.29998779296875,
+        "average": 270.5771990966797,
+        "difference": 8.277211303710942,
+        "percentage_change": 3.059094162902255
+    },
+    {
+        "symbol": "LOW",
+        "period": "8-day",
+        "current_price": 262.29998779296875,
+        "average": 269.2162437438965,
+        "difference": 6.916255950927734,
+        "percentage_change": 2.569033671499822
+    },
+    {
+        "symbol": "PG",
+        "period": "8-day",
+        "current_price": 171.0800018310547,
+        "average": 172.57375144958496,
+        "difference": 1.4937496185302734,
+        "percentage_change": 0.8655717372909122
+    },
+    {
+        "symbol": "BA",
+        "period": "200-day",
+        "current_price": 169.61590576171875,
+        "average": 170.59162971496582,
+        "difference": 0.9757239532470692,
+        "percentage_change": 0.5719647293817195
+    },
+    {
+        "symbol": "ACI",
+        "period": "200-day",
+        "current_price": 19.489999771118164,
+        "average": 19.770050077438356,
+        "difference": 0.28005030632019157,
+        "percentage_change": 1.4165381737691491
+    },
+    {
+        "symbol": "SYY",
+        "period": "8-day",
+        "current_price": 79.94999694824219,
+        "average": 80.60249996185303,
+        "difference": 0.6525030136108398,
+        "percentage_change": 0.8095319796776177
+    },
+    {
+        "symbol": "RTX",
+        "period": "50-day",
+        "current_price": 117.75,
+        "average": 121.59280014038086,
+        "difference": 3.8428001403808594,
+        "percentage_change": 3.160384608253354
+    },
+    {
+        "symbol": "GE",
+        "period": "50-day",
+        "current_price": 165.99000549316406,
+        "average": 180.41980041503905,
+        "difference": 14.429794921874986,
+        "percentage_change": 7.997899836204551
+    },
+    {
+        "symbol": "GE",
+        "period": "8-day",
+        "current_price": 165.99000549316406,
+        "average": 171.6487522125244,
+        "difference": 5.658746719360352,
+        "percentage_change": 3.2967013429576557
+    },
+    {
+        "symbol": "LMT",
+        "period": "200-day",
+        "current_price": 494.5899963378906,
+        "average": 508.86819915771486,
+        "difference": 14.27820281982423,
+        "percentage_change": 2.8058744569728846
+    },
+    {
+        "symbol": "LMT",
+        "period": "50-day",
+        "current_price": 494.5899963378906,
+        "average": 554.3133972167968,
+        "difference": 59.723400878906205,
+        "percentage_change": 10.774302259114958
+    },
+    {
+        "symbol": "LMT",
+        "period": "8-day",
+        "current_price": 494.5899963378906,
+        "average": 508.29624938964844,
+        "difference": 13.706253051757812,
+        "percentage_change": 2.696508791519905
+    },
+    {
+        "symbol": "CAT",
+        "period": "50-day",
+        "current_price": 380.489990234375,
+        "average": 392.14179931640626,
+        "difference": 11.651809082031264,
+        "percentage_change": 2.971325449708003
+    },
+    {
+        "symbol": "CAT",
+        "period": "8-day",
+        "current_price": 380.489990234375,
+        "average": 390.9137535095215,
+        "difference": 10.423763275146484,
+        "percentage_change": 2.666512288596823
+    },
+    {
+        "symbol": "MET",
+        "period": "50-day",
+        "current_price": 82.98500061035156,
+        "average": 83.68129943847656,
+        "difference": 0.6962988281249949,
+        "percentage_change": 0.8320841487851437
+    },
+    {
+        "symbol": "MET",
+        "period": "8-day",
+        "current_price": 82.98500061035156,
+        "average": 83.37937450408936,
+        "difference": 0.39437389373779297,
+        "percentage_change": 0.4729873497893065
+    },
+    {
+        "symbol": "HCA",
+        "period": "200-day",
+        "current_price": 314.0400085449219,
+        "average": 347.1636506652832,
+        "difference": 33.12364212036135,
+        "percentage_change": 9.541218401432646
+    },
+    {
+        "symbol": "HCA",
+        "period": "50-day",
+        "current_price": 314.0400085449219,
+        "average": 356.7130010986328,
+        "difference": 42.67299255371091,
+        "percentage_change": 11.96283634806785
+    },
+    {
+        "symbol": "HCA",
+        "period": "8-day",
+        "current_price": 314.0400085449219,
+        "average": 317.54375076293945,
+        "difference": 3.503742218017578,
+        "percentage_change": 1.1033888116517454
+    },
+    {
+        "symbol": "PGR",
+        "period": "50-day",
+        "current_price": 251.83999633789062,
+        "average": 253.69479888916015,
+        "difference": 1.854802551269529,
+        "percentage_change": 0.7311157183320485
+    },
+    {
+        "symbol": "IBM",
+        "period": "8-day",
+        "current_price": 230.77999877929688,
+        "average": 232.64499855041504,
+        "difference": 1.864999771118164,
+        "percentage_change": 0.801650490119611
+    },
+    {
+        "symbol": "DE",
+        "period": "8-day",
+        "current_price": 440.4700012207031,
+        "average": 446.216251373291,
+        "difference": 5.746250152587891,
+        "percentage_change": 1.287772494816813
+    },
+    {
+        "symbol": "NVDA",
+        "period": "50-day",
+        "current_price": 134.25,
+        "average": 139.54679931640624,
+        "difference": 5.296799316406236,
+        "percentage_change": 3.7957153745936916
+    },
+    {
+        "symbol": "NVDA",
+        "period": "8-day",
+        "current_price": 134.25,
+        "average": 139.67749977111816,
+        "difference": 5.427499771118164,
+        "percentage_change": 3.8857366290289486
+    },
+    {
+        "symbol": "SNEX",
+        "period": "8-day",
+        "current_price": 99.20999908447266,
+        "average": 102.40124988555908,
+        "difference": 3.191250801086426,
+        "percentage_change": 3.1164178217090934
+    },
+    {
+        "symbol": "MRK",
+        "period": "200-day",
+        "current_price": 102.01000213623047,
+        "average": 118.5431499862671,
+        "difference": 16.533147850036627,
+        "percentage_change": 13.946944932669622
+    },
+    {
+        "symbol": "MRK",
+        "period": "50-day",
+        "current_price": 102.01000213623047,
+        "average": 103.37580017089844,
+        "difference": 1.365798034667975,
+        "percentage_change": 1.3211970619913653
+    },
+    {
+        "symbol": "COP",
+        "period": "200-day",
+        "current_price": 101.01499938964844,
+        "average": 113.93867527008057,
+        "difference": 12.923675880432128,
+        "percentage_change": 11.342659417267937
+    },
+    {
+        "symbol": "COP",
+        "period": "50-day",
+        "current_price": 101.01499938964844,
+        "average": 107.90770034790039,
+        "difference": 6.89270095825195,
+        "percentage_change": 6.387589519588966
+    },
+    {
+        "symbol": "COP",
+        "period": "8-day",
+        "current_price": 101.01499938964844,
+        "average": 102.6006269454956,
+        "difference": 1.585627555847168,
+        "percentage_change": 1.5454365173513986
+    },
+    {
+        "symbol": "PFE",
+        "period": "200-day",
+        "current_price": 25.57309913635254,
+        "average": 27.985915451049806,
+        "difference": 2.4128163146972668,
+        "percentage_change": 8.621537926524242
+    },
+    {
+        "symbol": "PFE",
+        "period": "50-day",
+        "current_price": 25.57309913635254,
+        "average": 27.22166198730469,
+        "difference": 1.6485628509521497,
+        "percentage_change": 6.0560698010319385
+    },
+    {
+        "symbol": "DAL",
+        "period": "8-day",
+        "current_price": 61.529998779296875,
+        "average": 63.27874946594238,
+        "difference": 1.7487506866455078,
+        "percentage_change": 2.763567076474406
+    },
+    {
+        "symbol": "ALL",
+        "period": "8-day",
+        "current_price": 196.1999969482422,
+        "average": 198.58999824523926,
+        "difference": 2.3900012969970703,
+        "percentage_change": 1.2034852299286756
+    },
+    {
+        "symbol": "CSCO",
+        "period": "8-day",
+        "current_price": 58.619998931884766,
+        "average": 59.15749979019165,
+        "difference": 0.5375008583068848,
+        "percentage_change": 0.9085929260249141
+    },
+    {
+        "symbol": "CHTR",
+        "period": "8-day",
+        "current_price": 379.7799987792969,
+        "average": 387.49499893188477,
+        "difference": 7.715000152587891,
+        "percentage_change": 1.9909934770394444
+    },
+    {
+        "symbol": "ABBV",
+        "period": "200-day",
+        "current_price": 173.36000061035156,
+        "average": 178.98079956054687,
+        "difference": 5.620798950195308,
+        "percentage_change": 3.140448005593955
+    },
+    {
+        "symbol": "ABBV",
+        "period": "50-day",
+        "current_price": 173.36000061035156,
+        "average": 184.81859954833985,
+        "difference": 11.458598937988285,
+        "percentage_change": 6.1999165484376775
+    },
+    {
+        "symbol": "ABBV",
+        "period": "8-day",
+        "current_price": 173.36000061035156,
+        "average": 175.24750137329102,
+        "difference": 1.8875007629394531,
+        "percentage_change": 1.0770486016339413
+    },
+    {
+        "symbol": "INTC",
+        "period": "200-day",
+        "current_price": 20.34000015258789,
+        "average": 28.773149967193604,
+        "difference": 8.433149814605713,
+        "percentage_change": 29.309094847873695
+    },
+    {
+        "symbol": "INTC",
+        "period": "50-day",
+        "current_price": 20.34000015258789,
+        "average": 23.09919994354248,
+        "difference": 2.7591997909545896,
+        "percentage_change": 11.94500154853173
+    },
+    {
+        "symbol": "INTC",
+        "period": "8-day",
+        "current_price": 20.34000015258789,
+        "average": 20.736249923706055,
+        "difference": 0.39624977111816406,
+        "percentage_change": 1.910903719698923
+    },
+    {
+        "symbol": "TJX",
+        "period": "8-day",
+        "current_price": 124.83999633789062,
+        "average": 126.08499813079834,
+        "difference": 1.2450017929077148,
+        "percentage_change": 0.987430551901323
+    },
+    {
+        "symbol": "PRU",
+        "period": "50-day",
+        "current_price": 120.44999694824219,
+        "average": 124.85660034179688,
+        "difference": 4.40660339355469,
+        "percentage_change": 3.5293315543523893
+    },
+    {
+        "symbol": "PRU",
+        "period": "8-day",
+        "current_price": 120.44999694824219,
+        "average": 123.08499908447266,
+        "difference": 2.6350021362304688,
+        "percentage_change": 2.140798761693193
+    },
+    {
+        "symbol": "HPQ",
+        "period": "50-day",
+        "current_price": 34.55500030517578,
+        "average": 36.61710006713867,
+        "difference": 2.062099761962891,
+        "percentage_change": 5.6315212241875034
+    },
+    {
+        "symbol": "HPQ",
+        "period": "8-day",
+        "current_price": 34.55500030517578,
+        "average": 35.52562475204468,
+        "difference": 0.9706244468688965,
+        "percentage_change": 2.7321812174831135
+    },
+    {
+        "symbol": "UAL",
+        "period": "8-day",
+        "current_price": 95.11000061035156,
+        "average": 98.06999969482422,
+        "difference": 2.9599990844726562,
+        "percentage_change": 3.0182513446350856
+    },
+    {
+        "symbol": "PFGC",
+        "period": "8-day",
+        "current_price": 88.6500015258789,
+        "average": 89.23124885559082,
+        "difference": 0.5812473297119141,
+        "percentage_change": 0.6513943681911113
+    },
+    {
+        "symbol": "TSN",
+        "period": "50-day",
+        "current_price": 60.47999954223633,
+        "average": 60.97079978942871,
+        "difference": 0.49080024719238224,
+        "percentage_change": 0.8049759046747466
+    },
+    {
+        "symbol": "TSN",
+        "period": "8-day",
+        "current_price": 60.47999954223633,
+        "average": 62.323750019073486,
+        "difference": 1.8437504768371582,
+        "percentage_change": 2.958343290114762
+    },
+    {
+        "symbol": "AAL",
+        "period": "8-day",
+        "current_price": 16.920000076293945,
+        "average": 17.00624978542328,
+        "difference": 0.0862497091293335,
+        "percentage_change": 0.5071647789347508
+    },
+    {
+        "symbol": "NKE",
+        "period": "200-day",
+        "current_price": 77.25,
+        "average": 85.1172498703003,
+        "difference": 7.867249870300299,
+        "percentage_change": 9.242838416758334
+    },
+    {
+        "symbol": "NKE",
+        "period": "50-day",
+        "current_price": 77.25,
+        "average": 78.59199996948242,
+        "difference": 1.3419999694824156,
+        "percentage_change": 1.7075528934287452
+    },
+    {
+        "symbol": "NKE",
+        "period": "8-day",
+        "current_price": 77.25,
+        "average": 78.03499984741211,
+        "difference": 0.7849998474121094,
+        "percentage_change": 1.0059586710413027
+    },
+    {
+        "symbol": "ORCL",
+        "period": "50-day",
+        "current_price": 173.3780059814453,
+        "average": 180.1521600341797,
+        "difference": 6.774154052734389,
+        "percentage_change": 3.7602402610377528
+    },
+    {
+        "symbol": "ORCL",
+        "period": "8-day",
+        "current_price": 173.3780059814453,
+        "average": 182.6985034942627,
+        "difference": 9.320497512817383,
+        "percentage_change": 5.101572992966565
+    },
+    {
+        "symbol": "EPD",
+        "period": "8-day",
+        "current_price": 32.20000076293945,
+        "average": 32.5174994468689,
+        "difference": 0.31749868392944336,
+        "percentage_change": 0.9763932938577022
+    },
+    {
+        "symbol": "COF",
+        "period": "8-day",
+        "current_price": 184.49000549316406,
+        "average": 185.37125205993652,
+        "difference": 0.8812465667724609,
+        "percentage_change": 0.4753954871532752
+    },
+    {
+        "symbol": "PAGP",
+        "period": "8-day",
+        "current_price": 19.1299991607666,
+        "average": 19.398750066757202,
+        "difference": 0.2687509059906006,
+        "percentage_change": 1.3854032093085593
+    },
+    {
+        "symbol": "WKC",
+        "period": "50-day",
+        "current_price": 28.260000228881836,
+        "average": 28.830200004577637,
+        "difference": 0.5701997756958015,
+        "percentage_change": 1.9777864031649643
+    },
+    {
+        "symbol": "WKC",
+        "period": "8-day",
+        "current_price": 28.260000228881836,
+        "average": 28.461250066757202,
+        "difference": 0.2012498378753662,
+        "percentage_change": 0.7071011898750942
+    },
+    {
+        "symbol": "AIG",
+        "period": "200-day",
+        "current_price": 72.87000274658203,
+        "average": 75.59189987182617,
+        "difference": 2.7218971252441406,
+        "percentage_change": 3.600778826645972
+    },
+    {
+        "symbol": "AIG",
+        "period": "50-day",
+        "current_price": 72.87000274658203,
+        "average": 76.0082000732422,
+        "difference": 3.138197326660162,
+        "percentage_change": 4.128761533145327
+    },
+    {
+        "symbol": "AIG",
+        "period": "8-day",
+        "current_price": 72.87000274658203,
+        "average": 74.21374988555908,
+        "difference": 1.3437471389770508,
+        "percentage_change": 1.8106444439866858
+    },
+    {
+        "symbol": "KO",
+        "period": "200-day",
+        "current_price": 63.12990188598633,
+        "average": 64.882249584198,
+        "difference": 1.7523476982116648,
+        "percentage_change": 2.70081217812529
+    },
+    {
+        "symbol": "KO",
+        "period": "50-day",
+        "current_price": 63.12990188598633,
+        "average": 65.5211978149414,
+        "difference": 2.391295928955074,
+        "percentage_change": 3.649652339551346
+    },
+    {
+        "symbol": "BMY",
+        "period": "8-day",
+        "current_price": 55.77899932861328,
+        "average": 57.7661247253418,
+        "difference": 1.9871253967285156,
+        "percentage_change": 3.4399492889242933
+    },
+    {
+        "symbol": "DOW",
+        "period": "200-day",
+        "current_price": 40.85139846801758,
+        "average": 53.34680704116821,
+        "difference": 12.495408573150634,
+        "percentage_change": 23.422973681457286
+    },
+    {
+        "symbol": "DOW",
+        "period": "50-day",
+        "current_price": 40.85139846801758,
+        "average": 47.65282814025879,
+        "difference": 6.801429672241213,
+        "percentage_change": 14.272877261811717
+    },
+    {
+        "symbol": "DOW",
+        "period": "8-day",
+        "current_price": 40.85139846801758,
+        "average": 41.94642448425293,
+        "difference": 1.0950260162353516,
+        "percentage_change": 2.6105348184001578
+    },
+    {
+        "symbol": "BBY",
+        "period": "50-day",
+        "current_price": 87.58000183105469,
+        "average": 91.76080001831055,
+        "difference": 4.18079818725586,
+        "percentage_change": 4.556191953886187
+    },
+    {
+        "symbol": "BBY",
+        "period": "8-day",
+        "current_price": 87.58000183105469,
+        "average": 88.19250011444092,
+        "difference": 0.6124982833862305,
+        "percentage_change": 0.6945015535237538
+    },
+    {
+        "symbol": "TMO",
+        "period": "200-day",
+        "current_price": 526.9249877929688,
+        "average": 575.514174041748,
+        "difference": 48.58918624877924,
+        "percentage_change": 8.442743626546124
+    },
+    {
+        "symbol": "TMO",
+        "period": "50-day",
+        "current_price": 526.9249877929688,
+        "average": 551.9600958251954,
+        "difference": 25.035108032226617,
+        "percentage_change": 4.535673542631455
+    },
+    {
+        "symbol": "TMO",
+        "period": "8-day",
+        "current_price": 526.9249877929688,
+        "average": 529.8068618774414,
+        "difference": 2.8818740844726562,
+        "percentage_change": 0.5439480482114464
+    },
+    {
+        "symbol": "GD",
+        "period": "200-day",
+        "current_price": 263.1400146484375,
+        "average": 291.58464950561523,
+        "difference": 28.444634857177732,
+        "percentage_change": 9.755189412544832
+    },
+    {
+        "symbol": "GD",
+        "period": "50-day",
+        "current_price": 263.1400146484375,
+        "average": 292.19359802246095,
+        "difference": 29.053583374023447,
+        "percentage_change": 9.943264866395223
+    },
+    {
+        "symbol": "GD",
+        "period": "8-day",
+        "current_price": 263.1400146484375,
+        "average": 269.5275001525879,
+        "difference": 6.387485504150391,
+        "percentage_change": 2.3698826652323923
+    },
+    {
+        "symbol": "TRV",
+        "period": "50-day",
+        "current_price": 246.3699951171875,
+        "average": 252.40780059814452,
+        "difference": 6.037805480957019,
+        "percentage_change": 2.3920835515577976
+    },
+    {
+        "symbol": "TRV",
+        "period": "8-day",
+        "current_price": 246.3699951171875,
+        "average": 252.64374923706055,
+        "difference": 6.273754119873047,
+        "percentage_change": 2.4832413779555895
+    },
+    {
+        "symbol": "USB",
+        "period": "8-day",
+        "current_price": 51.060001373291016,
+        "average": 51.583749771118164,
+        "difference": 0.5237483978271484,
+        "percentage_change": 1.0153360315042395
+    },
+    {
+        "symbol": "NOC",
+        "period": "200-day",
+        "current_price": 480.0060119628906,
+        "average": 481.98052978515625,
+        "difference": 1.974517822265625,
+        "percentage_change": 0.40966754884181117
+    },
+    {
+        "symbol": "NOC",
+        "period": "50-day",
+        "current_price": 480.0060119628906,
+        "average": 507.71851989746096,
+        "difference": 27.71250793457034,
+        "percentage_change": 5.458242480531766
+    },
+    {
+        "symbol": "DG",
+        "period": "200-day",
+        "current_price": 76.91000366210938,
+        "average": 115.57409984588622,
+        "difference": 38.66409618377685,
+        "percentage_change": 33.453945334927106
+    },
+    {
+        "symbol": "DG",
+        "period": "50-day",
+        "current_price": 76.91000366210938,
+        "average": 79.30380004882812,
+        "difference": 2.3937963867187477,
+        "percentage_change": 3.018514100515819
+    },
+    {
+        "symbol": "DG",
+        "period": "8-day",
+        "current_price": 76.91000366210938,
+        "average": 79.87874984741211,
+        "difference": 2.9687461853027344,
+        "percentage_change": 3.7165656585434346
+    },
+    {
+        "symbol": "PBF",
+        "period": "200-day",
+        "current_price": 29.240999221801758,
+        "average": 41.39770504951477,
+        "difference": 12.156705827713012,
+        "percentage_change": 29.365651581827244
+    },
+    {
+        "symbol": "PBF",
+        "period": "50-day",
+        "current_price": 29.240999221801758,
+        "average": 31.282819938659667,
+        "difference": 2.0418207168579094,
+        "percentage_change": 6.526971420292593
+    },
+    {
+        "symbol": "PBF",
+        "period": "8-day",
+        "current_price": 29.240999221801758,
+        "average": 30.363874435424805,
+        "difference": 1.1228752136230469,
+        "percentage_change": 3.6980630255571576
+    },
+    {
+        "symbol": "UBER",
+        "period": "200-day",
+        "current_price": 59.939998626708984,
+        "average": 71.76970020294189,
+        "difference": 11.829701576232907,
+        "percentage_change": 16.48286330134064
+    },
+    {
+        "symbol": "UBER",
+        "period": "50-day",
+        "current_price": 59.939998626708984,
+        "average": 73.58440017700195,
+        "difference": 13.644401550292969,
+        "percentage_change": 18.542519226184282
+    },
+    {
+        "symbol": "UBER",
+        "period": "8-day",
+        "current_price": 59.939998626708984,
+        "average": 64.58874988555908,
+        "difference": 4.648751258850098,
+        "percentage_change": 7.197462819898109
+    },
+    {
+        "symbol": "HON",
+        "period": "8-day",
+        "current_price": 227.6199951171875,
+        "average": 227.62499809265137,
+        "difference": 0.0050029754638671875,
+        "percentage_change": 0.002197902473712839
+    },
+    {
+        "symbol": "MDLZ",
+        "period": "200-day",
+        "current_price": 61.93000030517578,
+        "average": 69.10400003433227,
+        "difference": 7.173999729156492,
+        "percentage_change": 10.381453643193307
+    },
+    {
+        "symbol": "MDLZ",
+        "period": "50-day",
+        "current_price": 61.93000030517578,
+        "average": 67.11880027770997,
+        "difference": 5.188799972534184,
+        "percentage_change": 7.730769845505381
+    },
+    {
+        "symbol": "MDLZ",
+        "period": "8-day",
+        "current_price": 61.93000030517578,
+        "average": 62.53000020980835,
+        "difference": 0.5999999046325684,
+        "percentage_change": 0.9595392653436348
+    },
+    {
+        "symbol": "SBUX",
+        "period": "50-day",
+        "current_price": 97.41999816894531,
+        "average": 98.13959976196288,
+        "difference": 0.7196015930175719,
+        "percentage_change": 0.7332428446447327
+    },
+    {
+        "symbol": "SBUX",
+        "period": "8-day",
+        "current_price": 97.41999816894531,
+        "average": 98.89624977111816,
+        "difference": 1.4762516021728516,
+        "percentage_change": 1.4927275863234792
+    },
+    {
+        "symbol": "QCOM",
+        "period": "200-day",
+        "current_price": 158.52999877929688,
+        "average": 176.6582502746582,
+        "difference": 18.128251495361326,
+        "percentage_change": 10.26176330127608
+    },
+    {
+        "symbol": "QCOM",
+        "period": "50-day",
+        "current_price": 158.52999877929688,
+        "average": 165.22240020751954,
+        "difference": 6.6924014282226665,
+        "percentage_change": 4.050541221902721
+    },
+    {
+        "symbol": "QCOM",
+        "period": "8-day",
+        "current_price": 158.52999877929688,
+        "average": 159.63000106811523,
+        "difference": 1.1000022888183594,
+        "percentage_change": 0.6890949580016483
+    },
+    {
+        "symbol": "USFD",
+        "period": "8-day",
+        "current_price": 69.48999786376953,
+        "average": 70.51749992370605,
+        "difference": 1.0275020599365234,
+        "percentage_change": 1.4570880434618263
+    },
+    {
+        "symbol": "DHI",
+        "period": "200-day",
+        "current_price": 149.85000610351562,
+        "average": 163.79630043029786,
+        "difference": 13.946294326782237,
+        "percentage_change": 8.514413506376455
+    },
+    {
+        "symbol": "DHI",
+        "period": "50-day",
+        "current_price": 149.85000610351562,
+        "average": 171.31600006103517,
+        "difference": 21.465993957519544,
+        "percentage_change": 12.530057875430083
+    },
+    {
+        "symbol": "DHI",
+        "period": "8-day",
+        "current_price": 149.85000610351562,
+        "average": 156.5300006866455,
+        "difference": 6.679994583129883,
+        "percentage_change": 4.267549066522039
+    },
+    {
+        "symbol": "PM",
+        "period": "50-day",
+        "current_price": 126.62000274658203,
+        "average": 127.24660049438477,
+        "difference": 0.6265977478027338,
+        "percentage_change": 0.49242788834298545
+    },
+    {
+        "symbol": "PM",
+        "period": "8-day",
+        "current_price": 126.62000274658203,
+        "average": 128.95750045776367,
+        "difference": 2.3374977111816406,
+        "percentage_change": 1.8126109011760978
+    },
+    {
+        "symbol": "PCAR",
+        "period": "8-day",
+        "current_price": 113.01000213623047,
+        "average": 115.47125148773193,
+        "difference": 2.461249351501465,
+        "percentage_change": 2.131482355816466
+    },
+    {
+        "symbol": "CRM",
+        "period": "8-day",
+        "current_price": 354.29998779296875,
+        "average": 357.3512496948242,
+        "difference": 3.0512619018554688,
+        "percentage_change": 0.853855108793163
+    },
+    {
+        "symbol": "NUE",
+        "period": "200-day",
+        "current_price": 125.23999786376953,
+        "average": 161.38180011749267,
+        "difference": 36.14180225372314,
+        "percentage_change": 22.39521571045211
+    },
+    {
+        "symbol": "NUE",
+        "period": "50-day",
+        "current_price": 125.23999786376953,
+        "average": 149.06300033569335,
+        "difference": 23.823002471923814,
+        "percentage_change": 15.98183480694328
+    },
+    {
+        "symbol": "NUE",
+        "period": "8-day",
+        "current_price": 125.23999786376953,
+        "average": 139.7100019454956,
+        "difference": 14.470004081726074,
+        "percentage_change": 10.35717119764352
+    },
+    {
+        "symbol": "LEN",
+        "period": "200-day",
+        "current_price": 154.36500549316406,
+        "average": 167.15547492980957,
+        "difference": 12.790469436645509,
+        "percentage_change": 7.651839966364469
+    },
+    {
+        "symbol": "LEN",
+        "period": "50-day",
+        "current_price": 154.36500549316406,
+        "average": 172.61270111083985,
+        "difference": 18.247695617675788,
+        "percentage_change": 10.571467510932692
+    },
+    {
+        "symbol": "LEN",
+        "period": "8-day",
+        "current_price": 154.36500549316406,
+        "average": 161.43812561035156,
+        "difference": 7.0731201171875,
+        "percentage_change": 4.38131952439738
+    },
+    {
+        "symbol": "LLY",
+        "period": "200-day",
+        "current_price": 789.1199951171875,
+        "average": 838.765601196289,
+        "difference": 49.645606079101526,
+        "percentage_change": 5.918889139980765
+    },
+    {
+        "symbol": "LLY",
+        "period": "50-day",
+        "current_price": 789.1199951171875,
+        "average": 835.3706005859375,
+        "difference": 46.250605468749995,
+        "percentage_change": 5.536537368721062
+    },
+    {
+        "symbol": "LLY",
+        "period": "8-day",
+        "current_price": 789.1199951171875,
+        "average": 806.603759765625,
+        "difference": 17.4837646484375,
+        "percentage_change": 2.1675778765918174
+    },
+    {
+        "symbol": "MOH",
+        "period": "200-day",
+        "current_price": 303.1400146484375,
+        "average": 335.6626499938965,
+        "difference": 32.52263534545898,
+        "percentage_change": 9.689083770878398
+    },
+    {
+        "symbol": "MOH",
+        "period": "50-day",
+        "current_price": 303.1400146484375,
+        "average": 310.60460083007814,
+        "difference": 7.464586181640641,
+        "percentage_change": 2.403243919018533
+    },
+    {
+        "symbol": "CMI",
+        "period": "8-day",
+        "current_price": 367.4800109863281,
+        "average": 375.7300033569336,
+        "difference": 8.249992370605469,
+        "percentage_change": 2.1957236038901566
+    },
+    {
+        "symbol": "BK",
+        "period": "8-day",
+        "current_price": 78.83000183105469,
+        "average": 80.18625068664551,
+        "difference": 1.3562488555908203,
+        "percentage_change": 1.6913733264457202
+    },
+    {
+        "symbol": "NFLX",
+        "period": "8-day",
+        "current_price": 918.8699951171875,
+        "average": 921.4612426757812,
+        "difference": 2.59124755859375,
+        "percentage_change": 0.2812106943390443
+    },
+    {
+        "symbol": "TFC",
+        "period": "8-day",
+        "current_price": 45.775001525878906,
+        "average": 46.38312482833862,
+        "difference": 0.6081233024597168,
+        "percentage_change": 1.31108739376734
+    },
+    {
+        "symbol": "ARW",
+        "period": "200-day",
+        "current_price": 120.4000015258789,
+        "average": 126.18194995880127,
+        "difference": 5.781948432922363,
+        "percentage_change": 4.5822310043632895
+    },
+    {
+        "symbol": "ARW",
+        "period": "50-day",
+        "current_price": 120.4000015258789,
+        "average": 124.80300064086914,
+        "difference": 4.402999114990237,
+        "percentage_change": 3.5279593378209135
+    },
+    {
+        "symbol": "ARW",
+        "period": "8-day",
+        "current_price": 120.4000015258789,
+        "average": 121.06874942779541,
+        "difference": 0.6687479019165039,
+        "percentage_change": 0.552370372269634
+    },
+    {
+        "symbol": "MMM",
+        "period": "50-day",
+        "current_price": 129.9199981689453,
+        "average": 131.3731999206543,
+        "difference": 1.4532017517089741,
+        "percentage_change": 1.1061630169522148
+    },
+    {
+        "symbol": "MMM",
+        "period": "8-day",
+        "current_price": 129.9199981689453,
+        "average": 130.94875144958496,
+        "difference": 1.0287532806396484,
+        "percentage_change": 0.7856151885768202
+    },
+    {
+        "symbol": "DINO",
+        "period": "200-day",
+        "current_price": 37.44990158081055,
+        "average": 50.030399532318114,
+        "difference": 12.580497951507567,
+        "percentage_change": 25.145707548029772
+    },
+    {
+        "symbol": "DINO",
+        "period": "50-day",
+        "current_price": 37.44990158081055,
+        "average": 42.02179801940918,
+        "difference": 4.571896438598635,
+        "percentage_change": 10.879821078781426
+    },
+    {
+        "symbol": "DINO",
+        "period": "8-day",
+        "current_price": 37.44990158081055,
+        "average": 38.84123754501343,
+        "difference": 1.3913359642028809,
+        "percentage_change": 3.582110283150608
+    },
+    {
+        "symbol": "CBRE",
+        "period": "8-day",
+        "current_price": 137.2949981689453,
+        "average": 137.4831256866455,
+        "difference": 0.1881275177001953,
+        "percentage_change": 0.13683680579751992
+    },
+    {
+        "symbol": "PNC",
+        "period": "8-day",
+        "current_price": 201.30999755859375,
+        "average": 205.16500091552734,
+        "difference": 3.8550033569335938,
+        "percentage_change": 1.8789770866039748
+    },
+    {
+        "symbol": "DLTR",
+        "period": "200-day",
+        "current_price": 70.08999633789062,
+        "average": 97.96645021438599,
+        "difference": 27.87645387649536,
+        "percentage_change": 28.455102553467647
+    },
+    {
+        "symbol": "DLTR",
+        "period": "8-day",
+        "current_price": 70.08999633789062,
+        "average": 71.90124988555908,
+        "difference": 1.811253547668457,
+        "percentage_change": 2.519084926272243
+    },
+    {
+        "symbol": "PAGP",
+        "period": "8-day",
+        "current_price": 19.1299991607666,
+        "average": 19.398750066757202,
+        "difference": 0.2687509059906006,
+        "percentage_change": 1.3854032093085593
+    },
+    {
+        "symbol": "HPE",
+        "period": "8-day",
+        "current_price": 21.825000762939453,
+        "average": 22.244375228881836,
+        "difference": 0.4193744659423828,
+        "percentage_change": 1.8853056632396306
+    },
+    {
+        "symbol": "DUK",
+        "period": "50-day",
+        "current_price": 108.81009674072266,
+        "average": 114.3118017578125,
+        "difference": 5.501705017089847,
+        "percentage_change": 4.812893273037611
+    },
+    {
+        "symbol": "DUK",
+        "period": "8-day",
+        "current_price": 108.81009674072266,
+        "average": 111.24001216888428,
+        "difference": 2.429915428161621,
+        "percentage_change": 2.184389753996548
+    },
+    {
+        "symbol": "OXY",
+        "period": "200-day",
+        "current_price": 47.63999938964844,
+        "average": 58.26879997253418,
+        "difference": 10.628800582885745,
+        "percentage_change": 18.240980744233244
+    },
+    {
+        "symbol": "OXY",
+        "period": "50-day",
+        "current_price": 47.63999938964844,
+        "average": 50.97599998474121,
+        "difference": 3.33600059509277,
+        "percentage_change": 6.5442572898841505
+    },
+    {
+        "symbol": "OXY",
+        "period": "8-day",
+        "current_price": 47.63999938964844,
+        "average": 48.24875020980835,
+        "difference": 0.6087508201599121,
+        "percentage_change": 1.2616924117469905
+    },
+    {
+        "symbol": "NRG",
+        "period": "8-day",
+        "current_price": 94.9800033569336,
+        "average": 97.10875129699707,
+        "difference": 2.1287479400634766,
+        "percentage_change": 2.19212780684711
+    },
+    {
+        "symbol": "AMGN",
+        "period": "200-day",
+        "current_price": 270.6199951171875,
+        "average": 305.35610137939454,
+        "difference": 34.736106262207045,
+        "percentage_change": 11.375605761696773
+    },
+    {
+        "symbol": "AMGN",
+        "period": "50-day",
+        "current_price": 270.6199951171875,
+        "average": 302.81560119628904,
+        "difference": 32.19560607910154,
+        "percentage_change": 10.632083007583194
+    },
+    {
+        "symbol": "AMGN",
+        "period": "8-day",
+        "current_price": 270.6199951171875,
+        "average": 274.5799980163574,
+        "difference": 3.960002899169922,
+        "percentage_change": 1.4422037030293862
+    },
+    {
+        "symbol": "NEE",
+        "period": "200-day",
+        "current_price": 73.61499786376953,
+        "average": 74.16862512588501,
+        "difference": 0.5536272621154836,
+        "percentage_change": 0.7464440134569335
+    },
+    {
+        "symbol": "NEE",
+        "period": "50-day",
+        "current_price": 73.61499786376953,
+        "average": 78.51429962158203,
+        "difference": 4.899301757812495,
+        "percentage_change": 6.2400120505765475
+    },
+    {
+        "symbol": "NEE",
+        "period": "8-day",
+        "current_price": 73.61499786376953,
+        "average": 74.60437393188477,
+        "difference": 0.9893760681152344,
+        "percentage_change": 1.3261636228172813
+    },
+    {
+        "symbol": "DHR",
+        "period": "200-day",
+        "current_price": 234.86500549316406,
+        "average": 255.50862434387207,
+        "difference": 20.64361885070801,
+        "percentage_change": 8.079421547401521
+    },
+    {
+        "symbol": "DHR",
+        "period": "50-day",
+        "current_price": 234.86500549316406,
+        "average": 247.54869995117187,
+        "difference": 12.683694458007807,
+        "percentage_change": 5.123716852687823
+    },
+    {
+        "symbol": "GILD",
+        "period": "8-day",
+        "current_price": 91.8550033569336,
+        "average": 92.08187294006348,
+        "difference": 0.2268695831298828,
+        "percentage_change": 0.24637811535127363
+    },
+    {
+        "symbol": "AN",
+        "period": "8-day",
+        "current_price": 172.6999969482422,
+        "average": 176.68249893188477,
+        "difference": 3.982501983642578,
+        "percentage_change": 2.2540444060494784
+    },
+    {
+        "symbol": "KHC",
+        "period": "200-day",
+        "current_price": 31.672000885009766,
+        "average": 34.568259925842284,
+        "difference": 2.8962590408325184,
+        "percentage_change": 8.37837671622966
+    },
+    {
+        "symbol": "KHC",
+        "period": "50-day",
+        "current_price": 31.672000885009766,
+        "average": 33.141040077209475,
+        "difference": 1.469039192199709,
+        "percentage_change": 4.43268886183793
+    },
+    {
+        "symbol": "AVT",
+        "period": "50-day",
+        "current_price": 54.16999816894531,
+        "average": 54.55559982299805,
+        "difference": 0.38560165405273494,
+        "percentage_change": 0.7068049023451184
+    },
+    {
+        "symbol": "AVT",
+        "period": "8-day",
+        "current_price": 54.16999816894531,
+        "average": 54.42124938964844,
+        "difference": 0.251251220703125,
+        "percentage_change": 0.4616785235932418
+    },
+    {
+        "symbol": "AMAT",
+        "period": "200-day",
+        "current_price": 169.35000610351562,
+        "average": 202.7239003753662,
+        "difference": 33.37389427185059,
+        "percentage_change": 16.462732914103885
+    },
+    {
+        "symbol": "AMAT",
+        "period": "50-day",
+        "current_price": 169.35000610351562,
+        "average": 183.48520141601563,
+        "difference": 14.135195312500002,
+        "percentage_change": 7.703724988944097
+    },
+    {
+        "symbol": "AMAT",
+        "period": "8-day",
+        "current_price": 169.35000610351562,
+        "average": 171.97500228881836,
+        "difference": 2.6249961853027344,
+        "percentage_change": 1.5263824104472241
+    },
+    {
+        "symbol": "LUV",
+        "period": "8-day",
+        "current_price": 33.01499938964844,
+        "average": 33.79187536239624,
+        "difference": 0.7768759727478027,
+        "percentage_change": 2.299002243634912
+    },
+    {
+        "symbol": "SCHW",
+        "period": "8-day",
+        "current_price": 79.52999877929688,
+        "average": 81.67625045776367,
+        "difference": 2.146251678466797,
+        "percentage_change": 2.6277549060319116
+    },
+    {
+        "symbol": "MCD",
+        "period": "50-day",
+        "current_price": 296.6199951171875,
+        "average": 299.0656005859375,
+        "difference": 2.4456054687499886,
+        "percentage_change": 0.8177488363618188
+    },
+    {
+        "symbol": "MCD",
+        "period": "8-day",
+        "current_price": 296.6199951171875,
+        "average": 298.1212501525879,
+        "difference": 1.5012550354003906,
+        "percentage_change": 0.5035719643037861
+    },
+    {
+        "symbol": "SO",
+        "period": "50-day",
+        "current_price": 83.18000030517578,
+        "average": 88.67059967041016,
+        "difference": 5.490599365234374,
+        "percentage_change": 6.192130633651974
+    },
+    {
+        "symbol": "SO",
+        "period": "8-day",
+        "current_price": 83.18000030517578,
+        "average": 84.41874980926514,
+        "difference": 1.2387495040893555,
+        "percentage_change": 1.4673866965433313
+    },
+    {
+        "symbol": "CEG",
+        "period": "50-day",
+        "current_price": 239.07000732421875,
+        "average": 252.7116000366211,
+        "difference": 13.641592712402343,
+        "percentage_change": 5.398087270400529
+    },
+    {
+        "symbol": "CEG",
+        "period": "8-day",
+        "current_price": 239.07000732421875,
+        "average": 243.85000228881836,
+        "difference": 4.779994964599609,
+        "percentage_change": 1.9602193642541517
+    },
+    {
+        "symbol": "HIG",
+        "period": "50-day",
+        "current_price": 112.06999969482422,
+        "average": 117.2913996887207,
+        "difference": 5.221399993896483,
+        "percentage_change": 4.451647783003308
+    },
+    {
+        "symbol": "HIG",
+        "period": "8-day",
+        "current_price": 112.06999969482422,
+        "average": 115.82124996185303,
+        "difference": 3.7512502670288086,
+        "percentage_change": 3.2388273035080553
+    },
+    {
+        "symbol": "PCG",
+        "period": "50-day",
+        "current_price": 19.760000228881836,
+        "average": 20.483199996948244,
+        "difference": 0.723199768066408,
+        "percentage_change": 3.5306971966009035
+    },
+    {
+        "symbol": "PCG",
+        "period": "8-day",
+        "current_price": 19.760000228881836,
+        "average": 20.10249972343445,
+        "difference": 0.3424994945526123,
+        "percentage_change": 1.7037656971254387
+    },
+    {
+        "symbol": "CPNG",
+        "period": "50-day",
+        "current_price": 23.889999389648438,
+        "average": 24.951399955749512,
+        "difference": 1.0614005661010744,
+        "percentage_change": 4.253871798710426
+    },
+    {
+        "symbol": "EOG",
+        "period": "200-day",
+        "current_price": 126.77999877929688,
+        "average": 127.06469970703125,
+        "difference": 0.2847009277343773,
+        "percentage_change": 0.22405981235606937
+    },
+    {
+        "symbol": "EOG",
+        "period": "50-day",
+        "current_price": 126.77999877929688,
+        "average": 129.23379959106444,
+        "difference": 2.4538008117675645,
+        "percentage_change": 1.898729913948322
+    },
+    {
+        "symbol": "EOG",
+        "period": "8-day",
+        "current_price": 126.77999877929688,
+        "average": 127.84124946594238,
+        "difference": 1.0612506866455078,
+        "percentage_change": 0.8301316602261706
+    },
+    {
+        "symbol": "UNP",
+        "period": "200-day",
+        "current_price": 234.99200439453125,
+        "average": 239.39571060180663,
+        "difference": 4.403706207275377,
+        "percentage_change": 1.8395092360698897
+    },
+    {
+        "symbol": "UNP",
+        "period": "50-day",
+        "current_price": 234.99200439453125,
+        "average": 238.25024139404297,
+        "difference": 3.2582369995117233,
+        "percentage_change": 1.3675692332764158
+    },
+    {
+        "symbol": "M",
+        "period": "200-day",
+        "current_price": 16.56999969482422,
+        "average": 17.435050039291383,
+        "difference": 0.8650503444671642,
+        "percentage_change": 4.961559287284516
+    },
+    {
+        "symbol": "MAR",
+        "period": "8-day",
+        "current_price": 287.0799865722656,
+        "average": 289.7675018310547,
+        "difference": 2.6875152587890625,
+        "percentage_change": 0.9274729711946733
+    },
+    {
+        "symbol": "LEA",
+        "period": "200-day",
+        "current_price": 98.37000274658203,
+        "average": 117.54509983062744,
+        "difference": 19.175097084045404,
+        "percentage_change": 16.31297018053079
+    },
+    {
+        "symbol": "LEA",
+        "period": "50-day",
+        "current_price": 98.37000274658203,
+        "average": 100.24760009765625,
+        "difference": 1.8775973510742148,
+        "percentage_change": 1.8729599005314366
+    },
+    {
+        "symbol": "LEA",
+        "period": "8-day",
+        "current_price": 98.37000274658203,
+        "average": 100.75624942779541,
+        "difference": 2.386246681213379,
+        "percentage_change": 2.3683361526109863
+    },
+    {
+        "symbol": "GPC",
+        "period": "200-day",
+        "current_price": 121.19000244140625,
+        "average": 140.2507004547119,
+        "difference": 19.060698013305654,
+        "percentage_change": 13.590447642334954
+    },
+    {
+        "symbol": "GPC",
+        "period": "50-day",
+        "current_price": 121.19000244140625,
+        "average": 125.74020050048829,
+        "difference": 4.550198059082035,
+        "percentage_change": 3.618729762614277
+    },
+    {
+        "symbol": "GPC",
+        "period": "8-day",
+        "current_price": 121.19000244140625,
+        "average": 123.90124988555908,
+        "difference": 2.711247444152832,
+        "percentage_change": 2.188232521186885
+    },
+    {
+        "symbol": "SHW",
+        "period": "50-day",
+        "current_price": 364.5050048828125,
+        "average": 378.63889953613284,
+        "difference": 14.13389465332034,
+        "percentage_change": 3.7328163246395576
+    },
+    {
+        "symbol": "SHW",
+        "period": "8-day",
+        "current_price": 364.5050048828125,
+        "average": 376.70187759399414,
+        "difference": 12.19687271118164,
+        "percentage_change": 3.2378051283108595
+    },
+    {
+        "symbol": "HAL",
+        "period": "200-day",
+        "current_price": 28.68000030517578,
+        "average": 33.3308500289917,
+        "difference": 4.6508497238159165,
+        "percentage_change": 13.953588701669878
+    },
+    {
+        "symbol": "HAL",
+        "period": "50-day",
+        "current_price": 28.68000030517578,
+        "average": 29.735,
+        "difference": 1.0549996948242182,
+        "percentage_change": 3.5480063723699953
+    },
+    {
+        "symbol": "HAL",
+        "period": "8-day",
+        "current_price": 28.68000030517578,
+        "average": 29.290000200271606,
+        "difference": 0.6099998950958252,
+        "percentage_change": 2.0826216829120017
+    },
+    {
+        "symbol": "FCX",
+        "period": "200-day",
+        "current_price": 41.584999084472656,
+        "average": 46.72422506332398,
+        "difference": 5.1392259788513215,
+        "percentage_change": 10.999060919440137
+    },
+    {
+        "symbol": "FCX",
+        "period": "50-day",
+        "current_price": 41.584999084472656,
+        "average": 45.641699981689456,
+        "difference": 4.0567008972168,
+        "percentage_change": 8.888145925424046
+    },
+    {
+        "symbol": "FCX",
+        "period": "8-day",
+        "current_price": 41.584999084472656,
+        "average": 42.620625019073486,
+        "difference": 1.03562593460083,
+        "percentage_change": 2.4298703600366465
+    },
+    {
+        "symbol": "MMC",
+        "period": "200-day",
+        "current_price": 215.0749969482422,
+        "average": 215.5611750793457,
+        "difference": 0.4861781311035145,
+        "percentage_change": 0.22554067583114523
+    },
+    {
+        "symbol": "MMC",
+        "period": "50-day",
+        "current_price": 215.0749969482422,
+        "average": 223.88490020751954,
+        "difference": 8.809903259277348,
+        "percentage_change": 3.9350144878513134
+    },
+    {
+        "symbol": "MMC",
+        "period": "8-day",
+        "current_price": 215.0749969482422,
+        "average": 220.28312492370605,
+        "difference": 5.208127975463867,
+        "percentage_change": 2.3642882210190526
+    },
+    {
+        "symbol": "AMD",
+        "period": "200-day",
+        "current_price": 126.88999938964844,
+        "average": 157.77850032806396,
+        "difference": 30.88850093841552,
+        "percentage_change": 19.57712925030344
+    },
+    {
+        "symbol": "AMD",
+        "period": "50-day",
+        "current_price": 126.88999938964844,
+        "average": 147.41620071411134,
+        "difference": 20.526201324462903,
+        "percentage_change": 13.923979335398814
+    },
+    {
+        "symbol": "AMD",
+        "period": "8-day",
+        "current_price": 126.88999938964844,
+        "average": 133.77374935150146,
+        "difference": 6.883749961853027,
+        "percentage_change": 5.14581522550094
+    },
+    {
+        "symbol": "FCNCA",
+        "period": "50-day",
+        "current_price": 2086.889892578125,
+        "average": 2106.44298828125,
+        "difference": 19.55309570312511,
+        "percentage_change": 0.9282518355305422
+    },
+    {
+        "symbol": "FCNCA",
+        "period": "8-day",
+        "current_price": 2086.889892578125,
+        "average": 2140.3811950683594,
+        "difference": 53.491302490234375,
+        "percentage_change": 2.4991484046619075
+    },
+    {
+        "symbol": "WCC",
+        "period": "50-day",
+        "current_price": 190.72999572753906,
+        "average": 192.37820068359375,
+        "difference": 1.648204956054684,
+        "percentage_change": 0.8567524543830736
+    },
+    {
+        "symbol": "WCC",
+        "period": "8-day",
+        "current_price": 190.72999572753906,
+        "average": 200.84374809265137,
+        "difference": 10.113752365112305,
+        "percentage_change": 5.035632157415586
+    },
+    {
+        "symbol": "CARR",
+        "period": "50-day",
+        "current_price": 73.0198974609375,
+        "average": 76.60079818725586,
+        "difference": 3.5809007263183616,
+        "percentage_change": 4.674756413849117
+    },
+    {
+        "symbol": "CARR",
+        "period": "8-day",
+        "current_price": 73.0198974609375,
+        "average": 73.66373538970947,
+        "difference": 0.6438379287719727,
+        "percentage_change": 0.8740229169289645
+    },
+    {
+        "symbol": "CLF",
+        "period": "200-day",
+        "current_price": 10.209799766540527,
+        "average": 15.410048985481263,
+        "difference": 5.200249218940735,
+        "percentage_change": 33.74583185193119
+    },
+    {
+        "symbol": "CLF",
+        "period": "50-day",
+        "current_price": 10.209799766540527,
+        "average": 12.56719596862793,
+        "difference": 2.3573962020874024,
+        "percentage_change": 18.758330879635196
+    },
+    {
+        "symbol": "CLF",
+        "period": "8-day",
+        "current_price": 10.209799766540527,
+        "average": 11.722475051879883,
+        "difference": 1.5126752853393555,
+        "percentage_change": 12.904060607036858
+    },
+    {
+        "symbol": "SQ",
+        "period": "8-day",
+        "current_price": 91.94999694824219,
+        "average": 95.84375,
+        "difference": 3.8937530517578125,
+        "percentage_change": 4.062605075195631
+    },
+    {
+        "symbol": "EXC",
+        "period": "200-day",
+        "current_price": 36.869998931884766,
+        "average": 37.70300004959106,
+        "difference": 0.8330011177062957,
+        "percentage_change": 2.2093762210185997
+    },
+    {
+        "symbol": "EXC",
+        "period": "50-day",
+        "current_price": 36.869998931884766,
+        "average": 39.03400001525879,
+        "difference": 2.164001083374025,
+        "percentage_change": 5.543887591658796
+    },
+    {
+        "symbol": "EXC",
+        "period": "8-day",
+        "current_price": 36.869998931884766,
+        "average": 37.36249923706055,
+        "difference": 0.49250030517578125,
+        "percentage_change": 1.3181674546205442
+    },
+    {
+        "symbol": "KKR",
+        "period": "8-day",
+        "current_price": 154.3000030517578,
+        "average": 155.53125,
+        "difference": 1.2312469482421875,
+        "percentage_change": 0.7916395889843278
+    },
+    {
+        "symbol": "CDW",
+        "period": "200-day",
+        "current_price": 176.05999755859375,
+        "average": 221.60900009155273,
+        "difference": 45.54900253295898,
+        "percentage_change": 20.55376925763008
+    },
+    {
+        "symbol": "CDW",
+        "period": "50-day",
+        "current_price": 176.05999755859375,
+        "average": 197.02640014648438,
+        "difference": 20.966402587890627,
+        "percentage_change": 10.641417887299678
+    },
+    {
+        "symbol": "CDW",
+        "period": "8-day",
+        "current_price": 176.05999755859375,
+        "average": 178.8087501525879,
+        "difference": 2.7487525939941406,
+        "percentage_change": 1.5372584348632101
+    },
+    {
+        "symbol": "BKNG",
+        "period": "8-day",
+        "current_price": 5227.60986328125,
+        "average": 5244.48876953125,
+        "difference": 16.87890625,
+        "percentage_change": 0.3218408312371814
+    },
+    {
+        "symbol": "JLL",
+        "period": "8-day",
+        "current_price": 269.260009765625,
+        "average": 273.7037544250488,
+        "difference": 4.443744659423828,
+        "percentage_change": 1.623559994183677
+    },
+    {
+        "symbol": "DFS",
+        "period": "8-day",
+        "current_price": 175.9199981689453,
+        "average": 176.90874862670898,
+        "difference": 0.9887504577636719,
+        "percentage_change": 0.558904217817973
+    },
+    {
+        "symbol": "THC",
+        "period": "200-day",
+        "current_price": 136.7100067138672,
+        "average": 136.81484962463378,
+        "difference": 0.10484291076659247,
+        "percentage_change": 0.07663123634184466
+    },
+    {
+        "symbol": "THC",
+        "period": "50-day",
+        "current_price": 136.7100067138672,
+        "average": 152.37980041503906,
+        "difference": 15.66979370117187,
+        "percentage_change": 10.283379856445425
+    },
+    {
+        "symbol": "THC",
+        "period": "8-day",
+        "current_price": 136.7100067138672,
+        "average": 138.95249938964844,
+        "difference": 2.24249267578125,
+        "percentage_change": 1.6138555877954284
+    },
+    {
+        "symbol": "MO",
+        "period": "8-day",
+        "current_price": 54.92499923706055,
+        "average": 55.82937526702881,
+        "difference": 0.9043760299682617,
+        "percentage_change": 1.6198927995211863
+    },
+    {
+        "symbol": "SYK",
+        "period": "8-day",
+        "current_price": 374.6600036621094,
+        "average": 380.86249923706055,
+        "difference": 6.202495574951172,
+        "percentage_change": 1.6285393251832199
+    },
+    {
+        "symbol": "KMB",
+        "period": "200-day",
+        "current_price": 131.3249969482422,
+        "average": 136.3842747116089,
+        "difference": 5.059277763366708,
+        "percentage_change": 3.7095755900486282
+    },
+    {
+        "symbol": "KMB",
+        "period": "50-day",
+        "current_price": 131.3249969482422,
+        "average": 137.10509857177735,
+        "difference": 5.78010162353516,
+        "percentage_change": 4.215818145164862
+    },
+    {
+        "symbol": "KMB",
+        "period": "8-day",
+        "current_price": 131.3249969482422,
+        "average": 133.56437301635742,
+        "difference": 2.2393760681152344,
+        "percentage_change": 1.6766267961599173
+    },
+    {
+        "symbol": "WM",
+        "period": "50-day",
+        "current_price": 213.24000549316406,
+        "average": 217.2454000854492,
+        "difference": 4.005394592285143,
+        "percentage_change": 1.8437189421316627
+    },
+    {
+        "symbol": "WM",
+        "period": "8-day",
+        "current_price": 213.24000549316406,
+        "average": 218.41125106811523,
+        "difference": 5.171245574951172,
+        "percentage_change": 2.367664463099674
+    },
+    {
+        "symbol": "LNG",
+        "period": "8-day",
+        "current_price": 213.0500030517578,
+        "average": 217.6962490081787,
+        "difference": 4.646245956420898,
+        "percentage_change": 2.1342792894177713
+    },
+    {
+        "symbol": "ROST",
+        "period": "8-day",
+        "current_price": 153.52999877929688,
+        "average": 155.10375022888184,
+        "difference": 1.573751449584961,
+        "percentage_change": 1.0146443572528867
+    },
+    {
+        "symbol": "GIS",
+        "period": "200-day",
+        "current_price": 66.69000244140625,
+        "average": 68.43004991531372,
+        "difference": 1.7400474739074667,
+        "percentage_change": 2.5428119313969226
+    },
+    {
+        "symbol": "GIS",
+        "period": "50-day",
+        "current_price": 66.69000244140625,
+        "average": 67.34359985351563,
+        "difference": 0.6535974121093773,
+        "percentage_change": 0.9705412444999503
+    },
+    {
+        "symbol": "GT",
+        "period": "200-day",
+        "current_price": 10.029999732971191,
+        "average": 10.57189999818802,
+        "difference": 0.5419002652168281,
+        "percentage_change": 5.125855005341591
+    },
+    {
+        "symbol": "GT",
+        "period": "8-day",
+        "current_price": 10.029999732971191,
+        "average": 10.18999993801117,
+        "difference": 0.16000020503997803,
+        "percentage_change": 1.5701688519460977
+    },
+    {
+        "symbol": "GEHC",
+        "period": "200-day",
+        "current_price": 81.0999984741211,
+        "average": 84.51362510681152,
+        "difference": 3.4136266326904234,
+        "percentage_change": 4.039143544459432
+    },
+    {
+        "symbol": "GEHC",
+        "period": "50-day",
+        "current_price": 81.0999984741211,
+        "average": 85.99809982299804,
+        "difference": 4.898101348876949,
+        "percentage_change": 5.695592529321298
+    },
+    {
+        "symbol": "GEHC",
+        "period": "8-day",
+        "current_price": 81.0999984741211,
+        "average": 81.94437503814697,
+        "difference": 0.8443765640258789,
+        "percentage_change": 1.0304265102184285
+    },
+    {
+        "symbol": "CLF",
+        "period": "200-day",
+        "current_price": 10.209799766540527,
+        "average": 15.410048985481263,
+        "difference": 5.200249218940735,
+        "percentage_change": 33.74583185193119
+    },
+    {
+        "symbol": "CLF",
+        "period": "50-day",
+        "current_price": 10.209799766540527,
+        "average": 12.56719596862793,
+        "difference": 2.3573962020874024,
+        "percentage_change": 18.758330879635196
+    },
+    {
+        "symbol": "CLF",
+        "period": "8-day",
+        "current_price": 10.209799766540527,
+        "average": 11.722475051879883,
+        "difference": 1.5126752853393555,
+        "percentage_change": 12.904060607036858
+    },
+    {
+        "symbol": "LHX",
+        "period": "200-day",
+        "current_price": 223.13999938964844,
+        "average": 228.19040046691896,
+        "difference": 5.0504010772705215,
+        "percentage_change": 2.2132399377609597
+    },
+    {
+        "symbol": "LHX",
+        "period": "50-day",
+        "current_price": 223.13999938964844,
+        "average": 245.10960052490233,
+        "difference": 21.969601135253896,
+        "percentage_change": 8.963174468974689
+    },
+    {
+        "symbol": "LHX",
+        "period": "8-day",
+        "current_price": 223.13999938964844,
+        "average": 231.2574977874756,
+        "difference": 8.117498397827148,
+        "percentage_change": 3.510155768133013
+    },
+    {
+        "symbol": "ADBE",
+        "period": "200-day",
+        "current_price": 465.69000244140625,
+        "average": 515.3538986206055,
+        "difference": 49.66389617919924,
+        "percentage_change": 9.636852716575826
+    },
+    {
+        "symbol": "ADBE",
+        "period": "50-day",
+        "current_price": 465.69000244140625,
+        "average": 505.02519775390624,
+        "difference": 39.33519531249999,
+        "percentage_change": 7.788758954492334
+    },
+    {
+        "symbol": "ADBE",
+        "period": "8-day",
+        "current_price": 465.69000244140625,
+        "average": 526.6124954223633,
+        "difference": 60.92249298095703,
+        "percentage_change": 11.568751883127055
+    },
+    {
+        "symbol": "BDX",
+        "period": "200-day",
+        "current_price": 225.4600067138672,
+        "average": 234.58239997863768,
+        "difference": 9.122393264770494,
+        "percentage_change": 3.8887799193806645
+    },
+    {
+        "symbol": "BDX",
+        "period": "50-day",
+        "current_price": 225.4600067138672,
+        "average": 231.33120056152345,
+        "difference": 5.871193847656258,
+        "percentage_change": 2.538003448477669
+    },
+    {
+        "symbol": "CTSH",
+        "period": "8-day",
+        "current_price": 80.05999755859375,
+        "average": 80.60500049591064,
+        "difference": 0.5450029373168945,
+        "percentage_change": 0.6761403560124589
+    },
+    {
+        "symbol": "FI",
+        "period": "50-day",
+        "current_price": 204.63499450683594,
+        "average": 205.08809997558595,
+        "difference": 0.45310546875001023,
+        "percentage_change": 0.220932111031283
+    },
+    {
+        "symbol": "FI",
+        "period": "8-day",
+        "current_price": 204.63499450683594,
+        "average": 205.62562561035156,
+        "difference": 0.990631103515625,
+        "percentage_change": 0.4817644204486519
+    },
+    {
+        "symbol": "PH",
+        "period": "8-day",
+        "current_price": 671.9400024414062,
+        "average": 686.5237503051758,
+        "difference": 14.583747863769531,
+        "percentage_change": 2.1242889058516496
+    },
+    {
+        "symbol": "AEP",
+        "period": "200-day",
+        "current_price": 92.70999908447266,
+        "average": 93.04334999084473,
+        "difference": 0.33335090637207543,
+        "percentage_change": 0.3582748325429775
+    },
+    {
+        "symbol": "AEP",
+        "period": "50-day",
+        "current_price": 92.70999908447266,
+        "average": 97.51220016479492,
+        "difference": 4.802201080322263,
+        "percentage_change": 4.924718211881772
+    },
+    {
+        "symbol": "AEP",
+        "period": "8-day",
+        "current_price": 92.70999908447266,
+        "average": 94.92749881744385,
+        "difference": 2.2174997329711914,
+        "percentage_change": 2.3359930058156175
+    },
+    {
+        "symbol": "IP",
+        "period": "8-day",
+        "current_price": 55.564998626708984,
+        "average": 55.83687448501587,
+        "difference": 0.27187585830688477,
+        "percentage_change": 0.4869109541219828
+    },
+    {
+        "symbol": "MAN",
+        "period": "200-day",
+        "current_price": 61.14500045776367,
+        "average": 70.93772497177125,
+        "difference": 9.792724514007574,
+        "percentage_change": 13.804678001591483
+    },
+    {
+        "symbol": "MAN",
+        "period": "50-day",
+        "current_price": 61.14500045776367,
+        "average": 64.60190010070801,
+        "difference": 3.456899642944336,
+        "percentage_change": 5.351080444314129
+    },
+    {
+        "symbol": "MAN",
+        "period": "8-day",
+        "current_price": 61.14500045776367,
+        "average": 61.69187545776367,
+        "difference": 0.546875,
+        "percentage_change": 0.8864619464752843
+    },
+    {
+        "symbol": "ARMK",
+        "period": "8-day",
+        "current_price": 40.15999984741211,
+        "average": 40.706249713897705,
+        "difference": 0.5462498664855957,
+        "percentage_change": 1.3419312030090997
+    },
+    {
+        "symbol": "STLD",
+        "period": "200-day",
+        "current_price": 122.37000274658203,
+        "average": 130.79175018310548,
+        "difference": 8.421747436523447,
+        "percentage_change": 6.439050952933339
+    },
+    {
+        "symbol": "STLD",
+        "period": "50-day",
+        "current_price": 122.37000274658203,
+        "average": 136.78880081176757,
+        "difference": 14.418798065185541,
+        "percentage_change": 10.540920001942974
+    },
+    {
+        "symbol": "STLD",
+        "period": "8-day",
+        "current_price": 122.37000274658203,
+        "average": 134.16874980926514,
+        "difference": 11.798747062683105,
+        "percentage_change": 8.79396064989519
+    },
+    {
+        "symbol": "AFL",
+        "period": "50-day",
+        "current_price": 104.5199966430664,
+        "average": 110.15739959716797,
+        "difference": 5.63740295410156,
+        "percentage_change": 5.117588990586968
+    },
+    {
+        "symbol": "AFL",
+        "period": "8-day",
+        "current_price": 104.5199966430664,
+        "average": 105.54749870300293,
+        "difference": 1.0275020599365234,
+        "percentage_change": 0.9734973093277955
+    },
+    {
+        "symbol": "RGA",
+        "period": "50-day",
+        "current_price": 212.2100067138672,
+        "average": 220.0070001220703,
+        "difference": 7.796993408203122,
+        "percentage_change": 3.5439751480075548
+    },
+    {
+        "symbol": "RGA",
+        "period": "8-day",
+        "current_price": 212.2100067138672,
+        "average": 215.5300006866455,
+        "difference": 3.3199939727783203,
+        "percentage_change": 1.5403860076097662
+    },
+    {
+        "symbol": "EMR",
+        "period": "8-day",
+        "current_price": 130.17999267578125,
+        "average": 131.28124618530273,
+        "difference": 1.1012535095214844,
+        "percentage_change": 0.8388505910182108
+    },
+    {
+        "symbol": "PPG",
+        "period": "200-day",
+        "current_price": 124.19499969482422,
+        "average": 129.6242749786377,
+        "difference": 5.4292752838134675,
+        "percentage_change": 4.188471090548605
+    },
+    {
+        "symbol": "PPG",
+        "period": "50-day",
+        "current_price": 124.19499969482422,
+        "average": 125.75309982299805,
+        "difference": 1.5581001281738338,
+        "percentage_change": 1.2390152850044374
+    },
+    {
+        "symbol": "PPG",
+        "period": "8-day",
+        "current_price": 124.19499969482422,
+        "average": 125.12312412261963,
+        "difference": 0.9281244277954102,
+        "percentage_change": 0.7417689050713406
+    },
+    {
+        "symbol": "X",
+        "period": "200-day",
+        "current_price": 33.279998779296875,
+        "average": 38.561599855422976,
+        "difference": 5.281601076126101,
+        "percentage_change": 13.696529957076825
+    },
+    {
+        "symbol": "X",
+        "period": "50-day",
+        "current_price": 33.279998779296875,
+        "average": 38.19179992675781,
+        "difference": 4.911801147460935,
+        "percentage_change": 12.860878923958872
+    },
+    {
+        "symbol": "X",
+        "period": "8-day",
+        "current_price": 33.279998779296875,
+        "average": 36.52749967575073,
+        "difference": 3.2475008964538574,
+        "percentage_change": 8.890564438522887
+    },
+    {
+        "symbol": "ADP",
+        "period": "8-day",
+        "current_price": 296.760009765625,
+        "average": 300.73749923706055,
+        "difference": 3.977489471435547,
+        "percentage_change": 1.3225784883913778
+    },
+    {
+        "symbol": "GPI",
+        "period": "8-day",
+        "current_price": 426.4649963378906,
+        "average": 427.41687393188477,
+        "difference": 0.9518775939941406,
+        "percentage_change": 0.22270472974958785
+    },
+    {
+        "symbol": "D",
+        "period": "50-day",
+        "current_price": 54.03499984741211,
+        "average": 57.74090003967285,
+        "difference": 3.705900192260742,
+        "percentage_change": 6.418154531215269
+    },
+    {
+        "symbol": "D",
+        "period": "8-day",
+        "current_price": 54.03499984741211,
+        "average": 55.25687503814697,
+        "difference": 1.2218751907348633,
+        "percentage_change": 2.2112636479919163
+    },
+    {
+        "symbol": "OKE",
+        "period": "8-day",
+        "current_price": 103.9800033569336,
+        "average": 106.26250076293945,
+        "difference": 2.2824974060058594,
+        "percentage_change": 2.1479801337424504
+    },
+    {
+        "symbol": "TXN",
+        "period": "200-day",
+        "current_price": 191.58999633789062,
+        "average": 193.27094993591308,
+        "difference": 1.6809535980224553,
+        "percentage_change": 0.8697393987973072
+    },
+    {
+        "symbol": "TXN",
+        "period": "50-day",
+        "current_price": 191.58999633789062,
+        "average": 202.20880004882812,
+        "difference": 10.618803710937499,
+        "percentage_change": 5.25140533368149
+    },
+    {
+        "symbol": "TXN",
+        "period": "8-day",
+        "current_price": 191.58999633789062,
+        "average": 192.67124938964844,
+        "difference": 1.0812530517578125,
+        "percentage_change": 0.5611906577566962
+    },
+    {
+        "symbol": "KSS",
+        "period": "200-day",
+        "current_price": 14.350000381469727,
+        "average": 21.52585000038147,
+        "difference": 7.175849618911744,
+        "percentage_change": 33.33596405616771
+    },
+    {
+        "symbol": "KSS",
+        "period": "50-day",
+        "current_price": 14.350000381469727,
+        "average": 17.733800086975098,
+        "difference": 3.3837997055053712,
+        "percentage_change": 19.08107505954498
+    },
+    {
+        "symbol": "KSS",
+        "period": "8-day",
+        "current_price": 14.350000381469727,
+        "average": 14.968750238418579,
+        "difference": 0.6187498569488525,
+        "percentage_change": 4.133610669518542
+    },
+    {
+        "symbol": "CTVA",
+        "period": "50-day",
+        "current_price": 59.4900016784668,
+        "average": 59.59199989318848,
+        "difference": 0.10199821472168225,
+        "percentage_change": 0.1711609190906528
+    },
+    {
+        "symbol": "CTVA",
+        "period": "8-day",
+        "current_price": 59.4900016784668,
+        "average": 59.896249771118164,
+        "difference": 0.4062480926513672,
+        "percentage_change": 0.6782529694325855
+    },
+    {
+        "symbol": "BLDR",
+        "period": "200-day",
+        "current_price": 166.19000244140625,
+        "average": 175.15140029907226,
+        "difference": 8.961397857666014,
+        "percentage_change": 5.116372374051457
+    },
+    {
+        "symbol": "BLDR",
+        "period": "50-day",
+        "current_price": 166.19000244140625,
+        "average": 181.84600036621094,
+        "difference": 15.655997924804694,
+        "percentage_change": 8.609481590618342
+    },
+    {
+        "symbol": "BLDR",
+        "period": "8-day",
+        "current_price": 166.19000244140625,
+        "average": 173.1862506866455,
+        "difference": 6.996248245239258,
+        "percentage_change": 4.039724988271684
+    },
+    {
+        "symbol": "SATS",
+        "period": "50-day",
+        "current_price": 23.34000015258789,
+        "average": 24.528800086975096,
+        "difference": 1.1887999343872053,
+        "percentage_change": 4.846547446968119
+    },
+    {
+        "symbol": "SATS",
+        "period": "8-day",
+        "current_price": 23.34000015258789,
+        "average": 23.647500038146973,
+        "difference": 0.30749988555908203,
+        "percentage_change": 1.3003483880454108
+    },
+    {
+        "symbol": "DK",
+        "period": "200-day",
+        "current_price": 17.44099998474121,
+        "average": 23.110354952812195,
+        "difference": 5.669354968070984,
+        "percentage_change": 24.531665479162644
+    },
+    {
+        "symbol": "DK",
+        "period": "50-day",
+        "current_price": 17.44099998474121,
+        "average": 18.044619998931886,
+        "difference": 0.6036200141906747,
+        "percentage_change": 3.3451522627043673
+    },
+    {
+        "symbol": "DK",
+        "period": "8-day",
+        "current_price": 17.44099998474121,
+        "average": 18.236375093460083,
+        "difference": 0.7953751087188721,
+        "percentage_change": 4.361475921846491
+    },
+    {
+        "symbol": "SRE",
+        "period": "8-day",
+        "current_price": 89.1500015258789,
+        "average": 89.23250102996826,
+        "difference": 0.08249950408935547,
+        "percentage_change": 0.09245454642322358
+    },
+    {
+        "symbol": "GLP",
+        "period": "8-day",
+        "current_price": 53.494998931884766,
+        "average": 55.23812484741211,
+        "difference": 1.7431259155273438,
+        "percentage_change": 3.1556572934770952
+    },
+    {
+        "symbol": "GWW",
+        "period": "8-day",
+        "current_price": 1144.1424560546875,
+        "average": 1166.8278198242188,
+        "difference": 22.68536376953125,
+        "percentage_change": 1.9441911980594337
+    },
+    {
+        "symbol": "EIX",
+        "period": "50-day",
+        "current_price": 81.87000274658203,
+        "average": 84.22559997558594,
+        "difference": 2.355597229003905,
+        "percentage_change": 2.796771088228176
+    },
+    {
+        "symbol": "EIX",
+        "period": "8-day",
+        "current_price": 81.87000274658203,
+        "average": 83.00999927520752,
+        "difference": 1.1399965286254883,
+        "percentage_change": 1.3733243447527284
+    },
+    {
+        "symbol": "MGM",
+        "period": "200-day",
+        "current_price": 36.244998931884766,
+        "average": 40.398974876403805,
+        "difference": 4.15397594451904,
+        "percentage_change": 10.282379583213856
+    },
+    {
+        "symbol": "MGM",
+        "period": "50-day",
+        "current_price": 36.244998931884766,
+        "average": 38.42949989318848,
+        "difference": 2.184500961303712,
+        "percentage_change": 5.6844376517398
+    },
+    {
+        "symbol": "MGM",
+        "period": "8-day",
+        "current_price": 36.244998931884766,
+        "average": 36.76562452316284,
+        "difference": 0.5206255912780762,
+        "percentage_change": 1.4160662249870801
+    },
+    {
+        "symbol": "ITW",
+        "period": "8-day",
+        "current_price": 272.0799865722656,
+        "average": 273.8349952697754,
+        "difference": 1.7550086975097656,
+        "percentage_change": 0.6409000777204443
+    },
+    {
+        "symbol": "AMP",
+        "period": "8-day",
+        "current_price": 549.989990234375,
+        "average": 554.6212539672852,
+        "difference": 4.631263732910156,
+        "percentage_change": 0.835031780657893
+    },
+    {
+        "symbol": "PHM",
+        "period": "200-day",
+        "current_price": 118.44000244140625,
+        "average": 123.22379989624024,
+        "difference": 4.783797454833987,
+        "percentage_change": 3.882202511902856
+    },
+    {
+        "symbol": "PHM",
+        "period": "50-day",
+        "current_price": 118.44000244140625,
+        "average": 133.12779983520508,
+        "difference": 14.687797393798832,
+        "percentage_change": 11.032855205284257
+    },
+    {
+        "symbol": "PHM",
+        "period": "8-day",
+        "current_price": 118.44000244140625,
+        "average": 124.85500144958496,
+        "difference": 6.414999008178711,
+        "percentage_change": 5.137959179608047
+    },
+    {
+        "symbol": "TRGP",
+        "period": "8-day",
+        "current_price": 184.59500122070312,
+        "average": 189.60437393188477,
+        "difference": 5.009372711181641,
+        "percentage_change": 2.6420132654646746
+    },
+    {
+        "symbol": "ALLY",
+        "period": "200-day",
+        "current_price": 37.70000076293945,
+        "average": 38.573649864196774,
+        "difference": 0.8736491012573211,
+        "percentage_change": 2.2648857557765703
+    },
+    {
+        "symbol": "ALLY",
+        "period": "8-day",
+        "current_price": 37.70000076293945,
+        "average": 38.28999948501587,
+        "difference": 0.589998722076416,
+        "percentage_change": 1.5408689736527728
+    },
+    {
+        "symbol": "BWA",
+        "period": "50-day",
+        "current_price": 34.04999923706055,
+        "average": 34.393999862670896,
+        "difference": 0.3440006256103487,
+        "percentage_change": 1.000176271977327
+    },
+    {
+        "symbol": "BWA",
+        "period": "8-day",
+        "current_price": 34.04999923706055,
+        "average": 34.46124982833862,
+        "difference": 0.41125059127807617,
+        "percentage_change": 1.1933710858620434
+    },
+    {
+        "symbol": "EL",
+        "period": "200-day",
+        "current_price": 80.04000091552734,
+        "average": 107.58065000534057,
+        "difference": 27.54064908981323,
+        "percentage_change": 25.600002499005203
+    },
+    {
+        "symbol": "EL",
+        "period": "8-day",
+        "current_price": 80.04000091552734,
+        "average": 80.41499996185303,
+        "difference": 0.3749990463256836,
+        "percentage_change": 0.46632972269299794
+    },
+    {
+        "symbol": "L",
+        "period": "8-day",
+        "current_price": 84.18000030517578,
+        "average": 84.96374988555908,
+        "difference": 0.7837495803833008,
+        "percentage_change": 0.922451729636419
+    },
+    {
+        "symbol": "MKL",
+        "period": "8-day",
+        "current_price": 1738.949951171875,
+        "average": 1751.6625061035156,
+        "difference": 12.712554931640625,
+        "percentage_change": 0.7257422527082034
+    },
+    {
+        "symbol": "SWK",
+        "period": "200-day",
+        "current_price": 82.80000305175781,
+        "average": 92.87234992980957,
+        "difference": 10.07234687805176,
+        "percentage_change": 10.845366662590287
+    },
+    {
+        "symbol": "SWK",
+        "period": "50-day",
+        "current_price": 82.80000305175781,
+        "average": 94.39379959106445,
+        "difference": 11.593796539306638,
+        "percentage_change": 12.282370864965303
+    },
+    {
+        "symbol": "SWK",
+        "period": "8-day",
+        "current_price": 82.80000305175781,
+        "average": 84.30375099182129,
+        "difference": 1.5037479400634766,
+        "percentage_change": 1.7837260173742
+    },
+    {
+        "symbol": "MU",
+        "period": "200-day",
+        "current_price": 102.5,
+        "average": 110.71449993133545,
+        "difference": 8.214499931335453,
+        "percentage_change": 7.419533969290421
+    },
+    {
+        "symbol": "MU",
+        "period": "50-day",
+        "current_price": 102.5,
+        "average": 103.66380035400391,
+        "difference": 1.1638003540039108,
+        "percentage_change": 1.1226680384373542
+    },
+    {
+        "symbol": "FLR",
+        "period": "8-day",
+        "current_price": 54.63999938964844,
+        "average": 55.518749713897705,
+        "difference": 0.8787503242492676,
+        "percentage_change": 1.5827991962673735
+    },
+    {
+        "symbol": "LDOS",
+        "period": "50-day",
+        "current_price": 153.10499572753906,
+        "average": 170.96130004882812,
+        "difference": 17.85630432128906,
+        "percentage_change": 10.444647014376432
+    },
+    {
+        "symbol": "LDOS",
+        "period": "8-day",
+        "current_price": 153.10499572753906,
+        "average": 159.00937271118164,
+        "difference": 5.904376983642578,
+        "percentage_change": 3.7132257570546208
+    },
+    {
+        "symbol": "VTRS",
+        "period": "8-day",
+        "current_price": 12.630000114440918,
+        "average": 12.770000100135803,
+        "difference": 0.13999998569488525,
+        "percentage_change": 1.0963193782073377
+    },
+    {
+        "symbol": "KMI",
+        "period": "8-day",
+        "current_price": 26.889999389648438,
+        "average": 27.232499837875366,
+        "difference": 0.3425004482269287,
+        "percentage_change": 1.2576900771723278
+    },
+    {
+        "symbol": "ECL",
+        "period": "50-day",
+        "current_price": 250.1300048828125,
+        "average": 250.40900024414063,
+        "difference": 0.2789953613281284,
+        "percentage_change": 0.11141586806229689
+    },
+    {
+        "symbol": "BAX",
+        "period": "200-day",
+        "current_price": 30.315000534057617,
+        "average": 36.76882503509521,
+        "difference": 6.4538245010375945,
+        "percentage_change": 17.55243605113171
+    },
+    {
+        "symbol": "BAX",
+        "period": "50-day",
+        "current_price": 30.315000534057617,
+        "average": 34.51530014038086,
+        "difference": 4.200299606323242,
+        "percentage_change": 12.169384560585465
+    },
+    {
+        "symbol": "BAX",
+        "period": "8-day",
+        "current_price": 30.315000534057617,
+        "average": 31.520625114440918,
+        "difference": 1.2056245803833008,
+        "percentage_change": 3.8248752237815036
+    },
+    {
+        "symbol": "DVN",
+        "period": "200-day",
+        "current_price": 33.869998931884766,
+        "average": 44.80744997024536,
+        "difference": 10.937451038360592,
+        "percentage_change": 24.409893992234927
+    },
+    {
+        "symbol": "DVN",
+        "period": "50-day",
+        "current_price": 33.869998931884766,
+        "average": 38.837799911499026,
+        "difference": 4.96780097961426,
+        "percentage_change": 12.791149320853787
+    },
+    {
+        "symbol": "DVN",
+        "period": "8-day",
+        "current_price": 33.869998931884766,
+        "average": 35.02999973297119,
+        "difference": 1.1600008010864258,
+        "percentage_change": 3.3114496429601776
+    },
+    {
+        "symbol": "K",
+        "period": "50-day",
+        "current_price": 80.58000183105469,
+        "average": 80.8091993713379,
+        "difference": 0.22919754028320938,
+        "percentage_change": 0.28362803005879444
+    },
+    {
+        "symbol": "K",
+        "period": "8-day",
+        "current_price": 80.58000183105469,
+        "average": 80.65124893188477,
+        "difference": 0.07124710083007812,
+        "percentage_change": 0.08833973654921444
+    },
+    {
+        "symbol": "IQV",
+        "period": "200-day",
+        "current_price": 199.0749969482422,
+        "average": 229.113324508667,
+        "difference": 30.03832756042482,
+        "percentage_change": 13.110685563505283
+    },
+    {
+        "symbol": "IQV",
+        "period": "50-day",
+        "current_price": 199.0749969482422,
+        "average": 212.79909942626952,
+        "difference": 13.724102478027334,
+        "percentage_change": 6.449323570931018
+    },
+    {
+        "symbol": "IQV",
+        "period": "8-day",
+        "current_price": 199.0749969482422,
+        "average": 201.9856243133545,
+        "difference": 2.9106273651123047,
+        "percentage_change": 1.441007188014947
+    },
+    {
+        "symbol": "RSG",
+        "period": "8-day",
+        "current_price": 208.9600067138672,
+        "average": 212.6475009918213,
+        "difference": 3.6874942779541016,
+        "percentage_change": 1.7340877559129781
+    },
+    {
+        "symbol": "KDP",
+        "period": "200-day",
+        "current_price": 33.54999923706055,
+        "average": 33.69580008506775,
+        "difference": 0.14580084800720527,
+        "percentage_change": 0.43269739148237857
+    },
+    {
+        "symbol": "KDP",
+        "period": "50-day",
+        "current_price": 33.54999923706055,
+        "average": 33.95380023956299,
+        "difference": 0.40380100250244055,
+        "percentage_change": 1.1892660016062986
+    },
+    {
+        "symbol": "RS",
+        "period": "200-day",
+        "current_price": 292.4599914550781,
+        "average": 299.00370010375974,
+        "difference": 6.543708648681616,
+        "percentage_change": 2.1885042380448234
+    },
+    {
+        "symbol": "RS",
+        "period": "50-day",
+        "current_price": 292.4599914550781,
+        "average": 302.82320190429687,
+        "difference": 10.363210449218741,
+        "percentage_change": 3.4221982939384845
+    },
+    {
+        "symbol": "RS",
+        "period": "8-day",
+        "current_price": 292.4599914550781,
+        "average": 304.7662544250488,
+        "difference": 12.306262969970703,
+        "percentage_change": 4.0379349062732866
+    },
+    {
+        "symbol": "ABG",
+        "period": "8-day",
+        "current_price": 253.6750030517578,
+        "average": 257.7206268310547,
+        "difference": 4.045623779296875,
+        "percentage_change": 1.5697710458965046
+    },
+    {
+        "symbol": "VST",
+        "period": "8-day",
+        "current_price": 144.8800048828125,
+        "average": 150.9950008392334,
+        "difference": 6.114995956420898,
+        "percentage_change": 4.049800273143894
+    },
+    {
+        "symbol": "ANDE",
+        "period": "200-day",
+        "current_price": 44.9900016784668,
+        "average": 50.78304992675781,
+        "difference": 5.793048248291015,
+        "percentage_change": 11.407444524592512
+    },
+    {
+        "symbol": "ANDE",
+        "period": "50-day",
+        "current_price": 44.9900016784668,
+        "average": 47.44279991149902,
+        "difference": 2.452798233032226,
+        "percentage_change": 5.170011545709226
+    },
+    {
+        "symbol": "ANDE",
+        "period": "8-day",
+        "current_price": 44.9900016784668,
+        "average": 45.9712495803833,
+        "difference": 0.9812479019165039,
+        "percentage_change": 2.1344816833850406
+    },
+    {
+        "symbol": "OMC",
+        "period": "200-day",
+        "current_price": 90.33000183105469,
+        "average": 96.20340019226074,
+        "difference": 5.873398361206057,
+        "percentage_change": 6.105187913803647
+    },
+    {
+        "symbol": "OMC",
+        "period": "50-day",
+        "current_price": 90.33000183105469,
+        "average": 101.52460006713868,
+        "difference": 11.19459823608399,
+        "percentage_change": 11.026488386736762
+    },
+    {
+        "symbol": "OMC",
+        "period": "8-day",
+        "current_price": 90.33000183105469,
+        "average": 95.96249961853027,
+        "difference": 5.632497787475586,
+        "percentage_change": 5.869477983447563
+    },
+    {
+        "symbol": "FIS",
+        "period": "50-day",
+        "current_price": 84.0999984741211,
+        "average": 87.25980056762695,
+        "difference": 3.15980209350586,
+        "percentage_change": 3.621142923718914
+    },
+    {
+        "symbol": "FIS",
+        "period": "8-day",
+        "current_price": 84.0999984741211,
+        "average": 84.87249946594238,
+        "difference": 0.7725009918212891,
+        "percentage_change": 0.9101899869595311
+    },
+    {
+        "symbol": "ED",
+        "period": "200-day",
+        "current_price": 92.69400024414062,
+        "average": 96.36166999816895,
+        "difference": 3.6676697540283243,
+        "percentage_change": 3.8061500533334645
+    },
+    {
+        "symbol": "ED",
+        "period": "50-day",
+        "current_price": 92.69400024414062,
+        "average": 100.04488021850585,
+        "difference": 7.3508799743652276,
+        "percentage_change": 7.34758236334566
+    },
+    {
+        "symbol": "ED",
+        "period": "8-day",
+        "current_price": 92.69400024414062,
+        "average": 94.4330005645752,
+        "difference": 1.7390003204345703,
+        "percentage_change": 1.8415175945250268
+    },
+    {
+        "symbol": "CSX",
+        "period": "200-day",
+        "current_price": 33.2400016784668,
+        "average": 34.507849884033206,
+        "difference": 1.267848205566409,
+        "percentage_change": 3.6740863595591415
+    },
+    {
+        "symbol": "CSX",
+        "period": "50-day",
+        "current_price": 33.2400016784668,
+        "average": 34.73139999389648,
+        "difference": 1.4913983154296844,
+        "percentage_change": 4.294092134759253
+    },
+    {
+        "symbol": "CSX",
+        "period": "8-day",
+        "current_price": 33.2400016784668,
+        "average": 34.13000011444092,
+        "difference": 0.8899984359741211,
+        "percentage_change": 2.6076719396128842
+    },
+    {
+        "symbol": "ACM",
+        "period": "8-day",
+        "current_price": 111.45999908447266,
+        "average": 113.01749992370605,
+        "difference": 1.5575008392333984,
+        "percentage_change": 1.3781059042049328
+    },
+    {
+        "symbol": "LUMN",
+        "period": "50-day",
+        "current_price": 6.514999866485596,
+        "average": 7.159299983978271,
+        "difference": 0.6443001174926755,
+        "percentage_change": 8.999484850956776
+    },
+    {
+        "symbol": "LUMN",
+        "period": "8-day",
+        "current_price": 6.514999866485596,
+        "average": 6.523124933242798,
+        "difference": 0.008125066757202148,
+        "percentage_change": 0.12455788966719955
+    },
+    {
+        "symbol": "DXC",
+        "period": "8-day",
+        "current_price": 21.459999084472656,
+        "average": 21.946249961853027,
+        "difference": 0.4862508773803711,
+        "percentage_change": 2.2156444869878564
+    },
+    {
+        "symbol": "AGCO",
+        "period": "200-day",
+        "current_price": 97.04000091552734,
+        "average": 102.29244995117188,
+        "difference": 5.252449035644531,
+        "percentage_change": 5.13473774276765
+    },
+    {
+        "symbol": "AGCO",
+        "period": "50-day",
+        "current_price": 97.04000091552734,
+        "average": 97.45319976806641,
+        "difference": 0.4131988525390682,
+        "percentage_change": 0.423997214583472
+    },
+    {
+        "symbol": "AGCO",
+        "period": "8-day",
+        "current_price": 97.04000091552734,
+        "average": 97.9375,
+        "difference": 0.8974990844726562,
+        "percentage_change": 0.916399830986758
+    },
+    {
+        "symbol": "SAH",
+        "period": "8-day",
+        "current_price": 66.44999694824219,
+        "average": 67.39374828338623,
+        "difference": 0.943751335144043,
+        "percentage_change": 1.400354423344479
+    },
+    {
+        "symbol": "URI",
+        "period": "50-day",
+        "current_price": 778.780029296875,
+        "average": 832.9544006347656,
+        "difference": 54.17437133789065,
+        "percentage_change": 6.5038820008161595
+    },
+    {
+        "symbol": "URI",
+        "period": "8-day",
+        "current_price": 778.780029296875,
+        "average": 822.0500030517578,
+        "difference": 43.26997375488281,
+        "percentage_change": 5.263666880876887
+    },
+    {
+        "symbol": "UHS",
+        "period": "200-day",
+        "current_price": 187.44000244140625,
+        "average": 197.64219955444335,
+        "difference": 10.202197113037101,
+        "percentage_change": 5.1619528299303115
+    },
+    {
+        "symbol": "UHS",
+        "period": "50-day",
+        "current_price": 187.44000244140625,
+        "average": 207.7831997680664,
+        "difference": 20.343197326660146,
+        "percentage_change": 9.790588146379404
+    },
+    {
+        "symbol": "UHS",
+        "period": "8-day",
+        "current_price": 187.44000244140625,
+        "average": 192.31625175476074,
+        "difference": 4.876249313354492,
+        "percentage_change": 2.5355367884210973
+    },
+    {
+        "symbol": "BSX",
+        "period": "8-day",
+        "current_price": 90.11499786376953,
+        "average": 90.1818733215332,
+        "difference": 0.06687545776367188,
+        "percentage_change": 0.07415620822738406
+    },
+    {
+        "symbol": "OTIS",
+        "period": "50-day",
+        "current_price": 97.79000091552734,
+        "average": 101.43839981079101,
+        "difference": 3.648398895263668,
+        "percentage_change": 3.5966644801858862
+    },
+    {
+        "symbol": "OTIS",
+        "period": "8-day",
+        "current_price": 97.79000091552734,
+        "average": 99.50374984741211,
+        "difference": 1.7137489318847656,
+        "percentage_change": 1.7222958275570324
+    },
+    {
+        "symbol": "XEL",
+        "period": "8-day",
+        "current_price": 68.12000274658203,
+        "average": 69.31875038146973,
+        "difference": 1.1987476348876953,
+        "percentage_change": 1.7293266660042736
+    },
+    {
+        "symbol": "BALL",
+        "period": "200-day",
+        "current_price": 58.25,
+        "average": 64.46869987487793,
+        "difference": 6.218699874877927,
+        "percentage_change": 9.646076137640899
+    },
+    {
+        "symbol": "BALL",
+        "period": "50-day",
+        "current_price": 58.25,
+        "average": 62.111800003051755,
+        "difference": 3.861800003051755,
+        "percentage_change": 6.217498128957802
+    },
+    {
+        "symbol": "LKQ",
+        "period": "200-day",
+        "current_price": 37.97999954223633,
+        "average": 42.68734996795654,
+        "difference": 4.707350425720215,
+        "percentage_change": 11.027506812331543
+    },
+    {
+        "symbol": "LKQ",
+        "period": "50-day",
+        "current_price": 37.97999954223633,
+        "average": 38.47160003662109,
+        "difference": 0.4916004943847625,
+        "percentage_change": 1.277827004639288
+    },
+    {
+        "symbol": "LKQ",
+        "period": "8-day",
+        "current_price": 37.97999954223633,
+        "average": 38.893749713897705,
+        "difference": 0.913750171661377,
+        "percentage_change": 2.3493496471359028
+    },
+    {
+        "symbol": "MOS",
+        "period": "200-day",
+        "current_price": 26.795000076293945,
+        "average": 28.49017499923706,
+        "difference": 1.6951749229431137,
+        "percentage_change": 5.950033381643001
+    },
+    {
+        "symbol": "TXT",
+        "period": "200-day",
+        "current_price": 80.91000366210938,
+        "average": 88.11484973907471,
+        "difference": 7.204846076965339,
+        "percentage_change": 8.176653649527061
+    },
+    {
+        "symbol": "TXT",
+        "period": "50-day",
+        "current_price": 80.91000366210938,
+        "average": 84.97879943847656,
+        "difference": 4.068795776367182,
+        "percentage_change": 4.7880127787789375
+    },
+    {
+        "symbol": "TXT",
+        "period": "8-day",
+        "current_price": 80.91000366210938,
+        "average": 82.43375015258789,
+        "difference": 1.5237464904785156,
+        "percentage_change": 1.8484498007891246
+    },
+    {
+        "symbol": "LH",
+        "period": "8-day",
+        "current_price": 232.10000610351562,
+        "average": 233.60874938964844,
+        "difference": 1.5087432861328125,
+        "percentage_change": 0.6458419430242741
+    },
+    {
+        "symbol": "PFG",
+        "period": "200-day",
+        "current_price": 78.91000366210938,
+        "average": 82.36620018005371,
+        "difference": 3.456196517944335,
+        "percentage_change": 4.196134470679768
+    },
+    {
+        "symbol": "PFG",
+        "period": "50-day",
+        "current_price": 78.91000366210938,
+        "average": 85.77899993896484,
+        "difference": 6.868996276855469,
+        "percentage_change": 8.007783119111942
+    },
+    {
+        "symbol": "PFG",
+        "period": "8-day",
+        "current_price": 78.91000366210938,
+        "average": 81.78749942779541,
+        "difference": 2.877495765686035,
+        "percentage_change": 3.518258640767443
+    },
+    {
+        "symbol": "REGN",
+        "period": "200-day",
+        "current_price": 731.2999877929688,
+        "average": 987.3968481445313,
+        "difference": 256.09686035156255,
+        "percentage_change": 25.93656854716596
+    },
+    {
+        "symbol": "REGN",
+        "period": "50-day",
+        "current_price": 731.2999877929688,
+        "average": 854.9082019042969,
+        "difference": 123.60821411132815,
+        "percentage_change": 14.458653436239407
+    },
+    {
+        "symbol": "REGN",
+        "period": "8-day",
+        "current_price": 731.2999877929688,
+        "average": 763.9912490844727,
+        "difference": 32.691261291503906,
+        "percentage_change": 4.279009914142264
+    },
+    {
+        "symbol": "RJF",
+        "period": "8-day",
+        "current_price": 160.48500061035156,
+        "average": 162.4381217956543,
+        "difference": 1.9531211853027344,
+        "percentage_change": 1.2023785818945527
+    },
+    {
+        "symbol": "EXPE",
+        "period": "8-day",
+        "current_price": 183.0,
+        "average": 188.22624969482422,
+        "difference": 5.226249694824219,
+        "percentage_change": 2.7765785607999227
+    },
+    {
+        "symbol": "JBHT",
+        "period": "50-day",
+        "current_price": 179.8000030517578,
+        "average": 180.86839996337892,
+        "difference": 1.0683969116211074,
+        "percentage_change": 0.5907040211764075
+    },
+    {
+        "symbol": "JBHT",
+        "period": "8-day",
+        "current_price": 179.8000030517578,
+        "average": 181.94875144958496,
+        "difference": 2.1487483978271484,
+        "percentage_change": 1.1809635299544947
+    },
+    {
+        "symbol": "MTB",
+        "period": "50-day",
+        "current_price": 199.24000549316406,
+        "average": 202.2044009399414,
+        "difference": 2.9643954467773312,
+        "percentage_change": 1.4660390342630643
+    },
+    {
+        "symbol": "MTB",
+        "period": "8-day",
+        "current_price": 199.24000549316406,
+        "average": 206.30500030517578,
+        "difference": 7.064994812011719,
+        "percentage_change": 3.4245388146486295
+    },
+    {
+        "symbol": "DTE",
+        "period": "50-day",
+        "current_price": 121.2699966430664,
+        "average": 123.73660034179687,
+        "difference": 2.4666036987304665,
+        "percentage_change": 1.993430958921598
+    },
+    {
+        "symbol": "DTE",
+        "period": "8-day",
+        "current_price": 121.2699966430664,
+        "average": 121.63749980926514,
+        "difference": 0.36750316619873047,
+        "percentage_change": 0.30212982573219394
+    },
+    {
+        "symbol": "AES",
+        "period": "200-day",
+        "current_price": 13.350000381469727,
+        "average": 17.326699957847595,
+        "difference": 3.976699576377868,
+        "percentage_change": 22.95128089048916
+    },
+    {
+        "symbol": "AES",
+        "period": "50-day",
+        "current_price": 13.350000381469727,
+        "average": 15.108999919891357,
+        "difference": 1.7589995384216301,
+        "percentage_change": 11.642064648540144
+    },
+    {
+        "symbol": "AES",
+        "period": "8-day",
+        "current_price": 13.350000381469727,
+        "average": 13.43375027179718,
+        "difference": 0.08374989032745361,
+        "percentage_change": 0.6234289653521263
+    },
+    {
+        "symbol": "BERY",
+        "period": "8-day",
+        "current_price": 67.95500183105469,
+        "average": 69.359375,
+        "difference": 1.4043731689453125,
+        "percentage_change": 2.02477771598333
+    },
+    {
+        "symbol": "FITB",
+        "period": "8-day",
+        "current_price": 45.54999923706055,
+        "average": 46.401249408721924,
+        "difference": 0.851250171661377,
+        "percentage_change": 1.8345414886638152
+    },
+    {
+        "symbol": "APD",
+        "period": "50-day",
+        "current_price": 312.29998779296875,
+        "average": 319.59039916992185,
+        "difference": 7.290411376953102,
+        "percentage_change": 2.281173463248153
+    },
+    {
+        "symbol": "APD",
+        "period": "8-day",
+        "current_price": 312.29998779296875,
+        "average": 317.1174964904785,
+        "difference": 4.817508697509766,
+        "percentage_change": 1.5191557548305796
+    },
+    {
+        "symbol": "GLW",
+        "period": "8-day",
+        "current_price": 48.150001525878906,
+        "average": 48.71750020980835,
+        "difference": 0.5674986839294434,
+        "percentage_change": 1.1648764437531387
+    },
+    {
+        "symbol": "EME",
+        "period": "8-day",
+        "current_price": 479.2799987792969,
+        "average": 491.3312530517578,
+        "difference": 12.051254272460938,
+        "percentage_change": 2.4527758406590583
+    },
+    {
+        "symbol": "APH",
+        "period": "8-day",
+        "current_price": 73.61000061035156,
+        "average": 73.7524995803833,
+        "difference": 0.14249897003173828,
+        "percentage_change": 0.19321239394256431
+    },
+    {
+        "symbol": "WLK",
+        "period": "200-day",
+        "current_price": 119.44999694824219,
+        "average": 144.25814933776854,
+        "difference": 24.808152389526356,
+        "percentage_change": 17.197054380227847
+    },
+    {
+        "symbol": "WLK",
+        "period": "50-day",
+        "current_price": 119.44999694824219,
+        "average": 132.41019927978516,
+        "difference": 12.960202331542973,
+        "percentage_change": 9.787918454950612
+    },
+    {
+        "symbol": "WLK",
+        "period": "8-day",
+        "current_price": 119.44999694824219,
+        "average": 122.77124881744385,
+        "difference": 3.32125186920166,
+        "percentage_change": 2.7052358766344673
+    },
+    {
+        "symbol": "DD",
+        "period": "50-day",
+        "current_price": 80.86000061035156,
+        "average": 83.7781997680664,
+        "difference": 2.918199157714838,
+        "percentage_change": 3.4832440489216188
+    },
+    {
+        "symbol": "DD",
+        "period": "8-day",
+        "current_price": 80.86000061035156,
+        "average": 82.13124942779541,
+        "difference": 1.2712488174438477,
+        "percentage_change": 1.5478259813415467
+    },
+    {
+        "symbol": "SPGI",
+        "period": "50-day",
+        "current_price": 505.5799865722656,
+        "average": 509.07940185546875,
+        "difference": 3.4994152832031205,
+        "percentage_change": 0.6874006825749805
+    },
+    {
+        "symbol": "SPGI",
+        "period": "8-day",
+        "current_price": 505.5799865722656,
+        "average": 513.892505645752,
+        "difference": 8.312519073486328,
+        "percentage_change": 1.6175598947567649
+    },
+    {
+        "symbol": "CYH",
+        "period": "200-day",
+        "current_price": 3.484999895095825,
+        "average": 4.107574993371964,
+        "difference": 0.6225750982761387,
+        "percentage_change": 15.156755489083801
+    },
+    {
+        "symbol": "CYH",
+        "period": "50-day",
+        "current_price": 3.484999895095825,
+        "average": 4.350899991989135,
+        "difference": 0.8659000968933102,
+        "percentage_change": 19.90163181152412
+    },
+    {
+        "symbol": "CYH",
+        "period": "8-day",
+        "current_price": 3.484999895095825,
+        "average": 3.4981250166893005,
+        "difference": 0.013125121593475342,
+        "percentage_change": 0.37520447470734575
+    },
+    {
+        "symbol": "FE",
+        "period": "200-day",
+        "current_price": 40.27000045776367,
+        "average": 40.67695001602173,
+        "difference": 0.4069495582580558,
+        "percentage_change": 1.0004426538808038
+    },
+    {
+        "symbol": "FE",
+        "period": "50-day",
+        "current_price": 40.27000045776367,
+        "average": 42.151600189208985,
+        "difference": 1.8815997314453128,
+        "percentage_change": 4.463886834661645
+    },
+    {
+        "symbol": "FE",
+        "period": "8-day",
+        "current_price": 40.27000045776367,
+        "average": 40.700000286102295,
+        "difference": 0.42999982833862305,
+        "percentage_change": 1.0565106273118474
+    },
+    {
+        "symbol": "UNM",
+        "period": "8-day",
+        "current_price": 73.83999633789062,
+        "average": 74.24749851226807,
+        "difference": 0.4075021743774414,
+        "percentage_change": 0.5488429678342752
+    },
+    {
+        "symbol": "WDC",
+        "period": "200-day",
+        "current_price": 65.12000274658203,
+        "average": 68.74040004730224,
+        "difference": 3.6203973007202137,
+        "percentage_change": 5.266767866100451
+    },
+    {
+        "symbol": "WDC",
+        "period": "50-day",
+        "current_price": 65.12000274658203,
+        "average": 67.56419990539551,
+        "difference": 2.4441971588134805,
+        "percentage_change": 3.6175921008994187
+    },
+    {
+        "symbol": "WDC",
+        "period": "8-day",
+        "current_price": 65.12000274658203,
+        "average": 69.51124954223633,
+        "difference": 4.391246795654297,
+        "percentage_change": 6.3173181673077154
+    },
+    {
+        "symbol": "ADI",
+        "period": "200-day",
+        "current_price": 216.61000061035156,
+        "average": 217.7370497894287,
+        "difference": 1.1270491790771473,
+        "percentage_change": 0.5176193854776232
+    },
+    {
+        "symbol": "ADI",
+        "period": "50-day",
+        "current_price": 216.61000061035156,
+        "average": 222.39659912109374,
+        "difference": 5.786598510742181,
+        "percentage_change": 2.6019276075311786
+    },
+    {
+        "symbol": "ADI",
+        "period": "8-day",
+        "current_price": 216.61000061035156,
+        "average": 217.14374923706055,
+        "difference": 0.5337486267089844,
+        "percentage_change": 0.24580427877123895
+    },
+    {
+        "symbol": "CAG",
+        "period": "200-day",
+        "current_price": 28.200000762939453,
+        "average": 29.697800083160402,
+        "difference": 1.497799320220949,
+        "percentage_change": 5.043468930448652
+    },
+    {
+        "symbol": "CAG",
+        "period": "50-day",
+        "current_price": 28.200000762939453,
+        "average": 28.440000076293945,
+        "difference": 0.23999931335449176,
+        "percentage_change": 0.8438794399109101
+    },
+    {
+        "symbol": "CFG",
+        "period": "8-day",
+        "current_price": 45.689998626708984,
+        "average": 46.27874994277954,
+        "difference": 0.5887513160705566,
+        "percentage_change": 1.2721850024006844
+    },
+    {
+        "symbol": "NSC",
+        "period": "50-day",
+        "current_price": 246.24000549316406,
+        "average": 258.60260009765625,
+        "difference": 12.362594604492188,
+        "percentage_change": 4.780537627937111
+    },
+    {
+        "symbol": "NSC",
+        "period": "8-day",
+        "current_price": 246.24000549316406,
+        "average": 255.89124870300293,
+        "difference": 9.651243209838867,
+        "percentage_change": 3.771619099424719
+    },
+    {
+        "symbol": "ETR",
+        "period": "8-day",
+        "current_price": 74.2249984741211,
+        "average": 74.96437454223633,
+        "difference": 0.7393760681152344,
+        "percentage_change": 0.9863032575542348
+    },
+    {
+        "symbol": "WRB",
+        "period": "8-day",
+        "current_price": 60.77000045776367,
+        "average": 61.95875024795532,
+        "difference": 1.1887497901916504,
+        "percentage_change": 1.918614861394626
+    },
+    {
+        "symbol": "DVA",
+        "period": "50-day",
+        "current_price": 152.69000244140625,
+        "average": 157.8358004760742,
+        "difference": 5.145798034667962,
+        "percentage_change": 3.2602223444534664
+    },
+    {
+        "symbol": "DVA",
+        "period": "8-day",
+        "current_price": 152.69000244140625,
+        "average": 157.36999893188477,
+        "difference": 4.679996490478516,
+        "percentage_change": 2.9738809952614806
+    },
+    {
+        "symbol": "NTRS",
+        "period": "8-day",
+        "current_price": 104.9800033569336,
+        "average": 107.36250019073486,
+        "difference": 2.3824968338012695,
+        "percentage_change": 2.219114522825609
+    },
+    {
+        "symbol": "CCK",
+        "period": "50-day",
+        "current_price": 87.83000183105469,
+        "average": 92.46439987182617,
+        "difference": 4.634398040771487,
+        "percentage_change": 5.012089027988797
+    },
+    {
+        "symbol": "CCK",
+        "period": "8-day",
+        "current_price": 87.83000183105469,
+        "average": 88.72875022888184,
+        "difference": 0.8987483978271484,
+        "percentage_change": 1.0129167778299208
+    },
+    {
+        "symbol": "CAR",
+        "period": "200-day",
+        "current_price": 92.19000244140625,
+        "average": 100.08809986114503,
+        "difference": 7.898097419738775,
+        "percentage_change": 7.891145331658832
+    },
+    {
+        "symbol": "CAR",
+        "period": "50-day",
+        "current_price": 92.19000244140625,
+        "average": 93.37439987182617,
+        "difference": 1.1843974304199207,
+        "percentage_change": 1.2684391354008462
+    },
+    {
+        "symbol": "CAR",
+        "period": "8-day",
+        "current_price": 92.19000244140625,
+        "average": 98.85124969482422,
+        "difference": 6.661247253417969,
+        "percentage_change": 6.738657603199474
+    },
+    {
+        "symbol": "W",
+        "period": "200-day",
+        "current_price": 52.290000915527344,
+        "average": 52.940849990844725,
+        "difference": 0.6508490753173817,
+        "percentage_change": 1.2293891681564153
+    },
+    {
+        "symbol": "W",
+        "period": "8-day",
+        "current_price": 52.290000915527344,
+        "average": 52.81999969482422,
+        "difference": 0.529998779296875,
+        "percentage_change": 1.0034054948107263
+    },
+    {
+        "symbol": "MTZ",
+        "period": "8-day",
+        "current_price": 137.8000030517578,
+        "average": 138.2425022125244,
+        "difference": 0.44249916076660156,
+        "percentage_change": 0.3200890852556576
+    },
+    {
+        "symbol": "ES",
+        "period": "200-day",
+        "current_price": 59.52000045776367,
+        "average": 62.03379981994629,
+        "difference": 2.513799362182617,
+        "percentage_change": 4.052305951721391
+    },
+    {
+        "symbol": "ES",
+        "period": "50-day",
+        "current_price": 59.52000045776367,
+        "average": 63.18659965515137,
+        "difference": 3.666599197387697,
+        "percentage_change": 5.802811383107515
+    },
+    {
+        "symbol": "ES",
+        "period": "8-day",
+        "current_price": 59.52000045776367,
+        "average": 60.41250038146973,
+        "difference": 0.8924999237060547,
+        "percentage_change": 1.4773431294358583
+    },
+    {
+        "symbol": "NEM",
+        "period": "200-day",
+        "current_price": 40.220001220703125,
+        "average": 44.673749952316285,
+        "difference": 4.45374873161316,
+        "percentage_change": 9.969498276654607
+    },
+    {
+        "symbol": "NEM",
+        "period": "50-day",
+        "current_price": 40.220001220703125,
+        "average": 46.72600006103516,
+        "difference": 6.505998840332033,
+        "percentage_change": 13.923723048909958
+    },
+    {
+        "symbol": "NEM",
+        "period": "8-day",
+        "current_price": 40.220001220703125,
+        "average": 41.358750343322754,
+        "difference": 1.138749122619629,
+        "percentage_change": 2.7533450918288604
+    },
+    {
+        "symbol": "FNF",
+        "period": "50-day",
+        "current_price": 59.959999084472656,
+        "average": 60.95139991760254,
+        "difference": 0.9914008331298803,
+        "percentage_change": 1.6265431712316873
+    },
+    {
+        "symbol": "FNF",
+        "period": "8-day",
+        "current_price": 59.959999084472656,
+        "average": 60.980000019073486,
+        "difference": 1.02000093460083,
+        "percentage_change": 1.6726810991829968
+    },
+    {
+        "symbol": "TAP",
+        "period": "8-day",
+        "current_price": 61.06999969482422,
+        "average": 61.35624980926514,
+        "difference": 0.28625011444091797,
+        "percentage_change": 0.4665378267589174
+    },
+    {
+        "symbol": "CZR",
+        "period": "200-day",
+        "current_price": 37.0099983215332,
+        "average": 38.8097500705719,
+        "difference": 1.7997517490386983,
+        "percentage_change": 4.637370108712418
+    },
+    {
+        "symbol": "CZR",
+        "period": "50-day",
+        "current_price": 37.0099983215332,
+        "average": 40.69900001525879,
+        "difference": 3.6890016937255865,
+        "percentage_change": 9.064108927350828
+    },
+    {
+        "symbol": "CZR",
+        "period": "8-day",
+        "current_price": 37.0099983215332,
+        "average": 37.45437479019165,
+        "difference": 0.44437646865844727,
+        "percentage_change": 1.1864474341053963
+    },
+    {
+        "symbol": "LNC",
+        "period": "50-day",
+        "current_price": 32.95000076293945,
+        "average": 33.86079982757568,
+        "difference": 0.9107990646362296,
+        "percentage_change": 2.6898332859062877
+    },
+    {
+        "symbol": "LNC",
+        "period": "8-day",
+        "current_price": 32.95000076293945,
+        "average": 33.66874980926514,
+        "difference": 0.7187490463256836,
+        "percentage_change": 2.134766067636686
+    },
+    {
+        "symbol": "IFF",
+        "period": "200-day",
+        "current_price": 87.37999725341797,
+        "average": 94.27594978332519,
+        "difference": 6.89595252990722,
+        "percentage_change": 7.314646572913046
+    },
+    {
+        "symbol": "IFF",
+        "period": "50-day",
+        "current_price": 87.37999725341797,
+        "average": 95.38319961547852,
+        "difference": 8.003202362060549,
+        "percentage_change": 8.39057862844204
+    },
+    {
+        "symbol": "IFF",
+        "period": "8-day",
+        "current_price": 87.37999725341797,
+        "average": 88.52749919891357,
+        "difference": 1.1475019454956055,
+        "percentage_change": 1.2962096025295695
+    },
+    {
+        "symbol": "HII",
+        "period": "200-day",
+        "current_price": 192.32000732421875,
+        "average": 254.2777491760254,
+        "difference": 61.957741851806645,
+        "percentage_change": 24.36616733181636
+    },
+    {
+        "symbol": "HII",
+        "period": "50-day",
+        "current_price": 192.32000732421875,
+        "average": 218.75259979248048,
+        "difference": 26.43259246826173,
+        "percentage_change": 12.083327235121773
+    },
+    {
+        "symbol": "AAP",
+        "period": "200-day",
+        "current_price": 43.88999938964844,
+        "average": 58.06894989013672,
+        "difference": 14.178950500488284,
+        "percentage_change": 24.417439143146353
+    },
+    {
+        "symbol": "AAP",
+        "period": "8-day",
+        "current_price": 43.88999938964844,
+        "average": 45.07000017166138,
+        "difference": 1.1800007820129395,
+        "percentage_change": 2.618151270287519
+    },
+    {
+        "symbol": "PEG",
+        "period": "50-day",
+        "current_price": 86.80999755859375,
+        "average": 89.16339981079102,
+        "difference": 2.35340225219727,
+        "percentage_change": 2.6394263309735853
+    },
+    {
+        "symbol": "PEG",
+        "period": "8-day",
+        "current_price": 86.80999755859375,
+        "average": 88.23999881744385,
+        "difference": 1.4300012588500977,
+        "percentage_change": 1.620581684059821
+    },
+    {
+        "symbol": "HSY",
+        "period": "200-day",
+        "current_price": 182.99000549316406,
+        "average": 190.5322499847412,
+        "difference": 7.542244491577151,
+        "percentage_change": 3.9585133184440804
+    },
+    {
+        "symbol": "AMT",
+        "period": "200-day",
+        "current_price": 197.16000366210938,
+        "average": 205.95925025939943,
+        "difference": 8.79924659729005,
+        "percentage_change": 4.272324057408282
+    },
+    {
+        "symbol": "AMT",
+        "period": "50-day",
+        "current_price": 197.16000366210938,
+        "average": 210.65760009765626,
+        "difference": 13.497596435546882,
+        "percentage_change": 6.4073626725500015
+    },
+    {
+        "symbol": "AMT",
+        "period": "8-day",
+        "current_price": 197.16000366210938,
+        "average": 203.3662509918213,
+        "difference": 6.206247329711914,
+        "percentage_change": 3.0517587355049924
+    },
+    {
+        "symbol": "MHK",
+        "period": "200-day",
+        "current_price": 127.79499816894531,
+        "average": 133.04152523040773,
+        "difference": 5.246527061462416,
+        "percentage_change": 3.943525942277216
+    },
+    {
+        "symbol": "MHK",
+        "period": "50-day",
+        "current_price": 127.79499816894531,
+        "average": 142.93530029296875,
+        "difference": 15.140302124023435,
+        "percentage_change": 10.592416354106344
+    },
+    {
+        "symbol": "MHK",
+        "period": "8-day",
+        "current_price": 127.79499816894531,
+        "average": 130.8343734741211,
+        "difference": 3.0393753051757812,
+        "percentage_change": 2.3230709365356246
+    },
+    {
+        "symbol": "AIZ",
+        "period": "8-day",
+        "current_price": 217.7949981689453,
+        "average": 220.15687370300293,
+        "difference": 2.361875534057617,
+        "percentage_change": 1.0728148044307015
+    },
+    {
+        "symbol": "THO",
+        "period": "50-day",
+        "current_price": 104.5999984741211,
+        "average": 108.68940002441406,
+        "difference": 4.089401550292962,
+        "percentage_change": 3.762465842459698
+    },
+    {
+        "symbol": "THO",
+        "period": "8-day",
+        "current_price": 104.5999984741211,
+        "average": 105.43874931335449,
+        "difference": 0.8387508392333984,
+        "percentage_change": 0.7954863318235181
+    },
+    {
+        "symbol": "CE",
+        "period": "200-day",
+        "current_price": 68.62000274658203,
+        "average": 133.27155017852783,
+        "difference": 64.6515474319458,
+        "percentage_change": 48.51113935820505
+    },
+    {
+        "symbol": "CE",
+        "period": "50-day",
+        "current_price": 68.62000274658203,
+        "average": 99.88680053710938,
+        "difference": 31.26679779052735,
+        "percentage_change": 31.3022317487397
+    },
+    {
+        "symbol": "CE",
+        "period": "8-day",
+        "current_price": 68.62000274658203,
+        "average": 69.8075008392334,
+        "difference": 1.1874980926513672,
+        "percentage_change": 1.701103861870337
+    },
+    {
+        "symbol": "QRTEA",
+        "period": "200-day",
+        "current_price": 0.36730000376701355,
+        "average": 0.7184865002334118,
+        "difference": 0.3511864964663982,
+        "percentage_change": 48.8786492651302
+    },
+    {
+        "symbol": "QRTEA",
+        "period": "50-day",
+        "current_price": 0.36730000376701355,
+        "average": 0.4881459993124008,
+        "difference": 0.12084599554538727,
+        "percentage_change": 24.75611716896382
+    },
+    {
+        "symbol": "QRTEA",
+        "period": "8-day",
+        "current_price": 0.36730000376701355,
+        "average": 0.37216250225901604,
+        "difference": 0.004862498492002487,
+        "percentage_change": 1.3065525039431047
+    },
+    {
+        "symbol": "WMB",
+        "period": "8-day",
+        "current_price": 54.42499923706055,
+        "average": 55.5668740272522,
+        "difference": 1.1418747901916504,
+        "percentage_change": 2.0549559610490773
+    },
+    {
+        "symbol": "IPG",
+        "period": "200-day",
+        "current_price": 29.885000228881836,
+        "average": 30.745175018310547,
+        "difference": 0.8601747894287115,
+        "percentage_change": 2.7977553841096277
+    },
+    {
+        "symbol": "IPG",
+        "period": "50-day",
+        "current_price": 29.885000228881836,
+        "average": 30.050100021362304,
+        "difference": 0.16509979248046847,
+        "percentage_change": 0.549415117963337
+    },
+    {
+        "symbol": "OVV",
+        "period": "200-day",
+        "current_price": 40.5099983215332,
+        "average": 45.94680004119873,
+        "difference": 5.4368017196655245,
+        "percentage_change": 11.832819075083693
+    },
+    {
+        "symbol": "OVV",
+        "period": "50-day",
+        "current_price": 40.5099983215332,
+        "average": 42.28159996032715,
+        "difference": 1.7716016387939462,
+        "percentage_change": 4.190006150326007
+    },
+    {
+        "symbol": "OVV",
+        "period": "8-day",
+        "current_price": 40.5099983215332,
+        "average": 41.65499925613403,
+        "difference": 1.14500093460083,
+        "percentage_change": 2.748771948260735
+    },
+    {
+        "symbol": "IEP",
+        "period": "200-day",
+        "current_price": 10.069999694824219,
+        "average": 15.318900046348572,
+        "difference": 5.2489003515243535,
+        "percentage_change": 34.26421176222432
+    },
+    {
+        "symbol": "IEP",
+        "period": "50-day",
+        "current_price": 10.069999694824219,
+        "average": 12.635600109100341,
+        "difference": 2.5656004142761226,
+        "percentage_change": 20.304539492574953
+    },
+    {
+        "symbol": "IEP",
+        "period": "8-day",
+        "current_price": 10.069999694824219,
+        "average": 10.377500057220459,
+        "difference": 0.30750036239624023,
+        "percentage_change": 2.96314488750388
+    },
+    {
+        "symbol": "HBAN",
+        "period": "8-day",
+        "current_price": 17.170000076293945,
+        "average": 17.395000219345093,
+        "difference": 0.22500014305114746,
+        "percentage_change": 1.2934759425925348
+    },
+    {
+        "symbol": "CVNA",
+        "period": "8-day",
+        "current_price": 248.25999450683594,
+        "average": 249.32500076293945,
+        "difference": 1.0650062561035156,
+        "percentage_change": 0.4271558218568436
+    },
+    {
+        "symbol": "HES",
+        "period": "200-day",
+        "current_price": 140.1300048828125,
+        "average": 145.1307500076294,
+        "difference": 5.000745124816888,
+        "percentage_change": 3.4456826858222698
+    },
+    {
+        "symbol": "HES",
+        "period": "50-day",
+        "current_price": 140.1300048828125,
+        "average": 141.5179995727539,
+        "difference": 1.3879946899413937,
+        "percentage_change": 0.9807902133522108
+    },
+    {
+        "symbol": "HES",
+        "period": "8-day",
+        "current_price": 140.1300048828125,
+        "average": 142.38375091552734,
+        "difference": 2.2537460327148438,
+        "percentage_change": 1.5828674397347025
+    },
+    {
+        "symbol": "AA",
+        "period": "50-day",
+        "current_price": 39.10499954223633,
+        "average": 42.513499908447265,
+        "difference": 3.408500366210937,
+        "percentage_change": 8.01745415821124
+    },
+    {
+        "symbol": "AA",
+        "period": "8-day",
+        "current_price": 39.10499954223633,
+        "average": 41.984375,
+        "difference": 2.879375457763672,
+        "percentage_change": 6.85820726821269
+    },
+    {
+        "symbol": "KLAC",
+        "period": "200-day",
+        "current_price": 653.760009765625,
+        "average": 734.8104000854493,
+        "difference": 81.05039031982426,
+        "percentage_change": 11.030109305801757
+    },
+    {
+        "symbol": "KLAC",
+        "period": "50-day",
+        "current_price": 653.760009765625,
+        "average": 677.968798828125,
+        "difference": 24.208789062500045,
+        "percentage_change": 3.5707821811778286
+    },
+    {
+        "symbol": "ALV",
+        "period": "200-day",
+        "current_price": 97.55000305175781,
+        "average": 106.95649974822999,
+        "difference": 9.406496696472175,
+        "percentage_change": 8.794693841528636
+    },
+    {
+        "symbol": "ALV",
+        "period": "8-day",
+        "current_price": 97.55000305175781,
+        "average": 97.97249984741211,
+        "difference": 0.4224967956542969,
+        "percentage_change": 0.4312401911886674
+    },
+    {
+        "symbol": "KEY",
+        "period": "50-day",
+        "current_price": 18.125,
+        "average": 18.185899963378905,
+        "difference": 0.06089996337890469,
+        "percentage_change": 0.33487461990629797
+    },
+    {
+        "symbol": "KEY",
+        "period": "8-day",
+        "current_price": 18.125,
+        "average": 18.473124980926514,
+        "difference": 0.34812498092651367,
+        "percentage_change": 1.8844942655124806
+    },
+    {
+        "symbol": "LVS",
+        "period": "8-day",
+        "current_price": 53.880001068115234,
+        "average": 54.326250076293945,
+        "difference": 0.44624900817871094,
+        "percentage_change": 0.8214242793346016
+    },
+    {
+        "symbol": "OMI",
+        "period": "200-day",
+        "current_price": 13.949999809265137,
+        "average": 17.416900010108947,
+        "difference": 3.46690020084381,
+        "percentage_change": 19.90538039967839
+    },
+    {
+        "symbol": "OMI",
+        "period": "8-day",
+        "current_price": 13.949999809265137,
+        "average": 14.149999856948853,
+        "difference": 0.20000004768371582,
+        "percentage_change": 1.4134279131140683
+    },
+    {
+        "symbol": "HLT",
+        "period": "8-day",
+        "current_price": 252.72000122070312,
+        "average": 254.64374923706055,
+        "difference": 1.9237480163574219,
+        "percentage_change": 0.7554664200952009
+    },
+    {
+        "symbol": "AJG",
+        "period": "50-day",
+        "current_price": 284.5400085449219,
+        "average": 292.8115985107422,
+        "difference": 8.27158996582034,
+        "percentage_change": 2.8248846725642545
+    },
+    {
+        "symbol": "AJG",
+        "period": "8-day",
+        "current_price": 284.5400085449219,
+        "average": 291.55624771118164,
+        "difference": 7.016239166259766,
+        "percentage_change": 2.406478757131666
+    },
+    {
+        "symbol": "CINF",
+        "period": "8-day",
+        "current_price": 152.22000122070312,
+        "average": 153.6287498474121,
+        "difference": 1.4087486267089844,
+        "percentage_change": 0.9169824190512442
+    },
+    {
+        "symbol": "TOL",
+        "period": "200-day",
+        "current_price": 133.8350067138672,
+        "average": 134.20747535705567,
+        "difference": 0.3724686431884834,
+        "percentage_change": 0.27753196474156133
+    },
+    {
+        "symbol": "TOL",
+        "period": "50-day",
+        "current_price": 133.8350067138672,
+        "average": 152.75870056152343,
+        "difference": 18.92369384765624,
+        "percentage_change": 12.387964664595152
+    },
+    {
+        "symbol": "TOL",
+        "period": "8-day",
+        "current_price": 133.8350067138672,
+        "average": 147.62062644958496,
+        "difference": 13.785619735717773,
+        "percentage_change": 9.338545748839378
+    },
+    {
+        "symbol": "MSI",
+        "period": "50-day",
+        "current_price": 469.6199951171875,
+        "average": 477.72540100097655,
+        "difference": 8.105405883789047,
+        "percentage_change": 1.6966662996788147
+    },
+    {
+        "symbol": "MSI",
+        "period": "8-day",
+        "current_price": 469.6199951171875,
+        "average": 482.0474967956543,
+        "difference": 12.427501678466797,
+        "percentage_change": 2.578065804941824
+    },
+    {
+        "symbol": "ABNB",
+        "period": "200-day",
+        "current_price": 130.99000549316406,
+        "average": 141.85735008239746,
+        "difference": 10.867344589233397,
+        "percentage_change": 7.660755387663121
+    },
+    {
+        "symbol": "ABNB",
+        "period": "50-day",
+        "current_price": 130.99000549316406,
+        "average": 135.7379998779297,
+        "difference": 4.747994384765633,
+        "percentage_change": 3.4979109674781883
+    },
+    {
+        "symbol": "ABNB",
+        "period": "8-day",
+        "current_price": 130.99000549316406,
+        "average": 136.89750289916992,
+        "difference": 5.907497406005859,
+        "percentage_change": 4.315270389085877
+    },
+    {
+        "symbol": "ICE",
+        "period": "50-day",
+        "current_price": 155.5800018310547,
+        "average": 159.92139984130858,
+        "difference": 4.341398010253897,
+        "percentage_change": 2.714707359091344
+    },
+    {
+        "symbol": "ICE",
+        "period": "8-day",
+        "current_price": 155.5800018310547,
+        "average": 156.64875030517578,
+        "difference": 1.0687484741210938,
+        "percentage_change": 0.6822578999443072
+    },
+    {
+        "symbol": "NWSA",
+        "period": "8-day",
+        "current_price": 28.610000610351562,
+        "average": 29.202499866485596,
+        "difference": 0.5924992561340332,
+        "percentage_change": 2.0289333407857253
+    },
+    {
+        "symbol": "CMG",
+        "period": "8-day",
+        "current_price": 64.61000061035156,
+        "average": 65.03250122070312,
+        "difference": 0.4225006103515625,
+        "percentage_change": 0.6496760887570772
+    },
+    {
+        "symbol": "VRTX",
+        "period": "50-day",
+        "current_price": 463.7300109863281,
+        "average": 473.33900146484376,
+        "difference": 9.608990478515636,
+        "percentage_change": 2.0300441013266735
+    },
+    {
+        "symbol": "VRTX",
+        "period": "8-day",
+        "current_price": 463.7300109863281,
+        "average": 465.66750717163086,
+        "difference": 1.9374961853027344,
+        "percentage_change": 0.4160685801486751
+    },
+    {
+        "symbol": "BIIB",
+        "period": "200-day",
+        "current_price": 150.02999877929688,
+        "average": 203.14545028686524,
+        "difference": 53.115451507568366,
+        "percentage_change": 26.146512970171425
+    },
+    {
+        "symbol": "BIIB",
+        "period": "50-day",
+        "current_price": 150.02999877929688,
+        "average": 171.7193991088867,
+        "difference": 21.68940032958983,
+        "percentage_change": 12.630722237641102
+    },
+    {
+        "symbol": "BIIB",
+        "period": "8-day",
+        "current_price": 150.02999877929688,
+        "average": 156.69500160217285,
+        "difference": 6.665002822875977,
+        "percentage_change": 4.2534878296868115
+    },
+    {
+        "symbol": "GXO",
+        "period": "200-day",
+        "current_price": 48.47999954223633,
+        "average": 52.350999946594236,
+        "difference": 3.8710004043579076,
+        "percentage_change": 7.3943198951441245
+    },
+    {
+        "symbol": "GXO",
+        "period": "50-day",
+        "current_price": 48.47999954223633,
+        "average": 57.859000015258786,
+        "difference": 9.379000473022458,
+        "percentage_change": 16.210097773119124
+    },
+    {
+        "symbol": "GXO",
+        "period": "8-day",
+        "current_price": 48.47999954223633,
+        "average": 49.54124975204468,
+        "difference": 1.0612502098083496,
+        "percentage_change": 2.142154699608783
+    },
+    {
+        "symbol": "SPTN",
+        "period": "200-day",
+        "current_price": 19.6200008392334,
+        "average": 20.116699991226195,
+        "difference": 0.4966991519927966,
+        "percentage_change": 2.4690886288975307
+    },
+    {
+        "symbol": "SPTN",
+        "period": "50-day",
+        "current_price": 19.6200008392334,
+        "average": 20.115199966430666,
+        "difference": 0.49519912719726733,
+        "percentage_change": 2.4618155823639953
+    },
+    {
+        "symbol": "BURL",
+        "period": "8-day",
+        "current_price": 289.9700012207031,
+        "average": 291.1899948120117,
+        "difference": 1.2199935913085938,
+        "percentage_change": 0.41896823827899893
+    },
+    {
+        "symbol": "NVR",
+        "period": "50-day",
+        "current_price": 8572.9501953125,
+        "average": 9253.6619921875,
+        "difference": 680.7117968750008,
+        "percentage_change": 7.356134225020308
+    },
+    {
+        "symbol": "NVR",
+        "period": "8-day",
+        "current_price": 8572.9501953125,
+        "average": 8893.396240234375,
+        "difference": 320.446044921875,
+        "percentage_change": 3.603190910038998
+    },
+    {
+        "symbol": "WAB",
+        "period": "8-day",
+        "current_price": 199.6199951171875,
+        "average": 202.7549991607666,
+        "difference": 3.1350040435791016,
+        "percentage_change": 1.5462030808391183
+    },
+    {
+        "symbol": "OC",
+        "period": "8-day",
+        "current_price": 191.44000244140625,
+        "average": 198.20625114440918,
+        "difference": 6.76624870300293,
+        "percentage_change": 3.4137413244717365
+    },
+    {
+        "symbol": "OSK",
+        "period": "200-day",
+        "current_price": 100.0,
+        "average": 109.69395004272461,
+        "difference": 9.693950042724609,
+        "percentage_change": 8.837269547635872
+    },
+    {
+        "symbol": "OSK",
+        "period": "50-day",
+        "current_price": 100.0,
+        "average": 107.12979934692383,
+        "difference": 7.129799346923832,
+        "percentage_change": 6.655290489096356
+    },
+    {
+        "symbol": "OSK",
+        "period": "8-day",
+        "current_price": 100.0,
+        "average": 105.23124885559082,
+        "difference": 5.23124885559082,
+        "percentage_change": 4.971193359844736
+    },
+    {
+        "symbol": "GPN",
+        "period": "8-day",
+        "current_price": 114.20999908447266,
+        "average": 116.26624965667725,
+        "difference": 2.05625057220459,
+        "percentage_change": 1.7685704822134496
+    },
+    {
+        "symbol": "ALB",
+        "period": "200-day",
+        "current_price": 99.36000061035156,
+        "average": 105.14025005340577,
+        "difference": 5.780249443054203,
+        "percentage_change": 5.497656168896438
+    },
+    {
+        "symbol": "ALB",
+        "period": "50-day",
+        "current_price": 99.36000061035156,
+        "average": 101.9429998779297,
+        "difference": 2.5829992675781313,
+        "percentage_change": 2.5337681554114653
+    },
+    {
+        "symbol": "ALB",
+        "period": "8-day",
+        "current_price": 99.36000061035156,
+        "average": 103.60125064849854,
+        "difference": 4.241250038146973,
+        "percentage_change": 4.093821273004526
+    },
+    {
+        "symbol": "SEB",
+        "period": "200-day",
+        "current_price": 2541.0,
+        "average": 3078.1074487304686,
+        "difference": 537.1074487304686,
+        "percentage_change": 17.449275494005015
+    },
+    {
+        "symbol": "SEB",
+        "period": "50-day",
+        "current_price": 2541.0,
+        "average": 2789.36220703125,
+        "difference": 248.3622070312499,
+        "percentage_change": 8.903906649527048
+    },
+    {
+        "symbol": "SEB",
+        "period": "8-day",
+        "current_price": 2541.0,
+        "average": 2591.3175048828125,
+        "difference": 50.3175048828125,
+        "percentage_change": 1.9417730474169745
+    },
+    {
+        "symbol": "STZ",
+        "period": "200-day",
+        "current_price": 239.60000610351562,
+        "average": 250.1609499359131,
+        "difference": 10.56094383239747,
+        "percentage_change": 4.221659629571682
+    },
+    {
+        "symbol": "STZ",
+        "period": "8-day",
+        "current_price": 239.60000610351562,
+        "average": 240.33125114440918,
+        "difference": 0.7312450408935547,
+        "percentage_change": 0.3042654825003043
+    },
+    {
+        "symbol": "GPK",
+        "period": "8-day",
+        "current_price": 29.3700008392334,
+        "average": 29.49500012397766,
+        "difference": 0.1249992847442627,
+        "percentage_change": 0.4237982173888713
+    },
+    {
+        "symbol": "HTZ",
+        "period": "200-day",
+        "current_price": 4.21999979019165,
+        "average": 4.437500003576279,
+        "difference": 0.21750021338462844,
+        "percentage_change": 4.901413255421751
+    },
+    {
+        "symbol": "HTZ",
+        "period": "8-day",
+        "current_price": 4.21999979019165,
+        "average": 4.483749985694885,
+        "difference": 0.26375019550323486,
+        "percentage_change": 5.882357320205472
+    },
+    {
+        "symbol": "CPB",
+        "period": "200-day",
+        "current_price": 42.9900016784668,
+        "average": 46.08574993133545,
+        "difference": 3.0957482528686526,
+        "percentage_change": 6.7173654708475
+    },
+    {
+        "symbol": "CPB",
+        "period": "50-day",
+        "current_price": 42.9900016784668,
+        "average": 45.76460006713867,
+        "difference": 2.774598388671876,
+        "percentage_change": 6.062761139836072
+    },
+    {
+        "symbol": "EXPD",
+        "period": "200-day",
+        "current_price": 118.5199966430664,
+        "average": 120.73384998321534,
+        "difference": 2.2138533401489298,
+        "percentage_change": 1.833664163328432
+    },
+    {
+        "symbol": "EXPD",
+        "period": "50-day",
+        "current_price": 118.5199966430664,
+        "average": 120.43619979858398,
+        "difference": 1.9162031555175787,
+        "percentage_change": 1.5910524898014162
+    },
+    {
+        "symbol": "EXPD",
+        "period": "8-day",
+        "current_price": 118.5199966430664,
+        "average": 120.16749858856201,
+        "difference": 1.6475019454956055,
+        "percentage_change": 1.3710046101038014
+    },
+    {
+        "symbol": "AMRK",
+        "period": "200-day",
+        "current_price": 28.420000076293945,
+        "average": 36.07912480354309,
+        "difference": 7.659124727249143,
+        "percentage_change": 21.228687693934837
+    },
+    {
+        "symbol": "AMRK",
+        "period": "50-day",
+        "current_price": 28.420000076293945,
+        "average": 34.94139972686767,
+        "difference": 6.521399650573727,
+        "percentage_change": 18.663819141621833
+    },
+    {
+        "symbol": "AMRK",
+        "period": "8-day",
+        "current_price": 28.420000076293945,
+        "average": 28.87000012397766,
+        "difference": 0.4500000476837158,
+        "percentage_change": 1.558711623662146
+    },
+    {
+        "symbol": "BAH",
+        "period": "200-day",
+        "current_price": 134.4149932861328,
+        "average": 153.41632484436036,
+        "difference": 19.001331558227548,
+        "percentage_change": 12.385469132769442
+    },
+    {
+        "symbol": "BAH",
+        "period": "50-day",
+        "current_price": 134.4149932861328,
+        "average": 160.23789978027344,
+        "difference": 25.822906494140625,
+        "percentage_change": 16.11535506241054
+    },
+    {
+        "symbol": "BAH",
+        "period": "8-day",
+        "current_price": 134.4149932861328,
+        "average": 140.06187629699707,
+        "difference": 5.646883010864258,
+        "percentage_change": 4.031705957508529
+    },
+    {
+        "symbol": "DGX",
+        "period": "50-day",
+        "current_price": 154.94000244140625,
+        "average": 156.3066000366211,
+        "difference": 1.3665975952148415,
+        "percentage_change": 0.8743057522169001
+    },
+    {
+        "symbol": "DGX",
+        "period": "8-day",
+        "current_price": 154.94000244140625,
+        "average": 157.43375396728516,
+        "difference": 2.4937515258789062,
+        "percentage_change": 1.5840005481906438
+    },
+    {
+        "symbol": "PVH",
+        "period": "8-day",
+        "current_price": 108.51000213623047,
+        "average": 108.96000003814697,
+        "difference": 0.4499979019165039,
+        "percentage_change": 0.41299366901519763
+    },
+    {
+        "symbol": "EMN",
+        "period": "200-day",
+        "current_price": 98.55000305175781,
+        "average": 100.2989998626709,
+        "difference": 1.7489968109130842,
+        "percentage_change": 1.7437829024295415
+    },
+    {
+        "symbol": "EMN",
+        "period": "50-day",
+        "current_price": 98.55000305175781,
+        "average": 104.4281999206543,
+        "difference": 5.878196868896481,
+        "percentage_change": 5.628936315442381
+    },
+    {
+        "symbol": "EMN",
+        "period": "8-day",
+        "current_price": 98.55000305175781,
+        "average": 100.19250106811523,
+        "difference": 1.6424980163574219,
+        "percentage_change": 1.639342264987257
+    },
+    {
+        "symbol": "NSIT",
+        "period": "200-day",
+        "current_price": 158.94000244140625,
+        "average": 194.36315002441407,
+        "difference": 35.42314758300782,
+        "percentage_change": 18.22523846652943
+    },
+    {
+        "symbol": "NSIT",
+        "period": "50-day",
+        "current_price": 158.94000244140625,
+        "average": 181.9720001220703,
+        "difference": 23.031997680664062,
+        "percentage_change": 12.65689098609333
+    },
+    {
+        "symbol": "NSIT",
+        "period": "8-day",
+        "current_price": 158.94000244140625,
+        "average": 161.64250373840332,
+        "difference": 2.7025012969970703,
+        "percentage_change": 1.671900171362543
+    },
+    {
+        "symbol": "RF",
+        "period": "8-day",
+        "current_price": 25.100000381469727,
+        "average": 25.682499885559082,
+        "difference": 0.5824995040893555,
+        "percentage_change": 2.268079457548784
+    },
+    {
+        "symbol": "BECN",
+        "period": "8-day",
+        "current_price": 106.3499984741211,
+        "average": 110.01999950408936,
+        "difference": 3.6700010299682617,
+        "percentage_change": 3.3357580862667167
+    },
+    {
+        "symbol": "PII",
+        "period": "200-day",
+        "current_price": 63.09000015258789,
+        "average": 81.08054988861085,
+        "difference": 17.990549736022956,
+        "percentage_change": 22.18849003952061
+    },
+    {
+        "symbol": "PII",
+        "period": "50-day",
+        "current_price": 63.09000015258789,
+        "average": 71.3684001159668,
+        "difference": 8.278399963378902,
+        "percentage_change": 11.599531375128626
+    },
+    {
+        "symbol": "PII",
+        "period": "8-day",
+        "current_price": 63.09000015258789,
+        "average": 64.75125122070312,
+        "difference": 1.6612510681152344,
+        "percentage_change": 2.5655891381201252
+    },
+    {
+        "symbol": "NOW",
+        "period": "8-day",
+        "current_price": 1121.489990234375,
+        "average": 1129.5749969482422,
+        "difference": 8.085006713867188,
+        "percentage_change": 0.7157565222061698
+    },
+    {
+        "symbol": "WEC",
+        "period": "50-day",
+        "current_price": 95.73999786376953,
+        "average": 97.55559997558593,
+        "difference": 1.8156021118164034,
+        "percentage_change": 1.8610947113961396
+    },
+    {
+        "symbol": "WEC",
+        "period": "8-day",
+        "current_price": 95.73999786376953,
+        "average": 96.82874965667725,
+        "difference": 1.0887517929077148,
+        "percentage_change": 1.1244096373939239
+    },
+    {
+        "symbol": "CTAS",
+        "period": "50-day",
+        "current_price": 211.22000122070312,
+        "average": 214.73960052490236,
+        "difference": 3.5195993041992324,
+        "percentage_change": 1.6390080337283113
+    },
+    {
+        "symbol": "CTAS",
+        "period": "8-day",
+        "current_price": 211.22000122070312,
+        "average": 215.34375190734863,
+        "difference": 4.123750686645508,
+        "percentage_change": 1.9149618459418996
+    },
+    {
+        "symbol": "CMC",
+        "period": "50-day",
+        "current_price": 57.22999954223633,
+        "average": 57.73779983520508,
+        "difference": 0.5078002929687528,
+        "percentage_change": 0.8794936669185762
+    },
+    {
+        "symbol": "CMC",
+        "period": "8-day",
+        "current_price": 57.22999954223633,
+        "average": 60.838749408721924,
+        "difference": 3.6087498664855957,
+        "percentage_change": 5.931663457185135
+    },
+    {
+        "symbol": "NGL",
+        "period": "200-day",
+        "current_price": 4.642000198364258,
+        "average": 4.9744599914550784,
+        "difference": 0.33245979309082063,
+        "percentage_change": 6.683334345072758
+    },
+    {
+        "symbol": "NGL",
+        "period": "8-day",
+        "current_price": 4.642000198364258,
+        "average": 4.642750024795532,
+        "difference": 0.0007498264312744141,
+        "percentage_change": 0.01615048036766607
+    },
+    {
+        "symbol": "DASH",
+        "period": "8-day",
+        "current_price": 175.08999633789062,
+        "average": 176.03874969482422,
+        "difference": 0.9487533569335938,
+        "percentage_change": 0.5389457483527494
+    },
+    {
+        "symbol": "NOV",
+        "period": "200-day",
+        "current_price": 14.975000381469727,
+        "average": 17.62697504043579,
+        "difference": 2.651974658966065,
+        "percentage_change": 15.044978805963636
+    },
+    {
+        "symbol": "NOV",
+        "period": "50-day",
+        "current_price": 14.975000381469727,
+        "average": 15.847100143432618,
+        "difference": 0.8720997619628914,
+        "percentage_change": 5.5032135473966095
+    },
+    {
+        "symbol": "NOV",
+        "period": "8-day",
+        "current_price": 14.975000381469727,
+        "average": 15.266875147819519,
+        "difference": 0.2918747663497925,
+        "percentage_change": 1.911817339984465
+    },
+    {
+        "symbol": "ZTS",
+        "period": "50-day",
+        "current_price": 178.24000549316406,
+        "average": 180.83740020751952,
+        "difference": 2.5973947143554597,
+        "percentage_change": 1.4363150052891855
+    },
+    {
+        "symbol": "SJM",
+        "period": "200-day",
+        "current_price": 113.4800033569336,
+        "average": 116.30705009460449,
+        "difference": 2.827046737670898,
+        "percentage_change": 2.430675299022174
+    },
+    {
+        "symbol": "SJM",
+        "period": "50-day",
+        "current_price": 113.4800033569336,
+        "average": 115.66360015869141,
+        "difference": 2.1835968017578153,
+        "percentage_change": 1.8878859025327783
+    },
+    {
+        "symbol": "SJM",
+        "period": "8-day",
+        "current_price": 113.4800033569336,
+        "average": 115.20625019073486,
+        "difference": 1.7262468338012695,
+        "percentage_change": 1.4983968586281597
+    },
+    {
+        "symbol": "MCHP",
+        "period": "200-day",
+        "current_price": 59.93000030517578,
+        "average": 82.94459983825683,
+        "difference": 23.014599533081054,
+        "percentage_change": 27.746953482155384
+    },
+    {
+        "symbol": "MCHP",
+        "period": "50-day",
+        "current_price": 59.93000030517578,
+        "average": 70.68279983520507,
+        "difference": 10.752799530029293,
+        "percentage_change": 15.212752685376268
+    },
+    {
+        "symbol": "MCHP",
+        "period": "8-day",
+        "current_price": 59.93000030517578,
+        "average": 60.739999771118164,
+        "difference": 0.8099994659423828,
+        "percentage_change": 1.333551973978665
+    },
+    {
+        "symbol": "DOV",
+        "period": "8-day",
+        "current_price": 201.05999755859375,
+        "average": 201.64875030517578,
+        "difference": 0.5887527465820312,
+        "percentage_change": 0.2919694496945859
+    },
+    {
+        "symbol": "FANG",
+        "period": "200-day",
+        "current_price": 163.3699951171875,
+        "average": 190.7324998474121,
+        "difference": 27.3625047302246,
+        "percentage_change": 14.346010644287091
+    },
+    {
+        "symbol": "FANG",
+        "period": "50-day",
+        "current_price": 163.3699951171875,
+        "average": 179.8570001220703,
+        "difference": 16.487005004882803,
+        "percentage_change": 9.166729676183273
+    },
+    {
+        "symbol": "FANG",
+        "period": "8-day",
+        "current_price": 163.3699951171875,
+        "average": 166.28374671936035,
+        "difference": 2.9137516021728516,
+        "percentage_change": 1.7522768518623981
+    },
+    {
+        "symbol": "AVY",
+        "period": "200-day",
+        "current_price": 195.00999450683594,
+        "average": 215.6369500732422,
+        "difference": 20.626955566406252,
+        "percentage_change": 9.565594189400379
+    },
+    {
+        "symbol": "AVY",
+        "period": "50-day",
+        "current_price": 195.00999450683594,
+        "average": 206.704599609375,
+        "difference": 11.694605102539072,
+        "percentage_change": 5.657641448056421
+    },
+    {
+        "symbol": "AVY",
+        "period": "8-day",
+        "current_price": 195.00999450683594,
+        "average": 200.73624801635742,
+        "difference": 5.726253509521484,
+        "percentage_change": 2.8526255552285047
+    },
+    {
+        "symbol": "PPL",
+        "period": "50-day",
+        "current_price": 32.290000915527344,
+        "average": 33.06060005187988,
+        "difference": 0.7705991363525371,
+        "percentage_change": 2.330868572086669
+    },
+    {
+        "symbol": "PPL",
+        "period": "8-day",
+        "current_price": 32.290000915527344,
+        "average": 33.136250019073486,
+        "difference": 0.8462491035461426,
+        "percentage_change": 2.5538469291456787
+    },
+    {
+        "symbol": "ON",
+        "period": "200-day",
+        "current_price": 65.95999908447266,
+        "average": 71.54400001525879,
+        "difference": 5.584000930786132,
+        "percentage_change": 7.804988440114036
+    },
+    {
+        "symbol": "ON",
+        "period": "50-day",
+        "current_price": 65.95999908447266,
+        "average": 69.47699951171874,
+        "difference": 3.5170004272460886,
+        "percentage_change": 5.062107534814991
+    },
+    {
+        "symbol": "ON",
+        "period": "8-day",
+        "current_price": 65.95999908447266,
+        "average": 66.6612491607666,
+        "difference": 0.7012500762939453,
+        "percentage_change": 1.051960599482233
+    },
+    {
+        "symbol": "PARR",
+        "period": "200-day",
+        "current_price": 16.450000762939453,
+        "average": 24.672000064849854,
+        "difference": 8.221999301910401,
+        "percentage_change": 33.325224060874845
+    },
+    {
+        "symbol": "PARR",
+        "period": "50-day",
+        "current_price": 16.450000762939453,
+        "average": 17.021200065612792,
+        "difference": 0.5711993026733388,
+        "percentage_change": 3.3558109914195096
+    },
+    {
+        "symbol": "APA",
+        "period": "200-day",
+        "current_price": 22.860000610351562,
+        "average": 28.24600010871887,
+        "difference": 5.385999498367308,
+        "percentage_change": 19.068184796560907
+    },
+    {
+        "symbol": "APA",
+        "period": "50-day",
+        "current_price": 22.860000610351562,
+        "average": 23.59640007019043,
+        "difference": 0.7363994598388679,
+        "percentage_change": 3.1208127411315116
+    },
+    {
+        "symbol": "EQIX",
+        "period": "8-day",
+        "current_price": 965.0,
+        "average": 971.1262435913086,
+        "difference": 6.126243591308594,
+        "percentage_change": 0.6308390522588717
+    },
+    {
+        "symbol": "FL",
+        "period": "200-day",
+        "current_price": 21.78499984741211,
+        "average": 25.19567503929138,
+        "difference": 3.410675191879271,
+        "percentage_change": 13.53674861483368
+    },
+    {
+        "symbol": "FL",
+        "period": "50-day",
+        "current_price": 21.78499984741211,
+        "average": 23.557499961853026,
+        "difference": 1.7725001144409163,
+        "percentage_change": 7.524143552206938
+    },
+    {
+        "symbol": "INGR",
+        "period": "8-day",
+        "current_price": 144.35000610351562,
+        "average": 145.34249877929688,
+        "difference": 0.99249267578125,
+        "percentage_change": 0.6828647395751423
+    },
+    {
+        "symbol": "ABM",
+        "period": "8-day",
+        "current_price": 56.130001068115234,
+        "average": 56.78000020980835,
+        "difference": 0.6499991416931152,
+        "percentage_change": 1.1447677690935134
+    },
+    {
+        "symbol": "PLD",
+        "period": "200-day",
+        "current_price": 111.09500122070312,
+        "average": 118.67632495880127,
+        "difference": 7.581323738098149,
+        "percentage_change": 6.388236019888567
+    },
+    {
+        "symbol": "PLD",
+        "period": "50-day",
+        "current_price": 111.09500122070312,
+        "average": 116.5372998046875,
+        "difference": 5.442298583984382,
+        "percentage_change": 4.670005734735133
+    },
+    {
+        "symbol": "PLD",
+        "period": "8-day",
+        "current_price": 111.09500122070312,
+        "average": 113.01437568664551,
+        "difference": 1.9193744659423828,
+        "percentage_change": 1.6983454133872529
+    },
+    {
+        "symbol": "SKX",
+        "period": "8-day",
+        "current_price": 70.33999633789062,
+        "average": 70.72875022888184,
+        "difference": 0.38875389099121094,
+        "percentage_change": 0.5496405489043473
+    },
+    {
+        "symbol": "MAS",
+        "period": "50-day",
+        "current_price": 78.73999786376953,
+        "average": 81.0911996459961,
+        "difference": 2.3512017822265676,
+        "percentage_change": 2.8994536922511283
+    },
+    {
+        "symbol": "MAS",
+        "period": "8-day",
+        "current_price": 78.73999786376953,
+        "average": 79.95874977111816,
+        "difference": 1.2187519073486328,
+        "percentage_change": 1.5242258174837762
+    },
+    {
+        "symbol": "RUSHB",
+        "period": "8-day",
+        "current_price": 55.5099983215332,
+        "average": 56.34624910354614,
+        "difference": 0.8362507820129395,
+        "percentage_change": 1.4841285716750756
+    },
+    {
+        "symbol": "BEN",
+        "period": "200-day",
+        "current_price": 21.959999084472656,
+        "average": 22.841900005340577,
+        "difference": 0.8819009208679205,
+        "percentage_change": 3.860891259753902
+    },
+    {
+        "symbol": "BEN",
+        "period": "8-day",
+        "current_price": 21.959999084472656,
+        "average": 22.261249780654907,
+        "difference": 0.301250696182251,
+        "percentage_change": 1.3532514982336648
+    },
+    {
+        "symbol": "ODP",
+        "period": "200-day",
+        "current_price": 27.56999969482422,
+        "average": 37.432700080871584,
+        "difference": 9.862700386047365,
+        "percentage_change": 26.347819860014017
+    },
+    {
+        "symbol": "ODP",
+        "period": "50-day",
+        "current_price": 27.56999969482422,
+        "average": 28.490599975585937,
+        "difference": 0.9206002807617182,
+        "percentage_change": 3.2312421695246702
+    },
+    {
+        "symbol": "AFG",
+        "period": "8-day",
+        "current_price": 139.85000610351562,
+        "average": 141.30000114440918,
+        "difference": 1.4499950408935547,
+        "percentage_change": 1.0261819031492108
+    },
+    {
+        "symbol": "PKG",
+        "period": "8-day",
+        "current_price": 237.99000549316406,
+        "average": 240.59625053405762,
+        "difference": 2.6062450408935547,
+        "percentage_change": 1.0832442463705925
+    },
+    {
+        "symbol": "VMC",
+        "period": "8-day",
+        "current_price": 275.760009765625,
+        "average": 281.3887481689453,
+        "difference": 5.6287384033203125,
+        "percentage_change": 2.0003423875146664
+    },
+    {
+        "symbol": "IBKR",
+        "period": "8-day",
+        "current_price": 179.49000549316406,
+        "average": 182.07250022888184,
+        "difference": 2.5824947357177734,
+        "percentage_change": 1.4183881324589604
+    },
+    {
+        "symbol": "WY",
+        "period": "200-day",
+        "current_price": 30.040000915527344,
+        "average": 31.506900005340576,
+        "difference": 1.4668990898132321,
+        "percentage_change": 4.65580266406592
+    },
+    {
+        "symbol": "WY",
+        "period": "50-day",
+        "current_price": 30.040000915527344,
+        "average": 31.731799964904784,
+        "difference": 1.6917990493774404,
+        "percentage_change": 5.331557148502643
+    },
+    {
+        "symbol": "WY",
+        "period": "8-day",
+        "current_price": 30.040000915527344,
+        "average": 30.93499994277954,
+        "difference": 0.8949990272521973,
+        "percentage_change": 2.8931599447476213
+    },
+    {
+        "symbol": "CMS",
+        "period": "50-day",
+        "current_price": 67.33000183105469,
+        "average": 69.14119995117187,
+        "difference": 1.811198120117183,
+        "percentage_change": 2.6195641981861284
+    },
+    {
+        "symbol": "SAIC",
+        "period": "200-day",
+        "current_price": 113.05999755859375,
+        "average": 129.94725006103516,
+        "difference": 16.887252502441413,
+        "percentage_change": 12.995467387351104
+    },
+    {
+        "symbol": "SAIC",
+        "period": "50-day",
+        "current_price": 113.05999755859375,
+        "average": 135.71640060424804,
+        "difference": 22.656403045654287,
+        "percentage_change": 16.69393156964194
+    },
+    {
+        "symbol": "SAIC",
+        "period": "8-day",
+        "current_price": 113.05999755859375,
+        "average": 116.85249996185303,
+        "difference": 3.7925024032592773,
+        "percentage_change": 3.2455466545408576
+    },
+    {
+        "symbol": "BBWI",
+        "period": "200-day",
+        "current_price": 38.220001220703125,
+        "average": 38.28754988670349,
+        "difference": 0.0675486660003628,
+        "percentage_change": 0.17642462419310126
+    },
+    {
+        "symbol": "EA",
+        "period": "8-day",
+        "current_price": 157.52999877929688,
+        "average": 164.37499809265137,
+        "difference": 6.844999313354492,
+        "percentage_change": 4.164258185722533
+    },
+    {
+        "symbol": "TMHC",
+        "period": "50-day",
+        "current_price": 64.73999786376953,
+        "average": 69.69439987182618,
+        "difference": 4.954402008056647,
+        "percentage_change": 7.108751947313135
+    },
+    {
+        "symbol": "TMHC",
+        "period": "8-day",
+        "current_price": 64.73999786376953,
+        "average": 68.20874881744385,
+        "difference": 3.4687509536743164,
+        "percentage_change": 5.0854927173025795
+    },
+    {
+        "symbol": "ZBH",
+        "period": "200-day",
+        "current_price": 106.73999786376953,
+        "average": 113.23594985961914,
+        "difference": 6.495951995849609,
+        "percentage_change": 5.736651658685046
+    },
+    {
+        "symbol": "ZBH",
+        "period": "50-day",
+        "current_price": 106.73999786376953,
+        "average": 107.53539932250976,
+        "difference": 0.7954014587402298,
+        "percentage_change": 0.7396647650461023
+    },
+    {
+        "symbol": "ZBH",
+        "period": "8-day",
+        "current_price": 106.73999786376953,
+        "average": 108.27125072479248,
+        "difference": 1.5312528610229492,
+        "percentage_change": 1.4142746581132044
+    },
+    {
+        "symbol": "CLX",
+        "period": "8-day",
+        "current_price": 164.9759979248047,
+        "average": 166.69824981689453,
+        "difference": 1.7222518920898438,
+        "percentage_change": 1.033155353449486
+    },
+    {
+        "symbol": "XYL",
+        "period": "200-day",
+        "current_price": 120.61000061035156,
+        "average": 132.43610012054444,
+        "difference": 11.826099510192876,
+        "percentage_change": 8.92966456987835
+    },
+    {
+        "symbol": "XYL",
+        "period": "50-day",
+        "current_price": 120.61000061035156,
+        "average": 127.8704005432129,
+        "difference": 7.260399932861333,
+        "percentage_change": 5.677936333989766
+    },
+    {
+        "symbol": "XYL",
+        "period": "8-day",
+        "current_price": 120.61000061035156,
+        "average": 125.39000225067139,
+        "difference": 4.780001640319824,
+        "percentage_change": 3.812107468316303
+    },
+    {
+        "symbol": "VOYA",
+        "period": "200-day",
+        "current_price": 69.80999755859375,
+        "average": 73.80454982757568,
+        "difference": 3.994552268981934,
+        "percentage_change": 5.412338776286994
+    },
+    {
+        "symbol": "VOYA",
+        "period": "50-day",
+        "current_price": 69.80999755859375,
+        "average": 80.34659973144531,
+        "difference": 10.536602172851559,
+        "percentage_change": 13.113936629639152
+    },
+    {
+        "symbol": "VOYA",
+        "period": "8-day",
+        "current_price": 69.80999755859375,
+        "average": 76.02749824523926,
+        "difference": 6.217500686645508,
+        "percentage_change": 8.17796301357955
+    },
+    {
+        "symbol": "FAST",
+        "period": "50-day",
+        "current_price": 78.47000122070312,
+        "average": 79.19779998779296,
+        "difference": 0.7277987670898369,
+        "percentage_change": 0.9189633641363967
+    },
+    {
+        "symbol": "FAST",
+        "period": "8-day",
+        "current_price": 78.47000122070312,
+        "average": 80.22875118255615,
+        "difference": 1.7587499618530273,
+        "percentage_change": 2.192169186145111
+    },
+    {
+        "symbol": "WSO",
+        "period": "50-day",
+        "current_price": 509.9599914550781,
+        "average": 511.38739624023435,
+        "difference": 1.4274047851562273,
+        "percentage_change": 0.2791239666152577
+    },
+    {
+        "symbol": "WSO",
+        "period": "8-day",
+        "current_price": 509.9599914550781,
+        "average": 520.4212417602539,
+        "difference": 10.461250305175781,
+        "percentage_change": 2.01015052148756
+    },
+    {
+        "symbol": "ORI",
+        "period": "8-day",
+        "current_price": 36.79999923706055,
+        "average": 37.075000286102295,
+        "difference": 0.27500104904174805,
+        "percentage_change": 0.7417425405788418
+    },
+    {
+        "symbol": "RPM",
+        "period": "50-day",
+        "current_price": 132.39999389648438,
+        "average": 133.55899963378906,
+        "difference": 1.1590057373046818,
+        "percentage_change": 0.8677855782707324
+    },
+    {
+        "symbol": "RPM",
+        "period": "8-day",
+        "current_price": 132.39999389648438,
+        "average": 134.9987506866455,
+        "difference": 2.598756790161133,
+        "percentage_change": 1.9250228442434096
+    },
+    {
+        "symbol": "UFPI",
+        "period": "50-day",
+        "current_price": 126.86000061035156,
+        "average": 131.81240097045898,
+        "difference": 4.9524003601074185,
+        "percentage_change": 3.7571581457023315
+    },
+    {
+        "symbol": "UFPI",
+        "period": "8-day",
+        "current_price": 126.86000061035156,
+        "average": 131.0049991607666,
+        "difference": 4.144998550415039,
+        "percentage_change": 3.164000287751144
+    },
+    {
+        "symbol": "AEE",
+        "period": "8-day",
+        "current_price": 89.83999633789062,
+        "average": 91.04874897003174,
+        "difference": 1.2087526321411133,
+        "percentage_change": 1.3275884027126703
+    },
+    {
+        "symbol": "KNX",
+        "period": "8-day",
+        "current_price": 55.40999984741211,
+        "average": 56.1875,
+        "difference": 0.7775001525878906,
+        "percentage_change": 1.3837600046058118
+    },
+    {
+        "symbol": "MNST",
+        "period": "50-day",
+        "current_price": 52.75,
+        "average": 53.32959991455078,
+        "difference": 0.5795999145507835,
+        "percentage_change": 1.0868259193383558
+    },
+    {
+        "symbol": "MNST",
+        "period": "8-day",
+        "current_price": 52.75,
+        "average": 52.88874912261963,
+        "difference": 0.1387491226196289,
+        "percentage_change": 0.26234147133626995
+    },
+    {
+        "symbol": "ISRG",
+        "period": "8-day",
+        "current_price": 539.5800170898438,
+        "average": 544.1074981689453,
+        "difference": 4.5274810791015625,
+        "percentage_change": 0.8320931239392294
+    },
+    {
+        "symbol": "SMCI",
+        "period": "200-day",
+        "current_price": 36.45000076293945,
+        "average": 66.741789894104,
+        "difference": 30.29178913116455,
+        "percentage_change": 45.38653994630213
+    },
+    {
+        "symbol": "SMCI",
+        "period": "50-day",
+        "current_price": 36.45000076293945,
+        "average": 36.92160011291504,
+        "difference": 0.47159934997558395,
+        "percentage_change": 1.2772993275841809
+    },
+    {
+        "symbol": "SMCI",
+        "period": "8-day",
+        "current_price": 36.45000076293945,
+        "average": 40.53125047683716,
+        "difference": 4.081249713897705,
+        "percentage_change": 10.069390077737824
+    },
+    {
+        "symbol": "CNXC",
+        "period": "200-day",
+        "current_price": 44.130001068115234,
+        "average": 58.69859992980957,
+        "difference": 14.568598861694333,
+        "percentage_change": 24.819329386246228
+    },
+    {
+        "symbol": "CNXC",
+        "period": "50-day",
+        "current_price": 44.130001068115234,
+        "average": 44.52100006103515,
+        "difference": 0.39099899291991846,
+        "percentage_change": 0.8782349731225408
+    },
+    {
+        "symbol": "CNXC",
+        "period": "8-day",
+        "current_price": 44.130001068115234,
+        "average": 44.56624984741211,
+        "difference": 0.436248779296875,
+        "percentage_change": 0.9788770219404209
+    },
+    {
+        "symbol": "OI",
+        "period": "200-day",
+        "current_price": 11.399999618530273,
+        "average": 13.005150017738343,
+        "difference": 1.6051503992080693,
+        "percentage_change": 12.342421248649407
+    },
+    {
+        "symbol": "OI",
+        "period": "50-day",
+        "current_price": 11.399999618530273,
+        "average": 12.489000034332275,
+        "difference": 1.0890004158020012,
+        "percentage_change": 8.719676617890446
+    },
+    {
+        "symbol": "OI",
+        "period": "8-day",
+        "current_price": 11.399999618530273,
+        "average": 11.768749952316284,
+        "difference": 0.36875033378601074,
+        "percentage_change": 3.1333007777383752
+    }
+]

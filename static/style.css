@@ -1,0 +1,195 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif; /* Use a clean, sans-serif font for readability */
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+  background-color: #2b2b2b; /* Dark grey background for a sleek appearance */
+  color: #f1f1f1; /* Light grey text for contrast */
+}
+
+header {
+  background-color: #1e1e1e; /* Darker grey to distinguish the header */
+  color: #f1f1f1; /* Light grey text for consistency */
+  padding: 20px; /* Add padding for spacing */
+  text-align: center; /* Center-align header content */
+}
+
+header h1 {
+  color: #f1c40f; /* Yellow for header text to stand out */
+}
+
+main {
+  padding: 20px; /* Add padding around main content */
+}
+
+h1, h2, h3 {
+  color: #f1c40f; /* Yellow for headings for a consistent theme */
+  text-align: center; /* Center-align headings */
+}
+
+p {
+  color: #d3d3d3; /* Light grey for body text for subtlety */
+}
+
+/* Divided Section */
+#intro {
+  display: flex; /* Use flexbox for layout */
+  justify-content: space-between; /* Space out left and right sections evenly */
+  gap: 10px; /* Add space between left and right sections */
+  margin-bottom: 20px; /* Add space below the section */
+}
+
+#left-section, #right-section {
+  width: 48%; /* Make each section take up 48% of the container */
+  background-color: #3a3a3a; /* Slightly lighter grey for contrast */
+  padding: 15px; /* Add padding inside the sections */
+  border-radius: 8px; /* Round the corners */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Add subtle shadow for depth */
+  text-align: center; /* Center-align text inside sections */
+}
+
+/* Subscription and Unsubscription Section */
+#subscription {
+  display: flex; /* Use flexbox for layout */
+  justify-content: space-between; /* Keep sections side by side */
+  gap: 20px; /* Space between sections */
+  margin-top: 20px; /* Add space above the section */
+}
+
+#subscribe-section, #unsubscribe-section {
+  width: 48%; /* Make each section take up 48% of the container */
+  background-color: #3a3a3a; /* Match the divided section style */
+  padding: 15px; /* Add padding inside the sections */
+  border-radius: 8px; /* Round the corners */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Add subtle shadow for depth */
+  display: flex; /* Use flexbox for layout */
+  flex-direction: column; /* Stack elements vertically */
+  gap: 15px; /* Add space between internal elements */
+}
+
+#subscribe-form, #unsubscribe-form {
+  display: flex; /* Align input and button in a row */
+  flex-direction: column; /* Stack input and button vertically */
+  align-items: center; /* Center align elements */
+  gap: 10px; /* Add space between input and button */
+}
+
+#subscribe-form input,
+#unsubscribe-form input {
+  width: 100%; /* Ensure input fields are responsive */
+  padding: 10px; /* Add padding inside input fields */
+  margin: 5px 0; /* Add margin above and below input fields */
+  border: 1px solid #ccc; /* Add light border for input fields */
+  border-radius: 5px; /* Round the corners */
+  text-align: center; /* Center the placeholder text */
+}
+
+#subscribe-form button,
+#unsubscribe-form button {
+  width: auto; /* Keep buttons responsive */
+  padding: 10px 20px; /* Add padding inside buttons */
+  background-color: #f1c40f; /* Yellow background for buttons */
+  color: #1e1e1e; /* Dark grey text for contrast */
+  border: none; /* Remove default border */
+  border-radius: 5px; /* Round the corners */
+  cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+button:hover {
+  background-color: #e1b30e; /* Slightly darker yellow on hover */
+}
+
+#message, #unsubscribe-message {
+  margin-top: 10px; /* Add space above messages */
+  font-weight: bold; /* Make messages bold */
+  color: #f1c40f; /* Yellow color for messages */
+}
+
+#yfinance-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; /* Ensures the button stays centered with text above */
+  margin: 20px 0; /* Optional: Adds space above and below the section */
+}
+
+#yfinance-button button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #f1c40f;
+  color: #1e1e1e;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#yfinance-button button:hover {
+  background-color: #e1b30e;
+}
+
+/* Stock Alerts Section */
+#stock-alerts-section {
+  margin-top: 20px; /* Add space above the section */
+  scroll-margin-top: 20px; /* Aligns section at the top of the viewport */
+}
+
+#stock-alerts {
+  margin-top: 20px; /* Add space above alerts */
+  display: flex; /* Use flexbox for layout */
+  flex-wrap: wrap; /* Allow alerts to wrap to the next line */
+  justify-content: center; /* Center-align alerts */
+}
+
+/* Centering the Stock Filter Search Bar */
+#search-bar {
+  width: 50%; /* Adjust the width to your preference */
+  max-width: 400px; /* Prevent it from being too large on wider screens */
+  margin: 0 auto 20px; /* Center it horizontally and add spacing below */
+  display: block; /* Ensure it behaves as a block element for centering */
+  padding: 10px; /* Add padding for user comfort */
+  font-size: 16px; /* Keep font size legible */
+  border: 1px solid #ccc; /* Add a light border */
+  border-radius: 5px; /* Slightly round corners */
+  text-align: center; /* Center the placeholder text */
+}
+
+/* Card Styling */
+.card {
+  border: 1px solid #444; /* Add border to match dark theme */
+  border-radius: 8px; /* Round the corners */
+  padding: 10px; /* Add padding inside cards */
+  margin: 10px; /* Add margin around cards */
+  background-color: #d3d3d3; /* Light grey background for cards */
+  width: 300px; /* Set fixed width for cards */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Add subtle shadow for depth */
+  color: #000; /* Use black text color for contrast */
+}
+
+/* Hover Effect for Cards */
+.card:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4); /* Add stronger shadow on hover */
+  cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+/* Ticker Symbol Styling */
+.card h3 strong {
+  color: #000; /* Use black text color for ticker symbols */
+  font-weight: bold; /* Make ticker symbols bold */
+}
+
+/* Color Coded Styling */
+.card span {
+  font-weight: bold; /* Make spans bold */
+}
+
+.card span.red {
+  color: red; /* Use red for negative differences */
+}
+
+.card span.green {
+  color: green; /* Use green for moving averages */
+}
+
+.card span.blue {
+  color: blue; /* Use blue for percentage changes */
+}

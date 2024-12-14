@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>bvStockUpdates.com</title>
+  <link rel="stylesheet" href="static/style.css">
+</head>
+<body>
+  <header>
+    <h1>bvStockUpdates.com (alpha release)</h1>
+  </header>
+
+  <main>
+    <!-- Divided Section -->
+    <section id="intro">
+      <div id="left-section">
+        <h2>A Website Designed for the Busy Investor</h2>
+        <p>Let this be your tool to view recent stock changes that you are currently too busy to monitor.</p>
+        <p>You may also find indicators for stocks you wouldn’t have otherwise looked at.</p>
+      </div>
+      <div id="right-section">
+        <h2>No Strings Attached</h2>
+        <p>You can currently access the site for free, or subscribe to receive email alerts as the stock data is fetched.</p>
+        <p>Subscribing is currently free, and we only capture your email. We will not sell your data or your information.</p>
+      </div>
+    </section>
+
+    <!-- Subscription and Unsubscription Section -->
+    <section id="subscription">
+      <div id="subscribe-section">
+        <h2>Subscribe</h2>
+        <form id="subscribe-form">
+          <input type="email" id="email" placeholder="Enter your email" required>
+          <button type="submit">Subscribe</button>
+        </form>
+        <p id="message"></p>
+      </div>
+      <div id="unsubscribe-section">
+        <h2>Unsubscribe</h2>
+        <form id="unsubscribe-form">
+          <input type="email" id="unsubscribe-email" placeholder="Enter your email" required>
+          <button type="submit">Unsubscribe</button>
+        </form>
+        <p id="unsubscribe-message"></p>
+      </div>
+    </section>
+
+    <section id="yfinance-button">
+      <h2>Learn How to Set Up YFinance Advanced Charts</h2>
+      <button onclick="location.href='/yfinance-guide'" style="padding: 10px 20px; font-size: 1rem;">
+        View Guide
+      </button>
+    </section>
+
+    <!-- Stock Alerts Section -->
+    <section id="stock-alerts-section">
+      <h2>Recent Stock Alerts</h2>
+      <input type="text" id="search-bar" placeholder="Search by symbol" />
+      <div id="stock-alerts"></div>
+    </section>
+  </main>
+
+  <script src="static/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="static/style.css">
+</head>
+<body>
+  <header>
+    <h1>How to Set Up YFinance Advanced Charts</h1>
+  </header>
+  <main>
+    <section>
+      <div id="yfinance-button">
+        <button onclick="location.href='/'" style="padding: 10px 20px; font-size: 1rem;">
+        Back to Home
+      </div>
+      <h2>Recommended Settings</h2>
+      <ol>
+        <li>Go to Yahoo Finance: <a href="https://finance.yahoo.com/">https://finance.yahoo.com/</a></li>
+        <li>Click “Sign in” in the upper right hand corner.</li>
+        <li>Go to any stock, for this example, we will use Uber Technologies, Inc. (UBER): <a href="https://finance.yahoo.com/quote/UBER/">https://finance.yahoo.com/quote/UBER/</a></li>
+        <li>Directly above the chart, select “Advanced Chart”.</li>
+        <li>Above the chart, select "Chart Type" and change it to "Candle".</li>
+        <li>Directly above the chart, select “Indicators”.</li>
+        <li>In the bottom left corner, change the view to "6M".</li>
+        <li>Select or search for indicators and configure them as follows:
+          <ul>
+            <li><strong>Moving Average:</strong>
+              <ul>
+                <li>Period: 8</li>
+                <li>Field: Close</li>
+                <li>Type: Simple</li>
+                <li>Offset: 0</li>
+                <li>MA: Default or your choice</li>
+                <li>Panel: Auto</li>
+                <li>Show as Underlay: No</li>
+                <li>Y-Axis: Shared</li>
+              </ul>
+            </li>
+            <li><strong>Moving Average:</strong>
+              <ul>
+                <li>Period: 50</li>
+                <li>Field: Close</li>
+                <li>Type: Offset</li>
+                <li>MA: Default or your choice</li>
+                <li>Panel: Auto</li>
+                <li>Show as Underlay: No</li>
+                <li>Y-Axis: Shared</li>
+              </ul>
+            </li>
+            <li><strong>Moving Average:</strong>
+              <ul>
+                <li>Period: 200</li>
+                <li>Field: Close</li>
+                <li>Type: Simple</li>
+                <li>Offset: 0</li>
+                <li>MA: Default or your choice</li>
+                <li>Panel: Auto</li>
+                <li>Show as Underlay: No</li>
+                <li>Y-Axis: Shared</li>
+              </ul>
+            </li>
+            <li><strong>Bollinger Bands:</strong>
+              <ul>
+                <li>Period: 20</li>
+                <li>Field: Close</li>
+                <li>Standard Deviations: 2</li>
+                <li>Moving Average Type: Simple</li>
+                <li>Channel Fill: Yes</li>
+                <li>Bollinger Bands Top: Default or your choice</li>
+                <li>Bollinger Bands Median: Default or your choice</li>
+                <li>Bollinger Bands Bottom: Default or your choice</li>
+                <li>Panel: Auto</li>
+              </ul>
+            </li>
+            <li><strong>MACD:</strong>
+              <ul>
+                <li>Fast MA Period: 12</li>
+                <li>Slow MA Period: 26</li>
+                <li>Signal Period: 9</li>
+                <li>MACD: Default or your choice</li>
+                <li>Signal: Default or your choice</li>
+                <li>Increasing Bar: Default or your choice</li>
+                <li>Decreasing Bar: Default or your choice</li>
+                <li>Panel: Auto</li>
+                <li>Show as Underlay: No</li>
+                <li>Y-Axis: Default</li>
+                <li>Invert Y-Axis: No</li>
+              </ul>
+            </li>
+            <li><strong>ADX/DMS:</strong>
+              <ul>
+                <li>Period: 14</li>
+                <li>Smoothing Period: 14</li>
+                <li>Series: Yes</li>
+                <li>Shading: Yes</li>
+                <li>Histogram: No</li>
+                <li>+DI: Default or your choice</li>
+                <li>-DI: Default or your choice</li>
+                <li>ADX: Default or your choice</li>
+                <li>Positive Bar: Default or your choice</li>
+                <li>Negative Bar: Default or your choice</li>
+                <li>Panel: Auto</li>
+                <li>Show as Underlay: No</li>
+                <li>Y-Axis: Default</li>
+                <li>Invert Y-Axis: No</li>
+              </ul>
+            </li>
+            <li><strong>RSI:</strong>
+              <ul>
+                <li>Period: 14</li>
+                <li>Field: Close</li>
+                <li>RSI: Default or your choice</li>
+                <li>Show Zones: Yes</li>
+                <li>OverBought: 80 Default or your choice</li>
+                <li>OverSold: 20 Default or your choice</li>
+                <li>Panel: Auto</li>
+                <li>Show as Underlay: No</li>
+                <li>Y-Axis: Default</li>
+                <li>Invert Y-Axis: No</li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+      </ol>
+      <h3>For More Information</h3>
+      <div style="text-align: center;">
+        Visit Yahoo Finance: <a href="https://finance.yahoo.com/">https://finance.yahoo.com/</a>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
