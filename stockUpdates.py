@@ -63,24 +63,29 @@ def calculate_moving_averages(data, periods):
 def calculate_macd(data):
     """Calculate MACD and Signal Line."""
     try:
-        ema_12 = data['Close'].ewm(span=12, adjust=False).mean()
-        ema_26 = data['Close'].ewm(span=26, adjust=False).mean()
-        macd = ema_12 - ema_26
-        signal = macd.ewm(span=9, adjust=False).mean()
-        return macd.iloc[-1], signal.iloc[-1]
+        # Suppress SettingWithCopyWarning
+        with warnings.catch_warnings():
+            warnings.simplefilter("ignore", category=pd.errors.SettingWithCopyWarning)
+
+            data['EMA12'] = data['Close'].ewm(span=12, adjust=False).mean()
+            data['EMA26'] = data['Close'].ewm(span=26, adjust=False).mean()
+            data['MACD'] = data['EMA12'] - data['EMA26']
+            data['Signal_Line'] = data['MACD'].ewm(span=9, adjust=False).mean()
+
+        return data['MACD'].iloc[-1], data['Signal_Line'].iloc[-1]
     except Exception as e:
         print(f"Error calculating MACD: {e}")
         return None, None
 
 def calculate_rsi(data, period=14):
-    """Calculate Relative Strength Index (RSI)."""
+    """Calculate Relative Strength Index (RSI) using Wilder's method."""
     try:
         delta = data['Close'].diff(1)
         gain = delta.where(delta > 0, 0)
         loss = -delta.where(delta < 0, 0)
 
-        avg_gain = gain.rolling(window=period).mean()
-        avg_loss = loss.rolling(window=period).mean()
+        avg_gain = gain.ewm(alpha=1/period, adjust=False).mean()
+        avg_loss = loss.ewm(alpha=1/period, adjust=False).mean()
 
         rs = avg_gain / avg_loss
         rsi = 100 - (100 / (1 + rs))
