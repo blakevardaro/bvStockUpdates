@@ -55,6 +55,8 @@ async function fetchStockAlerts() {
     const response = await fetch("/stock-alerts");
     const alerts = await response.json();
 
+    console.log("Fetched alerts:", alerts); // Add this line for debugging
+
     // Store fetched alerts for search filtering
     window.stockAlerts = alerts;
 
@@ -65,57 +67,86 @@ async function fetchStockAlerts() {
 }
 
 function renderStockAlerts(alerts) {
-  const stockAlertsContainer = document.getElementById("stock-alerts");
-  stockAlertsContainer.innerHTML = "";
-  const groupedAlerts = alerts.reduce((groups, alert) => {
-    groups[alert.symbol] = groups[alert.symbol] || [];
-    groups[alert.symbol].push(alert);
-    return groups;
-  }, {});
-  const sortedSymbols = Object.keys(groupedAlerts).sort();
+    const highlightedContainer = document.getElementById("highlighted-stocks");
+    const otherContainer = document.getElementById("other-stocks");
 
-  sortedSymbols.forEach((symbol) => {
-    const card = document.createElement("div");
-    card.className = "card";
-    const currentPrice = groupedAlerts[symbol][0].current_price.toFixed(2);
-    card.innerHTML = `
-      <h3><strong>${symbol} <span style="color:red; font-weight:bold;">$${currentPrice}</span></strong></h3>
-      <ul>
-        ${groupedAlerts[symbol]
-          .map(
-            (alert) => `
-          <li>${alert.period} Moving Average: 
-            <span style="color:green; font-weight:bold;">$${alert.average.toFixed(2)}</span>, 
-            Difference: <span style="color:red; font-weight:bold;">$${alert.difference.toFixed(2)}</span>
-            (<span style="color:blue; font-weight:bold;">${alert.percentage_change.toFixed(2)}%</span>)
-          </li>`
-          )
-          .join("")}
-      </ul>
-    `;
-    card.onclick = () =>
-      window.open(`https://finance.yahoo.com/quote/${symbol}`, "_blank");
-    stockAlertsContainer.appendChild(card);
-  });
+    // Clear previous contents
+    highlightedContainer.innerHTML = "";
+    otherContainer.innerHTML = "";
+
+    // Sort alerts alphabetically by symbol
+    const sortedAlerts = alerts.sort((a, b) => a.symbol.localeCompare(b.symbol));
+
+    sortedAlerts.forEach((alert) => {
+        const card = document.createElement("div");
+        card.className = "card";
+
+        // Determine the style for the current price
+        const priceAboveAll = Object.values(alert.moving_averages).every(
+            (avg) => alert.current_price > avg
+        );
+        const priceBelowAll = Object.values(alert.moving_averages).every(
+            (avg) => alert.current_price < avg
+        );
+        let priceStyle = "";
+        if (priceAboveAll) {
+            priceStyle = "color:green; font-weight:bold;";
+        } else if (priceBelowAll) {
+            priceStyle = "color:red; font-weight:bold;";
+        }
+
+        // Set styles for macd
+        const macdColor = alert.macd > alert.signal ? "green" : "red";
+
+        // Set styles for rsi
+        let rsiColor;
+        if (alert.rsi >= 70) {
+            rsiColor = "yellow";
+        } else if (alert.rsi >= 50) {
+            rsiColor = "green";
+        } else {
+            rsiColor = "red";
+        }
+
+        // Generate moving averages list
+        const movingAverages = Object.entries(alert.moving_averages)
+            .map(([period, value]) => `<p>${period}-Day Moving Average: $${value.toFixed(2)}</p>`)
+            .join("");
+
+        card.innerHTML = `
+            <h3>${alert.symbol}</h3>
+            <p>Current Price: ${
+                priceStyle
+                    ? `<span style="${priceStyle}">$${alert.current_price.toFixed(2)}</span>`
+                    : `$${alert.current_price.toFixed(2)}`
+            }</p>
+            ${movingAverages}
+            <p>MACD: <span style="color:${macdColor};">${alert.macd !== null ? alert.macd.toFixed(2) : "N/A"}</span>
+                (Signal: ${alert.signal !== null ? alert.signal.toFixed(2) : "N/A"})</p>
+            <p>RSI: <span style="color:${rsiColor};">${alert.rsi !== null ? alert.rsi.toFixed(2) : "N/A"}</span></p>
+        `;
+        card.onclick = () =>
+            window.open(`https://finance.yahoo.com/quote/${alert.symbol}`, "_blank");
+
+        // Add card to the appropriate section
+        if (alert.highlighted) {
+            highlightedContainer.appendChild(card);
+        } else {
+            otherContainer.appendChild(card);
+        }
+    });
 }
 
+
+
 // Search bar functionality
-const searchBar = document.getElementById("search-bar");
-searchBar.addEventListener("input", (event) => {
+document.getElementById("search-bar").addEventListener("input", (event) => {
   const query = event.target.value.toUpperCase();
   const filteredAlerts = window.stockAlerts.filter((alert) =>
     alert.symbol.includes(query)
   );
   renderStockAlerts(filteredAlerts);
 });
-
-// Set up Server-Sent Events to listen for updates
-const eventSource = new EventSource("/events");
-eventSource.onmessage = (event) => {
-  if (event.data === "update") {
-    fetchStockAlerts(); // Refresh alerts when an update is received
-  }
-};
 
 // Initial fetch when the page loads
 fetchStockAlerts();

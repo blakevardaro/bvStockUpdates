@@ -10,6 +10,8 @@ from dotenv import load_dotenv
 from collections import defaultdict
 import requests
 import json
+import warnings
+import pandas as pd
 
 # Load environment variables
 load_dotenv()
@@ -29,7 +31,6 @@ CSV_FILE = "fortune500_all.csv"
 DATA_FILE = "stock_data.json"  # File to store fetched stock data
 SITE_URL = "http://localhost:5000/notify"  # Endpoint to notify site of new data
 
-
 def read_stock_symbols(csv_file):
     """Read stock symbols from a CSV file."""
     try:
@@ -40,7 +41,6 @@ def read_stock_symbols(csv_file):
         print(f"Error reading CSV file: {e}")
         return []
 
-
 def fetch_stock_data(symbols, period="1y"):
     """Fetch data for multiple stocks."""
     try:
@@ -48,7 +48,6 @@ def fetch_stock_data(symbols, period="1y"):
     except Exception as e:
         print(f"Error fetching stock data: {e}")
         return None
-
 
 def calculate_moving_averages(data, periods):
     """Calculate moving averages for a single stock."""
@@ -61,58 +60,103 @@ def calculate_moving_averages(data, periods):
         print(f"Error calculating moving averages: {e}")
     return moving_averages
 
+def calculate_macd(data):
+    """Calculate MACD and Signal Line."""
+    try:
+        ema_12 = data['Close'].ewm(span=12, adjust=False).mean()
+        ema_26 = data['Close'].ewm(span=26, adjust=False).mean()
+        macd = ema_12 - ema_26
+        signal = macd.ewm(span=9, adjust=False).mean()
+        return macd.iloc[-1], signal.iloc[-1]
+    except Exception as e:
+        print(f"Error calculating MACD: {e}")
+        return None, None
+
+def calculate_rsi(data, period=14):
+    """Calculate Relative Strength Index (RSI)."""
+    try:
+        delta = data['Close'].diff(1)
+        gain = delta.where(delta > 0, 0)
+        loss = -delta.where(delta < 0, 0)
+
+        avg_gain = gain.rolling(window=period).mean()
+        avg_loss = loss.rolling(window=period).mean()
+
+        rs = avg_gain / avg_loss
+        rsi = 100 - (100 / (1 + rs))
+        return rsi.iloc[-1]
+    except Exception as e:
+        print(f"Error calculating RSI: {e}")
+        return None
 
 def process_stock_data(symbol, data, periods):
     """Process stock data to generate alerts."""
-    alerts = []
     try:
         current_price = data['Close'].iloc[-1]
         moving_averages = calculate_moving_averages(data, periods)
-        for period, avg in moving_averages.items():
-            if avg and current_price < avg:
-                percentage_change = (avg - current_price) / avg * 100
-                difference = avg - current_price
-                alerts.append({
-                    "symbol": symbol,
-                    "period": f"{period}-day",
-                    "current_price": current_price,
-                    "average": avg,
-                    "difference": difference,
-                    "percentage_change": percentage_change
-                })
+        macd, signal = calculate_macd(data)
+        rsi = calculate_rsi(data)
+
+        alert = {
+            "symbol": symbol,
+            "current_price": current_price,
+            "moving_averages": moving_averages,
+            "macd": macd,
+            "signal": signal,
+            "rsi": rsi,
+            "percent_differences": {period: ((current_price - avg) / avg) * 100 for period, avg in moving_averages.items()}
+        }
+
+        if (
+            current_price > moving_averages.get(200, 0)
+            and current_price > moving_averages.get(50, 0)
+            and current_price > moving_averages.get(8, 0)
+            and macd > signal
+            and 50 <= rsi < 70
+        ):
+            alert["highlighted"] = True
+        else:
+            alert["highlighted"] = False
+
+        return alert
     except Exception as e:
         print(f"Error processing stock data for {symbol}: {e}")
-    return alerts
-
+        return None
 
 def format_alert_email(alerts):
     """Format the email body with alerts."""
     alerts_by_symbol = defaultdict(list)
     for alert in alerts:
-        alerts_by_symbol[alert["symbol"]].append(alert)
+        if alert["highlighted"]:
+            alerts_by_symbol[alert["symbol"].upper()].append(alert)
 
     sorted_symbols = sorted(alerts_by_symbol.keys())
 
     body = "<html><body>"
-    body += "<h2><a href='http://34.23.138.210:5000/#stock-alerts-section'>Stock Price Alerts</a></h2><ul>"
+    body += "<h2><a href='http://34.23.138.210:5000/#stock-alerts-section'>Highlighted Stocks</a></h2><ul>"
 
     for symbol in sorted_symbols:
-        current_price = alerts_by_symbol[symbol][0]["current_price"]
+        alert = alerts_by_symbol[symbol][0]
+        current_price = alert["current_price"]
         yahoo_link = f"https://finance.yahoo.com/quote/{symbol}"
-        body += f"<li><strong><a href='{yahoo_link}' style='text-decoration:none; color:blue;'>{symbol}</a> <span style='color:red; font-weight:bold;'>${current_price:.2f}</span></strong></li>"
 
+        body += f"<li><strong><a href='{yahoo_link}' style='text-decoration:underline; color:blue;'>{symbol}</a> <span style='color:green; font-weight:bold;'>${current_price:.2f}</span></strong></li>"
         body += "<ul>"
-        for alert in alerts_by_symbol[symbol]:
-            body += (
-                f"<li>{alert['period']} Moving Average: "
-                f"<span style='color:green; font-weight:bold;'>${alert['average']:.2f}</span>, "
-                f"Difference: <span style='color:red; font-weight:bold;'>${alert['difference']:.2f}</span> "
-                f"(<span style='color:blue; font-weight:bold;'>{alert['percentage_change']:.2f}%</span>)</li>"
-            )
-        body += "</ul><br>"  # Add a line break to separate stocks
+
+        for period, avg in alert["moving_averages"].items():
+            percent_diff = alert["percent_differences"][period]
+            body += f"<li>{period}-day Moving Average: <span style='color:blue; font-weight:bold;'>${avg:.2f}</span> (<span style='font-weight:bold;'>{percent_diff:.2f}%</span>)</li>"
+
+        macd_color = "green" if alert["macd"] > alert["signal"] else "red"
+        body += f"<li>MACD: <span style='color:{macd_color}; font-weight:bold;'>{alert['macd']:.2f}</span> (<span style='font-weight:bold;'>Signal: {alert['signal']:.2f}</span>)</li>"
+
+        rsi_color = "green" if 50 <= alert["rsi"] < 70 else "yellow" if alert["rsi"] >= 70 else "red"
+        body += f"<li>RSI: <span style='color:{rsi_color}; font-weight:bold;'>{alert['rsi']:.2f}</span></li>"
+
+        body += "</ul><br>"
+
     body += "</ul></body></html>"
     return body
-
 
 def get_subscriber_emails():
     """Fetch subscriber emails from Google Sheets."""
@@ -133,7 +177,6 @@ def get_subscriber_emails():
     except Exception as e:
         print(f"Error fetching emails from Google Sheets: {e}")
         return []
-
 
 def send_alerts(alerts):
     """Send email alerts."""
@@ -160,7 +203,6 @@ def send_alerts(alerts):
     except Exception as e:
         print(f"Error sending email alerts: {e}")
 
-
 def save_to_file(data, file_path):
     """Save data to a JSON file."""
     try:
@@ -169,7 +211,6 @@ def save_to_file(data, file_path):
         print(f"Stock data saved to {file_path}")
     except Exception as e:
         print(f"Error saving stock data to file: {e}")
-
 
 def notify_site():
     """Notify the website that new data is available."""
@@ -182,7 +223,6 @@ def notify_site():
     except Exception as e:
         print(f"Error notifying website: {e}")
 
-
 if __name__ == "__main__":
     stock_symbols = read_stock_symbols(CSV_FILE)
     if not stock_symbols:
@@ -194,17 +234,28 @@ if __name__ == "__main__":
         print("Failed to fetch stock data. Exiting.")
         exit()
 
+    all_stock_data = []
     alerts = []
+
     for symbol in stock_symbols:
         if symbol in stock_data.columns.levels[0]:
-            stock_alerts = process_stock_data(symbol, stock_data[symbol], [200, 50, 8])
-            alerts.extend(stock_alerts)
+            alert = process_stock_data(symbol, stock_data[symbol], [200, 50, 8])
+            stock_entry = {
+                "symbol": symbol,
+                "current_price": stock_data[symbol]['Close'].iloc[-1],
+                "macd": alert['macd'] if alert else None,
+                "signal": alert['signal'] if alert else None,
+                "rsi": alert['rsi'] if alert else None,
+                "moving_averages": alert['moving_averages'] if alert else {},
+                "highlighted": alert['highlighted'] if alert else False
+            }
+            all_stock_data.append(stock_entry)
+            if alert and alert['highlighted']:
+                alerts.append(alert)
 
-    # Save data to file and notify site
-    save_to_file(alerts, DATA_FILE)
+    save_to_file(all_stock_data, DATA_FILE)
     notify_site()
 
-    # Send email alerts
     if alerts:
         send_alerts(alerts)
     else:
