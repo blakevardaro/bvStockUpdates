@@ -131,6 +131,7 @@ button:hover {
 #stock-alerts-section {
   margin-top: 20px; /* Add space above the section */
   scroll-margin-top: 20px; /* Aligns section at the top of the viewport */
+  text-align: center;
 }
 
 #stock-alerts {
