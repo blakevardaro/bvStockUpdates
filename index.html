@@ -48,18 +48,26 @@
       </div>
     </section>
 
-    <section id="yfinance-button">
-      <h2>Learn How to Set Up YFinance Advanced Charts</h2>
-      <button onclick="location.href='/yfinance-guide'" style="padding: 10px 20px; font-size: 1rem;">
-        View Guide
-      </button>
+    <section id="navigation-buttons" style="display: flex; justify-content: space-between; align-items: center; margin-top: 20px;">
+      <div id="yfinance-section" style="text-align: center; flex: 1; margin-right: 10px;">
+        <h2>Learn How to Set Up YFinance Advanced Charts</h2>
+        <button onclick="location.href='/yfinance-guide'" style="padding: 10px 20px; font-size: 1rem; background-color: #2D92B3; color: #1e1e1e; border: none; border-radius: 5px; cursor: pointer;">
+          View Guide
+        </button>
+      </div>
+      <div id="monitored-stocks-section" style="text-align: center; flex: 1; margin-left: 10px;">
+         <h2>View or Request Monitored Stocks</h2>
+        <button onclick="location.href='/monitored-stocks'" style="padding: 10px 20px; font-size: 1rem; background-color: #2D92B3; color: #1e1e1e; border: none; border-radius: 5px; cursor: pointer;">
+          Open Page
+        </button>
+      </div>
     </section>
 
     <!-- Stock Alerts Section -->
     <section id="stock-alerts-section">
       <h2>Recent Stock Alerts</h2>
       <p>Stocks are updated from 9:30am to 4:00pm ET in 15-minute increments!</p>
-      <input type="text" id="search-bar" placeholder="Search by symbol" />
+      <input type="text" id="search-bar" placeholder="Search by symbol or company name" />
     </section>
 
     <section id="highlighted-stocks-section">

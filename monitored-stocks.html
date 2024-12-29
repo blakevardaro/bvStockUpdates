@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Monitored Stocks</title>
+  <link rel="stylesheet" href="static/style.css">
+</head>
+<body>
+  <header>
+    <h1>Monitored Stocks</h1>
+    <button onclick="location.href='/'" style="padding: 10px 20px; font-size: 1rem; background-color: #2D92B3; color: #000; border: none; border-radius: 5px; cursor: pointer;">
+      Back to Home
+    </button>
+  </header>
+
+  <main>
+    <!-- Request a stock to be monitored section -->
+    <section id="request-stock" style="margin-bottom: 20px;">
+      <h2>Request a Stock to Be Monitored</h2>
+      <form id="request-stock-form">
+        <input
+          type="text"
+          id="stock-symbol"
+          placeholder="Enter stock symbol (e.g., AAPL)"
+          required
+        />
+
+        <button type="submit">Request</button>
+      </form>
+      <p id="request-message" style="margin-top: 10px;"></p>
+    </section>
+
+    <!-- Search functionality -->
+    <section id="search-section">
+      <h2>Search Stocks</h2>
+      <input
+        type="text"
+        id="search-bar"
+        placeholder="Search by symbol or company name"
+        style="width: 100%; padding: 10px; margin-bottom: 10px; font-size: 1rem;"
+      />
+      <div id="stocks-container"></div>
+    </section>
+  </main>
+
+  <script src="static/script.js"></script>
+</body>
+</html>

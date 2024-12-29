@@ -12,6 +12,7 @@ import requests
 import json
 import warnings
 import pandas as pd
+import numpy as np
 
 # Load environment variables
 load_dotenv()
@@ -31,15 +32,28 @@ CSV_FILE = "fortune500_all.csv"
 DATA_FILE = "stock_data.json"  # File to store fetched stock data
 SITE_URL = "http://localhost:5000/notify"  # Endpoint to notify site of new data
 
-def read_stock_symbols(csv_file):
-    """Read stock symbols from a CSV file."""
+def read_stock_symbols_from_sheet():
+    """Read stock symbols and company names from a Google Sheet."""
     try:
-        with open(csv_file, mode='r') as file:
-            reader = csv.DictReader(file)
-            return [row['Symbol'] for row in reader]
+        creds = Credentials.from_service_account_file(
+            CREDENTIALS_FILE,
+            scopes=["https://www.googleapis.com/auth/spreadsheets.readonly"]
+        )
+        service = build("sheets", "v4", credentials=creds)
+        sheet = service.spreadsheets()
+
+        # Fetch stock symbols and company names (assuming they are in columns A and B)
+        result = sheet.values().get(
+            spreadsheetId=os.getenv("StocksList_SHEET_ID"),
+            range="A:B"  # Adjust the range to include both columns A and B
+        ).execute()
+        values = result.get("values", [])
+        
+        # Skip the first row (headers) and process the rest
+        return {row[0]: row[1] for row in values[1:] if len(row) > 1}  # Skip header row
     except Exception as e:
-        print(f"Error reading CSV file: {e}")
-        return []
+        print(f"Error fetching stock symbols from Google Sheets: {e}")
+        return {}
 
 def fetch_stock_data(symbols, period="1y"):
     """Fetch data for multiple stocks."""
@@ -94,13 +108,61 @@ def calculate_rsi(data, period=14):
         print(f"Error calculating RSI: {e}")
         return None
 
+
+def ADX(df, n=14, n_ADX=14):
+    UpI = []
+    DoI = []
+
+    for i in range(len(df) - 1):
+        UpMove = df['High'].iloc[i + 1] - df['High'].iloc[i]
+        DoMove = df['Low'].iloc[i] - df['Low'].iloc[i + 1]
+
+        UpD = UpMove if (UpMove > DoMove and UpMove > 0) else 0
+        DoD = DoMove if (DoMove > UpMove and DoMove > 0) else 0
+
+        UpI.append(UpD)
+        DoI.append(DoD)
+
+    TR_l = [0]
+    for i in range(len(df) - 1):
+        TR = max(df['High'].iloc[i + 1], df['Close'].iloc[i]) - min(df['Low'].iloc[i + 1], df['Close'].iloc[i])
+        TR_l.append(TR)
+
+    TR_s = pd.Series(TR_l, index=df.index)
+    ATR = TR_s.ewm(alpha=1/n, adjust=False).mean()
+
+    UpI = pd.Series(UpI, index=df.index[1:]).reindex(df.index).fillna(0)
+    DoI = pd.Series(DoI, index=df.index[1:]).reindex(df.index).fillna(0)
+
+    PosDI = (UpI.ewm(alpha=1/n, adjust=False).mean() / ATR) * 100
+    NegDI = (DoI.ewm(alpha=1/n, adjust=False).mean() / ATR) * 100
+
+    denominator = PosDI + NegDI
+    denominator = denominator.replace(0, np.nan)
+    DX = (abs(PosDI - NegDI) / denominator) * 100
+
+    ADX = DX.ewm(alpha=1/n_ADX, adjust=False).mean()
+
+    with warnings.catch_warnings():
+        warnings.simplefilter("ignore", category=pd.errors.SettingWithCopyWarning)
+        df['+DI'] = PosDI
+        df['-DI'] = NegDI
+        df['ADX'] = ADX
+
+    return df
+
 def process_stock_data(symbol, data, periods):
-    """Process stock data to generate alerts."""
     try:
+        data = ADX(data)
         current_price = data['Close'].iloc[-1]
         moving_averages = calculate_moving_averages(data, periods)
         macd, signal = calculate_macd(data)
         rsi = calculate_rsi(data)
+
+        # Check for NaN values
+        if any(np.isnan(value) for value in [current_price, macd, signal, rsi]):
+            print(f"Skipping {symbol} due to NaN values.")
+            return None
 
         alert = {
             "symbol": symbol,
@@ -109,7 +171,12 @@ def process_stock_data(symbol, data, periods):
             "macd": macd,
             "signal": signal,
             "rsi": rsi,
-            "percent_differences": {period: ((current_price - avg) / avg) * 100 for period, avg in moving_averages.items()}
+            "adx": data['ADX'].iloc[-1],
+            "+di": data['+DI'].iloc[-1],
+            "-di": data['-DI'].iloc[-1],
+            "percent_differences": {
+                period: ((current_price - avg) / avg) * 100 for period, avg in moving_averages.items()
+            },
         }
 
         if (
@@ -128,8 +195,7 @@ def process_stock_data(symbol, data, periods):
         print(f"Error processing stock data for {symbol}: {e}")
         return None
 
-def format_alert_email(alerts):
-    """Format the email body with alerts."""
+def format_alert_email(alerts, stock_data_dict):
     alerts_by_symbol = defaultdict(list)
     for alert in alerts:
         if alert["highlighted"]:
@@ -143,9 +209,10 @@ def format_alert_email(alerts):
     for symbol in sorted_symbols:
         alert = alerts_by_symbol[symbol][0]
         current_price = alert["current_price"]
+        company_name = stock_data_dict[symbol]  # Get the company name
         yahoo_link = f"https://finance.yahoo.com/quote/{symbol}"
 
-        body += f"<li><strong><a href='{yahoo_link}' style='text-decoration:underline; color:blue;'>{symbol}</a> <span style='color:green; font-weight:bold;'>${current_price:.2f}</span></strong></li>"
+        body += f"<li><strong><a href='{yahoo_link}' style='text-decoration:underline; color:blue;'>{symbol} ({company_name})</a> <span style='color:green; font-weight:bold;'>${current_price:.2f}</span></strong></li>"
         body += "<ul>"
 
         for period, avg in alert["moving_averages"].items():
@@ -157,6 +224,10 @@ def format_alert_email(alerts):
 
         rsi_color = "green" if 50 <= alert["rsi"] < 70 else "yellow" if alert["rsi"] >= 70 else "red"
         body += f"<li>RSI: <span style='color:{rsi_color}; font-weight:bold;'>{alert['rsi']:.2f}</span></li>"
+
+        body += f"<li>ADX: <span style='color:black; font-weight:bold;'>{alert['adx']:.2f}</span></li>"
+        body += f"<li>+DI: <span style='color:green; font-weight:bold;'>{alert['+di']:.2f}</span></li>"
+        body += f"<li>-DI: <span style='color:red; font-weight:bold;'>{alert['-di']:.2f}</span></li>"
 
         body += "</ul><br>"
 
@@ -173,18 +244,20 @@ def get_subscriber_emails():
         service = build("sheets", "v4", credentials=creds)
         sheet = service.spreadsheets()
 
+        # Use the updated SubscriberList_SHEET_ID from the environment
+        subscriber_sheet_id = os.getenv("SubscriberList_SHEET_ID")
         result = sheet.values().get(
-            spreadsheetId=GOOGLE_SHEET_ID,
-            range="A:A"
+            spreadsheetId=subscriber_sheet_id,
+            range="A:A"  # Adjust the range to match your sheet layout
         ).execute()
         values = result.get("values", [])
-        return [row[0] for row in values if row]
+        return [row[0] for row in values if row]  # Return all emails in column A
     except Exception as e:
         print(f"Error fetching emails from Google Sheets: {e}")
         return []
 
-def send_alerts(alerts):
-    """Send email alerts."""
+def send_alerts(alerts, stock_data_dict):
+    """Send email alerts with stock information and company names."""
     recipients = get_subscriber_emails()
     if not recipients:
         print("No subscribers found. Exiting.")
@@ -192,7 +265,7 @@ def send_alerts(alerts):
 
     timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     subject = f"Stock Price Alerts - {timestamp}"
-    body = format_alert_email(alerts)
+    body = format_alert_email(alerts, stock_data_dict)  # Pass stock_data_dict to format_alert_email
 
     try:
         with smtplib.SMTP(SMTP_SERVER, SMTP_PORT) as server:
@@ -209,11 +282,17 @@ def send_alerts(alerts):
         print(f"Error sending email alerts: {e}")
 
 def save_to_file(data, file_path):
-    """Save data to a JSON file."""
+    """Save data to a JSON file, skipping entries with NaN values."""
     try:
+        # Filter out entries with NaN values
+        cleaned_data = [
+            entry for entry in data
+            if not any(np.isnan(value) for key, value in entry.items() if isinstance(value, (float, int)))
+        ]
+        
         with open(file_path, "w") as file:
-            json.dump(data, file, indent=4)
-        print(f"Stock data saved to {file_path}")
+            json.dump(cleaned_data, file, indent=4)
+        print(f"Cleaned stock data saved to {file_path}")
     except Exception as e:
         print(f"Error saving stock data to file: {e}")
 
@@ -229,11 +308,12 @@ def notify_site():
         print(f"Error notifying website: {e}")
 
 if __name__ == "__main__":
-    stock_symbols = read_stock_symbols(CSV_FILE)
-    if not stock_symbols:
-        print("No stock symbols found. Exiting.")
+    stock_data_dict = read_stock_symbols_from_sheet()  # Fetch symbols and names as a dictionary
+    if not stock_data_dict:
+        print("No stock symbols found in Google Sheet. Exiting.")
         exit()
 
+    stock_symbols = list(stock_data_dict.keys())  # Extract symbols
     stock_data = fetch_stock_data(stock_symbols)
     if stock_data is None:
         print("Failed to fetch stock data. Exiting.")
@@ -247,10 +327,14 @@ if __name__ == "__main__":
             alert = process_stock_data(symbol, stock_data[symbol], [200, 50, 8])
             stock_entry = {
                 "symbol": symbol,
+                "company_name": stock_data_dict[symbol],  # Include the company name
                 "current_price": stock_data[symbol]['Close'].iloc[-1],
                 "macd": alert['macd'] if alert else None,
                 "signal": alert['signal'] if alert else None,
                 "rsi": alert['rsi'] if alert else None,
+                "adx": alert['adx'] if alert else None,
+                "+di": alert['+di'] if alert else None,
+                "-di": alert['-di'] if alert else None,
                 "moving_averages": alert['moving_averages'] if alert else {},
                 "highlighted": alert['highlighted'] if alert else False
             }
@@ -259,9 +343,8 @@ if __name__ == "__main__":
                 alerts.append(alert)
 
     save_to_file(all_stock_data, DATA_FILE)
-    notify_site()
 
     if alerts:
-        send_alerts(alerts)
+        send_alerts(alerts, stock_data_dict)  # Pass stock data dict for alert formatting
     else:
         print("No alerts generated.")
