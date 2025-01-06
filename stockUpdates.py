@@ -211,7 +211,7 @@ def format_alert_email(alerts, stock_data_dict):
         alert = alerts_by_symbol[symbol][0]
         current_price = alert["current_price"]
         company_name = stock_data_dict[symbol]  # Get the company name
-        yahoo_link = f"https://finance.yahoo.com/quote/{symbol}"
+        yahoo_link = f"https://finance.yahoo.com/chart/{symbol}"
 
         body += f"<li><strong><a href='{yahoo_link}' style='text-decoration:underline; color:blue;'>{symbol} ({company_name})</a> <span style='color:green; font-weight:bold;'>${current_price:.2f}</span></strong></li>"
         body += "<ul>"

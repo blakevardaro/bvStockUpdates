@@ -142,7 +142,7 @@ function renderStockAlerts(alerts) {
       -DI: <span style="${minusDIStyle}">${alert["-di"]?.toFixed(2) || "N/A"}</span></p>
       <p>RSI: <span style="color:${rsiColor};">${alert.rsi?.toFixed(2) || "N/A"}</span></p>
     `;
-    card.onclick = () => window.open(`https://finance.yahoo.com/quote/${alert.symbol}`, "_blank");
+    card.onclick = () => window.open(`https://finance.yahoo.com/chart/${alert.symbol}`, "_blank");
 
     (alert.highlighted ? highlightedContainer : otherContainer).appendChild(card);
   });
@@ -191,7 +191,7 @@ function setupMonitoredStocksPage() {
     stockItem.style.textAlign = "center";
 
     stockItem.innerHTML = `
-      <a href="https://finance.yahoo.com/quote/${stock.symbol}" 
+      <a href="https://finance.yahoo.com/chart/${stock.symbol}" 
          target="_blank" 
          style="text-decoration: none; color: #ADD8E6;">
          ${stock.symbol} (${stock.company_name || "N/A"})
