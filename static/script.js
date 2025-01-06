@@ -16,22 +16,34 @@ function setupIndexPage() {
     event.preventDefault();
     const email = document.getElementById("email").value;
 
-    try {
-      const response = await fetch("/subscribe", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ email }),
-      });
-      const result = await response.json();
-      const messageElement = document.getElementById("message");
-
-      messageElement.style.color = result.success ? "green" : "red";
-      messageElement.textContent = result.message;
-    } catch (error) {
-      console.error("Error:", error);
-      document.getElementById("message").textContent = "Error connecting to server.";
+    const messageElement = document.getElementById("message");
+    if (!email) {
+        messageElement.style.color = "red";
+        messageElement.textContent = "Please enter a valid email address.";
+        return;
     }
-  });
+
+    try {
+        const response = await fetch("/subscribe", {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({ email }),
+        });
+
+        if (!response.ok) {
+            throw new Error("Server returned an error");
+        }
+
+        const result = await response.json();
+        messageElement.style.color = result.success ? "green" : "red";
+        messageElement.textContent = result.message;
+    } catch (error) {
+        console.error("Error:", error);
+        messageElement.style.color = "red";
+        messageElement.textContent = "Error connecting to server.";
+    }
+});
+
 
   // Unsubscribe form submission
   document.getElementById("unsubscribe-form").addEventListener("submit", async (event) => {

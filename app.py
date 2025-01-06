@@ -22,45 +22,32 @@ REQUESTED_STOCKS_FILE = "requested_stocks.json"
 
 def add_email_to_sheet(email):
     """Add a subscriber email to Google Sheets if it doesn't already exist."""
-    try:
-        creds = Credentials.from_service_account_file(
-            os.getenv("CREDENTIALS_FILE"),
-            scopes=["https://www.googleapis.com/auth/spreadsheets"]
-        )
-        service = build("sheets", "v4", credentials=creds)
-        sheet = service.spreadsheets()
+    creds = Credentials.from_service_account_file(
+        os.getenv("CREDENTIALS_FILE"),
+        scopes=["https://www.googleapis.com/auth/spreadsheets"]
+    )
+    service = build("sheets", "v4", credentials=creds)
+    sheet = service.spreadsheets()
 
-        # Fetch existing emails
-        result = sheet.values().get(
-            spreadsheetId=os.getenv("SubscriberList_SHEET_ID"),
-            range="A:A"
-        ).execute()
-        values = result.get("values", [])
-        existing_emails = [row[0].strip().lower() for row in values if row]
+    # Fetch existing emails
+    result = sheet.values().get(
+        spreadsheetId=os.getenv("SubscriberList_SHEET_ID"),
+        range="A:A"
+    ).execute()
+    existing_emails = [row[0].strip().lower() for row in result.get("values", [])]
 
-        # Debug: Log fetched emails
-        print("Fetched existing emails")
+    normalized_email = email.strip().lower()
+    if normalized_email in existing_emails:
+        return False, f"{email} is already subscribed."
 
-        # Check if email already exists
-        normalized_email = email.strip().lower()
-        if normalized_email in existing_emails:
-            return False, f"{email} is already subscribed."
+    sheet.values().append(
+        spreadsheetId=os.getenv("SubscriberList_SHEET_ID"),
+        range="A:A",
+        valueInputOption="USER_ENTERED",
+        body={"values": [[email]]}
+    ).execute()
 
-        # Append the email if it doesn't exist
-        values = [[email]]
-        body = {"values": values}
-        sheet.values().append(
-            spreadsheetId=os.getenv("SubscriberList_SHEET_ID"),
-            range="A:A",
-            valueInputOption="USER_ENTERED",
-            body=body
-        ).execute()
-
-        print(f"Email {email} subscribed successfully.")
-        return True, f"Thank you for subscribing! {email} subscribed successfully."
-    except Exception as e:
-        print(f"Error adding email to Google Sheets: {e}")
-        return False, "Error adding email to Google Sheets."
+    return True, f"Thank you for subscribing! {email} subscribed successfully."
 
 # Utility functions
 def load_requested_stocks():
@@ -91,66 +78,55 @@ def subscribe():
     data = request.get_json()
     email = data.get("email")
     if not email:
-        return jsonify({"success": False, "message": "No email provided."}), 400
+        return jsonify({"success": False, "message": "No email provided."}), 200
 
     success, message = add_email_to_sheet(email)
-    if success:
-        return jsonify({"success": True, "message": message})
-    return jsonify({"success": False, "message": message}), 400
+    return jsonify({"success": success, "message": message}), 200
 
 @app.route("/unsubscribe", methods=["POST"])
 def unsubscribe():
     """Handle unsubscription requests."""
     data = request.get_json()
     email = data.get("email")
-
     if not email:
         return jsonify({"success": False, "message": "No email provided."}), 400
 
-    try:
-        # Authenticate with Google Sheets
-        creds = Credentials.from_service_account_file(
-            os.getenv("CREDENTIALS_FILE"),
-            scopes=["https://www.googleapis.com/auth/spreadsheets"]
-        )
-        service = build("sheets", "v4", credentials=creds)
-        sheet = service.spreadsheets()
+    creds = Credentials.from_service_account_file(
+        os.getenv("CREDENTIALS_FILE"),
+        scopes=["https://www.googleapis.com/auth/spreadsheets"]
+    )
+    service = build("sheets", "v4", credentials=creds)
+    sheet = service.spreadsheets()
 
-        # Get all emails from the sheet
-        result = sheet.values().get(
-            spreadsheetId=os.getenv("SubscriberList_SHEET_ID"),
-            range="A:A"
-        ).execute()
-        values = result.get("values", [])
+    result = sheet.values().get(
+        spreadsheetId=os.getenv("SubscriberList_SHEET_ID"),
+        range="A:A"
+    ).execute()
+    values = result.get("values", [])
+    normalized_email = email.strip().lower()
 
-        # Find the email and delete the corresponding row
-        for i, row in enumerate(values, start=1):  # Google Sheets rows are 1-indexed
-            if row and row[0].strip().lower() == email.strip().lower():
-                # Shift rows up
-                for j in range(i + 1, len(values) + 1):
-                    next_row = sheet.values().get(
-                        spreadsheetId=os.getenv("SubscriberList_SHEET_ID"),
-                        range=f"A{j}"
-                    ).execute().get("values", [])
-                    sheet.values().update(
-                        spreadsheetId=os.getenv("SubscriberList_SHEET_ID"),
-                        range=f"A{j-1}",
-                        valueInputOption="RAW",
-                        body={"values": next_row}
-                    ).execute()
-                # Clear the last row
-                sheet.values().clear(
+    for i, row in enumerate(values, start=1):
+        if row and row[0].strip().lower() == normalized_email:
+            for j in range(i + 1, len(values) + 1):
+                next_row = sheet.values().get(
                     spreadsheetId=os.getenv("SubscriberList_SHEET_ID"),
-                    range=f"A{len(values)}"
+                    range=f"A{j}"
+                ).execute().get("values", [])
+                sheet.values().update(
+                    spreadsheetId=os.getenv("SubscriberList_SHEET_ID"),
+                    range=f"A{j-1}",
+                    valueInputOption="RAW",
+                    body={"values": next_row}
                 ).execute()
 
-                print(f"Email {email} unsubscribed successfully.")
-                return jsonify({"success": True, "message": f"We're sad to see you go :( Unsubscribed {email} successfully."})
+            sheet.values().clear(
+                spreadsheetId=os.getenv("SubscriberList_SHEET_ID"),
+                range=f"A{len(values)}"
+            ).execute()
 
-        return jsonify({"success": False, "message": f"{email} not found."}), 404
-    except Exception as e:
-        print(f"Error unsubscribing email: {e}")
-        return jsonify({"success": False, "message": "Internal server error."}), 500
+            return jsonify({"success": True, "message": f"We're sad to see you go :( Unsubscribed {email} successfully."})
+
+    return jsonify({"success": False, "message": f"{email} not found."}), 404
 
 @app.route("/")
 def serve_index():
