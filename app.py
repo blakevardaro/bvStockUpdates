@@ -7,7 +7,7 @@ from dotenv import load_dotenv
 import time
 import json
 
-# Load environment variables
+# Load environment variables from .env file
 load_dotenv()
 
 # Flask setup
@@ -17,11 +17,11 @@ CORS(app)
 # Global variables to store notification flag
 app.config['NEW_DATA'] = False
 
-# File to store requested stocks
+# File to store user requested stocks
 REQUESTED_STOCKS_FILE = "requested_stocks.json"
 
+# Add a subscriber email to Google Sheets if it doesn't already exist
 def add_email_to_sheet(email):
-    """Add a subscriber email to Google Sheets if it doesn't already exist."""
     creds = Credentials.from_service_account_file(
         os.getenv("CREDENTIALS_FILE"),
         scopes=["https://www.googleapis.com/auth/spreadsheets"]
@@ -49,9 +49,8 @@ def add_email_to_sheet(email):
 
     return True, f"Thank you for subscribing! {email} subscribed successfully."
 
-# Utility functions
+# Load the requested stocks data from a file
 def load_requested_stocks():
-    """Load the requested stocks data from a file."""
     try:
         with open(REQUESTED_STOCKS_FILE, "r") as file:
             return json.load(file)
@@ -61,20 +60,17 @@ def load_requested_stocks():
         print(f"Error loading requested stocks file: {e}")
         return {}
 
-
+# Save the requested stocks data to a file
 def save_requested_stocks(data):
-    """Save the requested stocks data to a file."""
     try:
         with open(REQUESTED_STOCKS_FILE, "w") as file:
             json.dump(data, file, indent=4)
     except Exception as e:
         print(f"Error saving requested stocks file: {e}")
 
-
-# Routes
+# Handle subscription requests
 @app.route("/subscribe", methods=["POST"])
 def subscribe():
-    """Handle subscription requests."""
     data = request.get_json()
     email = data.get("email")
     if not email:
@@ -83,9 +79,9 @@ def subscribe():
     success, message = add_email_to_sheet(email)
     return jsonify({"success": success, "message": message}), 200
 
+# Handle unsubscription requests
 @app.route("/unsubscribe", methods=["POST"])
 def unsubscribe():
-    """Handle unsubscription requests."""
     data = request.get_json()
     email = data.get("email")
     if not email:
@@ -128,45 +124,41 @@ def unsubscribe():
 
     return jsonify({"success": False, "message": f"{email} not found."}), 404
 
+# Serve the main index HTML file
 @app.route("/")
 def serve_index():
-    """Serve the main index HTML file."""
     return send_from_directory(".", "index.html")
 
-
+# Serve the YFinance guide HTML file
 @app.route("/yfinance-guide")
 def serve_yfinance_guide():
-    """Serve the YFinance guide HTML file."""
     return send_from_directory(".", "yfinance-guide.html")
 
+# Handle notification from stockUpdates.py
 @app.route("/notify", methods=["POST"])
 def notify():
-    """Handle notification from stockUpdates.py."""
     app.config["NEW_DATA"] = True
     return jsonify({"success": True})
 
+# Serve the Monitored Stocks HTML file
 @app.route("/monitored-stocks")
 def serve_monitored_stocks():
-    """Serve the Monitored Stocks HTML file."""
     return send_from_directory(".", "monitored-stocks.html")
 
-
+# Return a list of monitored stocks
 @app.route("/monitored-stocks-api", methods=["GET"])
 def get_monitored_stocks():
-    """Return a list of monitored stocks."""
     try:
         with open("stock_data.json", "r") as file:
-            stocks = json.load(file)  # Assuming stock_data.json contains monitored stocks
+            stocks = json.load(file)
         return jsonify(stocks)
     except Exception as e:
         print(f"Error reading stock data: {e}")
         return jsonify([])  # Return an empty list if there's an error
 
-
-
+# Handle requests to add a new stock to monitoring
 @app.route("/request-stock", methods=["POST"])
 def request_stock():
-    """Handle requests to add a new stock to monitoring."""
     data = request.get_json()
     symbol = data.get("symbol")
     if not symbol:
@@ -176,7 +168,7 @@ def request_stock():
     requested_stocks = load_requested_stocks()
 
     # Update the count for the requested stock
-    symbol = symbol.upper()  # Standardize to uppercase
+    symbol = symbol.upper()
     if symbol in requested_stocks:
         requested_stocks[symbol] += 1
     else:
@@ -185,12 +177,11 @@ def request_stock():
     # Save the updated data back to the file
     save_requested_stocks(requested_stocks)
 
-    # Return success message
     return jsonify({"success": True, "message": f"Requested monitoring for stock {symbol}."})
 
+# Stream updates to the client
 @app.route("/events")
 def events():
-    """Stream updates to the client."""
     def generate():
         while True:
             if app.config.get("NEW_DATA", False):
@@ -199,9 +190,9 @@ def events():
             time.sleep(1)  # Check for updates every second
     return Response(generate(), content_type="text/event-stream")
 
+# Return the latest stock alerts
 @app.route("/stock-alerts", methods=["GET"])
 def get_stock_alerts():
-    """Return the latest stock alerts."""
     try:
         with open("stock_data.json", "r") as file:
             alerts = json.load(file)
@@ -209,7 +200,6 @@ def get_stock_alerts():
     except Exception as e:
         print(f"Error reading stock data file: {e}")
         return jsonify({"success": False, "message": "Error reading stock data."}), 500
-
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=5000, debug=False)

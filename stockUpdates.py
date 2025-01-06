@@ -24,16 +24,15 @@ EMAIL = os.getenv("EMAIL")
 PASSWORD = os.getenv("PASSWORD")
 
 # Google Sheets Configuration
-GOOGLE_SHEET_ID = os.getenv("GOOGLE_SHEET_ID")
+Subscriber_SHEET_ID = os.getenv("SubscriberList_SHEET_ID")
+Stocks_Sheet_ID = os.getenv("StocksList_SHEET_ID")
 CREDENTIALS_FILE = os.getenv("CREDENTIALS_FILE")
 
-# CSV File Path
-CSV_FILE = "fortune500_all.csv"
 DATA_FILE = "stock_data.json"  # File to store fetched stock data
-SITE_URL = "http://localhost:5000/notify"  # Endpoint to notify site of new data
+SITE_URL = "http://localhost:5000/notify"  # Endpoint to notify site on port 5000 of new data
 
+# Read stock symbols and company names from a Google Sheet
 def read_stock_symbols_from_sheet():
-    """Read stock symbols and company names from a Google Sheet."""
     try:
         creds = Credentials.from_service_account_file(
             CREDENTIALS_FILE,
@@ -42,7 +41,7 @@ def read_stock_symbols_from_sheet():
         service = build("sheets", "v4", credentials=creds)
         sheet = service.spreadsheets()
 
-        # Fetch stock symbols and company names (assuming they are in columns A and B)
+        # Fetch stock symbols and company names
         result = sheet.values().get(
             spreadsheetId=os.getenv("StocksList_SHEET_ID"),
             range="A:B"  # Adjust the range to include both columns A and B
@@ -50,21 +49,21 @@ def read_stock_symbols_from_sheet():
         values = result.get("values", [])
         
         # Skip the first row (headers) and process the rest
-        return {row[0]: row[1] for row in values[1:] if len(row) > 1}  # Skip header row
+        return {row[0]: row[1] for row in values[1:] if len(row) > 1}
     except Exception as e:
         print(f"Error fetching stock symbols from Google Sheets: {e}")
         return {}
 
+# Fetch data for multiple stocks
 def fetch_stock_data(symbols, period="1y"):
-    """Fetch data for multiple stocks."""
-    try:
-        return yf.download(tickers=" ".join(symbols), period=period, group_by="ticker", threads=True, progress=False)
-    except Exception as e:
-        print(f"Error fetching stock data: {e}")
-        return None
+        try:
+            return yf.download(tickers=" ".join(symbols), period=period, group_by="ticker", threads=True, progress=False)
+        except Exception as e:
+            print(f"Error fetching stock data: {e}")
+            return None
 
+# Calculate moving averages for a single stock
 def calculate_moving_averages(data, periods):
-    """Calculate moving averages for a single stock."""
     moving_averages = {}
     try:
         for period in periods:
@@ -74,8 +73,8 @@ def calculate_moving_averages(data, periods):
         print(f"Error calculating moving averages: {e}")
     return moving_averages
 
+# Calculate MACD and Signal Line
 def calculate_macd(data):
-    """Calculate MACD and Signal Line."""
     try:
         # Suppress SettingWithCopyWarning
         with warnings.catch_warnings():
@@ -91,8 +90,8 @@ def calculate_macd(data):
         print(f"Error calculating MACD: {e}")
         return None, None
 
+# Calculate Relative Strength Index (RSI) using Wilder's Smoothing method
 def calculate_rsi(data, period=14):
-    """Calculate Relative Strength Index (RSI) using Wilder's method."""
     try:
         delta = data['Close'].diff(1)
         gain = delta.where(delta > 0, 0)
@@ -108,7 +107,7 @@ def calculate_rsi(data, period=14):
         print(f"Error calculating RSI: {e}")
         return None
 
-
+# Calculate Average Directional Movement Index 
 def ADX(df, n=14, n_ADX=14):
     UpI = []
     DoI = []
@@ -151,6 +150,7 @@ def ADX(df, n=14, n_ADX=14):
 
     return df
 
+# Analyze stock data for each symbol and generate alert if criteria are met
 def process_stock_data(symbol, data, periods):
     try:
         data = ADX(data)
@@ -195,6 +195,7 @@ def process_stock_data(symbol, data, periods):
         print(f"Error processing stock data for {symbol}: {e}")
         return None
 
+# Format the email alert using html
 def format_alert_email(alerts, stock_data_dict):
     alerts_by_symbol = defaultdict(list)
     for alert in alerts:
@@ -234,8 +235,8 @@ def format_alert_email(alerts, stock_data_dict):
     body += "</ul></body></html>"
     return body
 
+# Fetch subscriber emails from Google Sheets
 def get_subscriber_emails():
-    """Fetch subscriber emails from Google Sheets."""
     try:
         creds = Credentials.from_service_account_file(
             CREDENTIALS_FILE,
@@ -244,20 +245,19 @@ def get_subscriber_emails():
         service = build("sheets", "v4", credentials=creds)
         sheet = service.spreadsheets()
 
-        # Use the updated SubscriberList_SHEET_ID from the environment
         subscriber_sheet_id = os.getenv("SubscriberList_SHEET_ID")
         result = sheet.values().get(
             spreadsheetId=subscriber_sheet_id,
-            range="A:A"  # Adjust the range to match your sheet layout
+            range="A:A"  # Adjust the range to include subscriber column only
         ).execute()
         values = result.get("values", [])
-        return [row[0] for row in values if row]  # Return all emails in column A
+        return [row[0] for row in values if row]
     except Exception as e:
         print(f"Error fetching emails from Google Sheets: {e}")
         return []
 
+# Send email alerts with stock information and company names
 def send_alerts(alerts, stock_data_dict):
-    """Send email alerts with stock information and company names."""
     recipients = get_subscriber_emails()
     if not recipients:
         print("No subscribers found. Exiting.")
@@ -265,7 +265,7 @@ def send_alerts(alerts, stock_data_dict):
 
     timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     subject = f"Stock Price Alerts - {timestamp}"
-    body = format_alert_email(alerts, stock_data_dict)  # Pass stock_data_dict to format_alert_email
+    body = format_alert_email(alerts, stock_data_dict)  # Pass stock_data_dict to format_alert_email for formatting
 
     try:
         with smtplib.SMTP(SMTP_SERVER, SMTP_PORT) as server:
@@ -281,10 +281,10 @@ def send_alerts(alerts, stock_data_dict):
     except Exception as e:
         print(f"Error sending email alerts: {e}")
 
+# Save data to a JSON file, skipping entries with NaN values
 def save_to_file(data, file_path):
-    """Save data to a JSON file, skipping entries with NaN values."""
     try:
-        # Filter out entries with NaN values
+        # Filter out entries with NaN values, else nothing will display on the frontend
         cleaned_data = [
             entry for entry in data
             if not any(np.isnan(value) for key, value in entry.items() if isinstance(value, (float, int)))
@@ -296,8 +296,8 @@ def save_to_file(data, file_path):
     except Exception as e:
         print(f"Error saving stock data to file: {e}")
 
+# Notify the website that new data is available
 def notify_site():
-    """Notify the website that new data is available."""
     try:
         response = requests.post(SITE_URL)
         if response.status_code == 200:
@@ -327,7 +327,7 @@ if __name__ == "__main__":
             alert = process_stock_data(symbol, stock_data[symbol], [200, 50, 8])
             stock_entry = {
                 "symbol": symbol,
-                "company_name": stock_data_dict[symbol],  # Include the company name
+                "company_name": stock_data_dict[symbol],
                 "current_price": stock_data[symbol]['Close'].iloc[-1],
                 "macd": alert['macd'] if alert else None,
                 "signal": alert['signal'] if alert else None,
@@ -345,6 +345,6 @@ if __name__ == "__main__":
     save_to_file(all_stock_data, DATA_FILE)
 
     if alerts:
-        send_alerts(alerts, stock_data_dict)  # Pass stock data dict for alert formatting
+        send_alerts(alerts, stock_data_dict)
     else:
         print("No alerts generated.")

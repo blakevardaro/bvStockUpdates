@@ -178,11 +178,11 @@ function setupMonitoredStocksPage() {
   // Render stocks into a three-column grid
   function renderMonitoredStocks(stocks) {
   const stocksContainer = document.getElementById("stocks-container");
-  stocksContainer.innerHTML = ""; // Clear existing stocks
+  stocksContainer.innerHTML = "";
 
   const grid = document.createElement("div");
   grid.style.display = "grid";
-  grid.style.gridTemplateColumns = "1fr 1fr 1fr"; // Three columns
+  grid.style.gridTemplateColumns = "1fr 1fr 1fr";
   grid.style.gap = "10px";
 
   stocks.forEach((stock) => {
