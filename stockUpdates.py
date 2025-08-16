@@ -324,7 +324,7 @@ if __name__ == "__main__":
 
     for symbol in stock_symbols:
         if symbol in stock_data.columns.levels[0]:
-            alert = process_stock_data(symbol, stock_data[symbol], [200, 50, 8])
+            alert = process_stock_data(symbol, stock_data[symbol], [200, 50, 20, 8])
             stock_entry = {
                 "symbol": symbol,
                 "company_name": stock_data_dict[symbol],

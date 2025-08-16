@@ -125,6 +125,7 @@ function renderStockAlerts(alerts) {
     const minusDIStyle = "color:red; font-weight:bold;";
 
     const movingAverages = Object.entries(alert.moving_averages)
+      .sort((a, b) => parseInt(a[0]) - parseInt(b[0]))  // Sort by period ascending
       .map(([period, value]) => `<p>${period}-Day Moving Average: $${value.toFixed(2)}</p>`)
       .join("");
 
