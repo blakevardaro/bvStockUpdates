@@ -124,9 +124,14 @@ function renderStockAlerts(alerts) {
     const plusDIStyle = "color:green; font-weight:bold;";
     const minusDIStyle = "color:red; font-weight:bold;";
 
-    const movingAverages = Object.entries(alert.moving_averages)
-      .sort((a, b) => parseInt(a[0]) - parseInt(b[0]))  // Sort by period ascending
-      .map(([period, value]) => `<p>${period}-Day Moving Average: $${value.toFixed(2)}</p>`)
+    const movingAveragesOrder = ["20", "8", "50", "200"];
+
+    const movingAverages = movingAveragesOrder
+      .filter(period => alert.moving_averages && alert.moving_averages[period] !== undefined)
+      .map((period) => {
+        const value = alert.moving_averages[period];
+        return `<p>${period}-Day Moving Average: $${value.toFixed(2)}</p>`;
+      })
       .join("");
 
     card.innerHTML = `
