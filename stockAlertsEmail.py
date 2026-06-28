@@ -8,6 +8,8 @@ from dotenv import load_dotenv
 import yfinance as yf
 import pandas as pd
 import numpy as np
+import matplotlib
+matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 from io import BytesIO
 import matplotlib.dates as mdates
@@ -121,6 +123,9 @@ def generate_chart(symbol, stock_metrics):
         if data.empty or len(data) < 200:
             print(f"No or insufficient data for {symbol} (len={len(data)})")
             return None
+        # Flatten MultiIndex columns if present to prevent single-element Series warnings
+        if isinstance(data.columns, pd.MultiIndex):
+            data.columns = data.columns.droplevel(1)
         df = data[['High', 'Low', 'Close']].copy()
         # Compute MAs, MACD, RSI, ADX on the full dataframe
         periods = [8, 20, 50, 200]
