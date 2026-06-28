@@ -22,7 +22,6 @@ jobs:
             git clean -fd
             pip install -r requirements.txt
 
-            # (Using '|| true' ensures the script doesn't crash if Gunicorn wasn't running yet)
             killall gunicorn || true
 
             gunicorn -w 8 -b 0.0.0.0:5000 app:app --daemon
