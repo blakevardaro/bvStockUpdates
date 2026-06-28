@@ -149,7 +149,7 @@ def serve_monitored_stocks():
 @app.route("/monitored-stocks-api", methods=["GET"])
 def get_monitored_stocks():
     try:
-        with open("stock_data.json", "r") as file:
+        with open("C:/Users/blake/bvStockUpdates/stock_data.json", "r") as file:
             stocks = json.load(file)
         return jsonify(stocks)
     except Exception as e:
@@ -194,7 +194,7 @@ def events():
 @app.route("/stock-alerts", methods=["GET"])
 def get_stock_alerts():
     try:
-        with open("stock_data.json", "r") as file:
+        with open("C:/Users/blake/bvStockUpdates/stock_data.json", "r") as file:
             alerts = json.load(file)
         return jsonify(alerts)
     except Exception as e:
