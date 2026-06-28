@@ -27,7 +27,8 @@ if not os.path.exists("charts"):
     os.makedirs("charts")
 
 # Load stock data from JSON
-with open("stock_data.json", "r") as f:
+data_path = os.getenv("STOCK_DATA_PATH", "stock_data.json")
+with open(data_path, "r") as f:
     stock_data = json.load(f)
 
 def passes_criteria(stock):
