@@ -21,6 +21,6 @@ jobs:
             git fetch origin
             git reset --hard origin/main
             git clean -fd
-            pip install -r requirements.txt
+            python3.10 -m pip install -r requirements.txt
             killall gunicorn || true
-            gunicorn -w 8 -b 0.0.0.0:5000 app:app --daemon
+            python3.10 -m gunicorn -w 8 -b 0.0.0.0:5000 app:app --daemon
